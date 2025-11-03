@@ -78,28 +78,59 @@ jobs:
         if: steps.check_diff.outputs.changes_detected == 'true'
         run: rm backend/data/cards.json.backup
 
-      - name: Create Pull Request
+      - name: Commit and push changes
         if: steps.check_diff.outputs.changes_detected == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: |
-            Update card data from Scryfall
-            Automated update detected ${{ steps.check_diff.outputs.new_count }} cards (was ${{ steps.check_diff.outputs.old_count }})
-          title: "🔄 Update Marvel Spider-Man card data"
-          body: |
-            ## Card Data Update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-card-data
+          git add backend/data/cards.json
+          git commit -m "Update card data from Scryfall
 
-            This PR was automatically created because new or updated card data was detected from Scryfall.
+          Automated update detected ${{ steps.check_diff.outputs.new_count }} cards (was ${{ steps.check_diff.outputs.old_count }})"
+          git push -f origin update-card-data
 
-            ### Changes:
-            - **Previous count:** ${{ steps.check_diff.outputs.old_count }} cards
-            - **New count:** ${{ steps.check_diff.outputs.new_count }} cards
-            - **Difference:** $((${{ steps.check_diff.outputs.new_count }} - ${{ steps.check_diff.outputs.old_count }})) cards
+      - name: Create Pull Request via gh CLI
+        if: steps.check_diff.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check if PR already exists
+          if gh pr view update-card-data 2>/dev/null; then
+            echo "PR already exists, updating..."
+            gh pr edit update-card-data --title "🔄 Update Marvel Spider-Man card data" --body "$(cat <<'EOF'
+          ## Card Data Update
 
-            ### Validation:
-            The card validation tests have been run automatically. Please review the test results below.
-          branch: update-card-data
-          delete-branch: true
-          labels: |
-            automated
-            card-data
+          This PR was automatically created because new or updated card data was detected from Scryfall.
+
+          ### Changes:
+          - **Previous count:** ${{ steps.check_diff.outputs.old_count }} cards
+          - **New count:** ${{ steps.check_diff.outputs.new_count }} cards
+          - **Difference:** $((${{ steps.check_diff.outputs.new_count }} - ${{ steps.check_diff.outputs.old_count }})) cards
+
+          ### Validation:
+          The card validation tests have been run automatically. Please review the test results below.
+          EOF
+          )"
+          else
+            echo "Creating new PR..."
+            gh pr create \
+              --title "🔄 Update Marvel Spider-Man card data" \
+              --body "$(cat <<'EOF'
+          ## Card Data Update
+
+          This PR was automatically created because new or updated card data was detected from Scryfall.
+
+          ### Changes:
+          - **Previous count:** ${{ steps.check_diff.outputs.old_count }} cards
+          - **New count:** ${{ steps.check_diff.outputs.new_count }} cards
+          - **Difference:** $((${{ steps.check_diff.outputs.new_count }} - ${{ steps.check_diff.outputs.old_count }})) cards
+
+          ### Validation:
+          The card validation tests have been run automatically. Please review the test results below.
+          EOF
+          )" \
+              --base main \
+              --head update-card-data \
+              --label automated,card-data
+          fi
