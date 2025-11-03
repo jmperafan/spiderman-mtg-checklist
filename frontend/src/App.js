@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './App.css';
 import Header from './components/Header';
 import Stats from './components/Stats';
 import Filters from './components/Filters';
 import CardGrid from './components/CardGrid';
-
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+import cardService from './services/cardService';
+import storageService from './services/storageService';
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -35,59 +34,68 @@ function App() {
   const [sortBy, setSortBy] = useState('binderOrder');
 
   useEffect(() => {
-    fetchFilterOptions();
-    fetchCards();
-    fetchStats();
+    loadData();
   }, []);
 
   useEffect(() => {
-    fetchCards();
-    fetchStats();
+    loadData();
   }, [filters]);
 
-  const fetchFilterOptions = async () => {
-    try {
-      const response = await axios.get(`${API_URL}/api/filters`);
-      setFilterOptions(response.data);
-    } catch (error) {
-      console.error('Error fetching filter options:', error);
-    }
-  };
-
-  const fetchCards = async () => {
+  const loadData = () => {
     setLoading(true);
     try {
-      const params = new URLSearchParams();
-      Object.entries(filters).forEach(([key, value]) => {
-        if (value) params.append(key, value);
-      });
+      // Load filter options
+      const options = cardService.getFilterOptions();
+      setFilterOptions(options);
 
-      const response = await axios.get(`${API_URL}/api/cards?${params}`);
-      setCards(response.data);
+      // Load cards with filters
+      const filteredCards = cardService.getCards(filters);
+      setCards(filteredCards);
+
+      // Load stats
+      const statistics = cardService.getStats();
+      setStats(statistics);
     } catch (error) {
-      console.error('Error fetching cards:', error);
+      console.error('Error loading data:', error);
     } finally {
       setLoading(false);
     }
   };
 
-  const fetchStats = async () => {
+  const toggleCardOwnership = (cardId, foil = false) => {
     try {
-      const response = await axios.get(`${API_URL}/api/stats`);
-      setStats(response.data);
-    } catch (error) {
-      console.error('Error fetching stats:', error);
-    }
-  };
-
-  const toggleCardOwnership = async (cardId, foil = false) => {
-    try {
-      await axios.post(`${API_URL}/api/collection/toggle/${cardId}`, { foil });
-      fetchCards();
-      fetchStats();
+      cardService.toggleCardOwnership(cardId, foil);
+      loadData();
     } catch (error) {
       console.error('Error toggling card ownership:', error);
     }
+  };
+
+  const handleExport = () => {
+    try {
+      storageService.exportCollection();
+    } catch (error) {
+      console.error('Error exporting collection:', error);
+      alert('Failed to export collection. Please try again.');
+    }
+  };
+
+  const handleImport = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    storageService.importCollection(file)
+      .then(() => {
+        loadData();
+        alert('Collection imported successfully!');
+      })
+      .catch((error) => {
+        console.error('Error importing collection:', error);
+        alert(`Failed to import collection: ${error.message}`);
+      });
+
+    // Reset file input
+    event.target.value = '';
   };
 
   const handleFilterChange = (filterName, value) => {
@@ -166,7 +174,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header
+        onExport={handleExport}
+        onImport={handleImport}
+      />
       <div className="container">
         <Stats stats={stats} />
         <Filters
