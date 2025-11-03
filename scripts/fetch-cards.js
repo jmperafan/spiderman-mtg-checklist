@@ -1,7 +1,6 @@
 const https = require('https');
 const fs = require('fs');
 
-// Fetch all cards from Scryfall API
 async function fetchAllCards() {
   const cards = [];
   let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar&unique=prints&format=json';
@@ -22,7 +21,6 @@ async function fetchAllCards() {
 
     console.log(`Found ${data.data.length} cards in this page`);
     cards.push(...data.data.map(card => {
-      // Get image URL - for double-faced cards, use the front face
       let imageUrl = null;
       if (card.image_uris) {
         imageUrl = card.image_uris.large || card.image_uris.normal;
@@ -50,7 +48,6 @@ async function fetchAllCards() {
 
     url = data.has_more ? data.next_page : null;
 
-    // Rate limiting - Scryfall requests 50-100ms between requests
     if (url) await sleep(100);
   }
 
@@ -95,7 +92,6 @@ function capitalizeRarity(rarity) {
 }
 
 function getSubset(card) {
-  // Determine subset based on set code and frame effects
   if (card.set === 'spe') {
     if (parseInt(card.collector_number) <= 20) return 'Welcome Deck';
     return 'Scene Box';
@@ -105,11 +101,9 @@ function getSubset(card) {
     return 'Marvel Universe';
   }
 
-  // SPM set
   const frameEffects = card.frame_effects || [];
   const collectorNum = parseInt(card.collector_number);
 
-  // Check for promos first (284-286 are Buy-a-Box and Bundle promos)
   if (card.promo || collectorNum >= 284) return 'Promo';
 
   if (card.collector_number === '242' || card.collector_number === '243') return 'Special Foil Infinity Stone';
@@ -146,7 +140,6 @@ function getSource(card) {
     return sources;
   }
 
-  // SPM boosters
   if (card.booster) {
     sources.push('Normal Boosters');
   }
@@ -171,8 +164,6 @@ function getSource(card) {
 
   return sources;
 }
-
-// Run the script
 fetchAllCards()
   .then(cards => {
     console.log(`Fetched ${cards.length} cards`);
