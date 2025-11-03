@@ -7,26 +7,21 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
-// Data paths
 const CARDS_FILE = path.join(__dirname, 'data', 'cards.json');
 const COLLECTION_FILE = path.join(__dirname, 'data', 'user-collection.json');
 
-// Ensure data directory exists
 const dataDir = path.join(__dirname, 'data');
 if (!fs.existsSync(dataDir)) {
   fs.mkdirSync(dataDir, { recursive: true });
 }
 
-// Initialize collection file if it doesn't exist
 if (!fs.existsSync(COLLECTION_FILE)) {
   fs.writeFileSync(COLLECTION_FILE, JSON.stringify({ owned: [], ownedFoil: [] }, null, 2));
 }
 
-// Helper functions
 const readCards = () => {
   const data = fs.readFileSync(CARDS_FILE, 'utf8');
   return JSON.parse(data);
@@ -36,7 +31,6 @@ const readCollection = () => {
   const data = fs.readFileSync(COLLECTION_FILE, 'utf8');
   const collection = JSON.parse(data);
 
-  // Migrate old format to new format with ownedFoil
   if (!collection.ownedFoil) {
     collection.ownedFoil = [];
   }
@@ -48,15 +42,11 @@ const writeCollection = (collection) => {
   fs.writeFileSync(COLLECTION_FILE, JSON.stringify(collection, null, 2));
 };
 
-// Routes
-
-// Get all cards with optional filters
 app.get('/api/cards', (req, res) => {
   try {
     let cards = readCards();
     const { subset, source, minPrice, maxPrice, rarity, owned } = req.query;
 
-    // Apply filters
     if (subset) {
       cards = cards.filter(card => card.subset === subset);
     }
@@ -77,7 +67,6 @@ app.get('/api/cards', (req, res) => {
       cards = cards.filter(card => card.rarity === rarity);
     }
 
-    // Add owned status
     const collection = readCollection();
     cards = cards.map(card => ({
       ...card,
@@ -85,7 +74,6 @@ app.get('/api/cards', (req, res) => {
       ownedFoil: collection.ownedFoil.includes(card.id)
     }));
 
-    // Filter by owned status if requested
     if (owned === 'true') {
       cards = cards.filter(card => card.owned || card.ownedFoil);
     } else if (owned === 'false') {
@@ -99,7 +87,6 @@ app.get('/api/cards', (req, res) => {
   }
 });
 
-// Get unique filter values
 app.get('/api/filters', (req, res) => {
   try {
     const cards = readCards();
@@ -115,7 +102,6 @@ app.get('/api/filters', (req, res) => {
   }
 });
 
-// Get collection stats
 app.get('/api/stats', (req, res) => {
   try {
     const cards = readCards();
@@ -125,10 +111,8 @@ app.get('/api/stats', (req, res) => {
     const ownedCards = collection.owned.length;
     const ownedFoils = collection.ownedFoil.length;
 
-    // Calculate unique cards owned (either regular or foil)
     const uniqueOwned = new Set([...collection.owned, ...collection.ownedFoil]).size;
 
-    // Master set includes both regular and foil versions
     const totalMasterCards = cards.filter(c => c.hasNonfoil).length + cards.filter(c => c.hasFoil).length;
     const ownedMasterCards = ownedCards + ownedFoils;
 
@@ -158,7 +142,6 @@ app.get('/api/stats', (req, res) => {
   }
 });
 
-// Toggle card ownership
 app.post('/api/collection/toggle/:cardId', (req, res) => {
   try {
     const { cardId } = req.params;
@@ -182,7 +165,6 @@ app.post('/api/collection/toggle/:cardId', (req, res) => {
   }
 });
 
-// Get collection
 app.get('/api/collection', (req, res) => {
   try {
     const collection = readCollection();
@@ -193,7 +175,6 @@ app.get('/api/collection', (req, res) => {
   }
 });
 
-// Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
