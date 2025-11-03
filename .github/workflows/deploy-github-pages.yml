@@ -40,8 +40,13 @@ jobs:
         env:
           CI: false
           DISABLE_ESLINT_PLUGIN: true
-          # Set the base path for GitHub Pages (will be /repo-name/)
-          PUBLIC_URL: ${{ github.event.repository.name != github.repository_owner.name && format('/{0}', github.event.repository.name) || '/' }}
+
+      - name: Verify build output
+        run: |
+          echo "Contents of frontend/build:"
+          ls -la ./frontend/build/
+          echo "index.html exists:"
+          test -f ./frontend/build/index.html && echo "✓ Yes" || echo "✗ No"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
