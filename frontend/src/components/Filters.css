@@ -1,0 +1,107 @@
+.filters-container {
+  background: linear-gradient(135deg, rgba(220, 20, 60, 0.15) 0%, rgba(139, 0, 0, 0.1) 100%);
+  border: 2px solid rgba(220, 20, 60, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(220, 20, 60, 0.5);
+}
+
+.reset-btn {
+  background: linear-gradient(135deg, #dc143c 0%, #8b0000 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.3);
+}
+
+.reset-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 20, 60, 0.5);
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filter-group label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.filter-input,
+.filter-select {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(220, 20, 60, 0.3);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.filter-input[type="number"] {
+  padding: 6px 4px;
+  font-size: 0.8rem;
+}
+
+.filter-input:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: #dc143c;
+  box-shadow: 0 0 15px rgba(220, 20, 60, 0.4);
+}
+
+.filter-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.filter-select option {
+  background: #1a1a2e;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .filters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filters-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+
+  .reset-btn {
+    width: 100%;
+  }
+}
