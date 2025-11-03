@@ -1,0 +1,21 @@
+{
+  "name": "spiderman-mtg-collection",
+  "version": "1.0.0",
+  "description": "Marvel Spider-Man MTG Collection Tracker",
+  "scripts": {
+    "test": "node scripts/test-cards.js",
+    "test:cards": "node scripts/test-cards.js",
+    "fetch": "node scripts/fetch-cards.js",
+    "analyze": "node scripts/analyze-foils.js",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": [
+    "mtg",
+    "magic",
+    "spiderman",
+    "collection"
+  ],
+  "author": "",
+  "license": "ISC"
+}

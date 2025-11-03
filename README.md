@@ -1,5 +1,7 @@
 # Spider-Man MTG Collection Tracker
 
+![Validate Card List](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/validate-cards.yml/badge.svg)
+
 A beautiful, interactive web application for tracking your Spider-Man Magic: The Gathering card collection. Built with a Spider-Man themed portal interface featuring web animations and a sleek dark design.
 
 ## Features
@@ -39,6 +41,10 @@ That's it! The application will automatically:
 ```
 .
 ├── docker-compose.yml          # Docker orchestration
+├── scripts/                    # Development utilities
+│   ├── fetch-cards.js         # Fetch card data from Scryfall
+│   ├── test-cards.js          # Validate card data
+│   └── analyze-foils.js       # Analyze foil distribution
 ├── backend/
 │   ├── Dockerfile
 │   ├── server.js              # Express API
@@ -61,6 +67,25 @@ That's it! The application will automatically:
         │   └── Card
         └── ...
 ```
+
+## Card Data Validation
+
+This project includes automated testing to ensure card data accuracy against the [MTGGoldfish reference](https://www.mtggoldfish.com/sets/Marvel+Spider-Man/All+Cards#online).
+
+### Running Tests Locally
+
+```bash
+npm test
+```
+
+### Automated Validation
+
+GitHub Actions automatically validate the card list when:
+- Card data is updated
+- Changes are pushed to main/develop branches
+- Pull requests are created
+
+See [.github/workflows/README.md](.github/workflows/README.md) for more details.
 
 ## Customizing Your Card Database
 
