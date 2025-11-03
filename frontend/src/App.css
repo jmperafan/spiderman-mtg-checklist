@@ -1,12 +1,15 @@
 .App {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+  position: relative;
+  z-index: 1;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {

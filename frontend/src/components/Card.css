@@ -1,52 +1,87 @@
 .card {
-  background: linear-gradient(135deg, rgba(26, 26, 46, 0.9) 0%, rgba(22, 33, 62, 0.9) 100%);
-  border: 2px solid rgba(220, 20, 60, 0.3);
-  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(20, 20, 26, 0.9) 0%, rgba(25, 25, 32, 0.9) 100%);
+  border: 1px solid rgba(13, 71, 161, 0.4);
+  border-radius: 14px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   position: relative;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 0.015) 25%, rgba(255, 255, 255, 0.015) 26%, transparent 27%);
+  background-size: 30px 30px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(220, 20, 60, 0.4);
-  border-color: rgba(220, 20, 60, 0.6);
+  transform: translateY(-8px);
+  border-color: rgba(227, 6, 19, 0.6);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 0 50px rgba(227, 6, 19, 0.2);
 }
 
 .card.owned {
-  border-color: rgba(34, 197, 94, 0.5);
+  border-color: rgba(25, 118, 210, 0.5);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 0 40px rgba(25, 118, 210, 0.15);
 }
 
 .card.owned:hover {
-  box-shadow: 0 15px 40px rgba(34, 197, 94, 0.3);
+  border-color: rgba(33, 150, 243, 0.7);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 0 50px rgba(33, 150, 243, 0.2);
 }
 
 .card-header {
   display: flex;
   justify-content: space-between;
   padding: 12px 15px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid rgba(227, 6, 19, 0.2);
 }
 
 .card-number {
-  font-weight: bold;
-  color: #dc143c;
-  font-size: 0.9rem;
+  font-weight: 700;
+  color: #E30613;
+  font-size: 0.92rem;
+  text-shadow: 0 2px 8px rgba(227, 6, 19, 0.5);
+  letter-spacing: 0.5px;
 }
 
 .card-rarity {
-  font-weight: bold;
-  font-size: 0.85rem;
-  text-shadow: 0 0 10px currentColor;
+  font-weight: 700;
+  font-size: 0.84rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.3px;
 }
 
 .card-image-container {
   position: relative;
   width: 100%;
   padding-top: 140%;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(135deg, #000000 0%, #0f0f14 100%);
   overflow: hidden;
 }
 
@@ -57,6 +92,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover .card-image {
+  transform: scale(1.06);
 }
 
 .owned-overlay {
@@ -65,176 +105,256 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(34, 197, 94, 0.3);
+  background: radial-gradient(circle, rgba(25, 118, 210, 0.35) 0%, rgba(13, 71, 161, 0.55) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(2px);
+  z-index: 2;
 }
 
 .checkmark {
-  font-size: 4rem;
-  color: #22c55e;
-  text-shadow: 0 0 20px rgba(34, 197, 94, 0.8);
-  animation: pop 0.3s ease;
+  font-size: 4.5rem;
+  color: #FFFFFF;
+  text-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.8),
+    0 0 35px rgba(25, 118, 210, 0.9);
+  animation: pop 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-weight: 800;
 }
 
 @keyframes pop {
-  0% { transform: scale(0); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(0) rotate(-90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotate(5deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
 }
 
 .card-body {
   padding: 15px;
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .card-name {
-  font-size: 1.1rem;
-  margin: 0 0 15px 0;
-  color: #fff;
-  text-shadow: 0 0 10px rgba(220, 20, 60, 0.3);
+  font-size: 1.12rem;
+  margin: 0 0 14px 0;
+  color: #FFFFFF;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
   line-height: 1.3;
   min-height: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 .card-info {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 9px;
 }
 
 .info-row {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
 }
 
 .info-row.sources {
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
 }
 
 .info-label {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.8px;
 }
 
 .info-value {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.95);
   text-align: right;
+  font-weight: 600;
 }
 
 .price-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
 }
 
 .info-value.price {
-  color: #22c55e;
-  font-weight: bold;
+  color: #2196F3;
+  font-weight: 700;
+  font-size: 1.02rem;
+  text-shadow: 0 2px 8px rgba(33, 150, 243, 0.5);
 }
 
 .price-separator {
   color: rgba(255, 255, 255, 0.5);
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .info-value.foil-price {
-  color: #fbbf24;
-  font-weight: bold;
-  text-shadow: 0 0 8px rgba(251, 191, 36, 0.5);
+  color: #FFD700;
+  font-weight: 700;
+  font-size: 1.02rem;
+  text-shadow: 0 2px 8px rgba(255, 215, 0, 0.6);
 }
 
 .source-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 6px;
 }
 
 .source-tag {
-  background: rgba(220, 20, 60, 0.2);
-  border: 1px solid rgba(220, 20, 60, 0.4);
-  color: rgba(255, 255, 255, 0.8);
-  padding: 3px 8px;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  background: rgba(227, 6, 19, 0.2);
+  border: 1px solid rgba(227, 6, 19, 0.5);
+  color: rgba(255, 255, 255, 0.95);
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 0.74rem;
+  font-weight: 600;
   white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.3px;
+  backdrop-filter: blur(5px);
 }
 
 .checkmark-container {
   display: flex;
-  gap: 15px;
+  gap: 18px;
   justify-content: center;
 }
 
 .card-footer {
-  padding: 15px;
-  border-top: 1px solid rgba(220, 20, 60, 0.2);
+  padding: 14px;
+  border-top: 1px solid rgba(227, 6, 19, 0.2);
   display: flex;
   gap: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
 }
 
 .toggle-btn {
   flex: 1;
-  padding: 10px;
+  padding: 11px;
   border: none;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 0.9rem;
-  background: linear-gradient(135deg, #dc143c 0%, #8b0000 100%);
-  color: white;
-  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(227, 6, 19, 0.9);
+  color: #FFFFFF;
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(227, 6, 19, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .toggle-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(220, 20, 60, 0.5);
+  background: rgba(255, 23, 68, 0.95);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(227, 6, 19, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.toggle-btn:active {
+  transform: translateY(0);
+  box-shadow:
+    0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 15px rgba(227, 6, 19, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .toggle-btn.owned {
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
+  background: rgba(13, 71, 161, 0.9);
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(13, 71, 161, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .toggle-btn.owned:hover {
-  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.5);
+  background: rgba(25, 118, 210, 0.95);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(25, 118, 210, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .toggle-btn.foil-btn {
-  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #fbbf24 100%);
-  box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.9) 0%, rgba(255, 165, 0, 0.9) 100%);
+  color: #000000;
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(255, 215, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .toggle-btn.foil-btn:hover {
-  box-shadow: 0 6px 20px rgba(251, 191, 36, 0.6);
+  background: linear-gradient(135deg, rgba(255, 237, 78, 0.95) 0%, rgba(255, 183, 51, 0.95) 100%);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.4),
+    0 0 35px rgba(255, 215, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 
 .toggle-btn.foil-btn.owned {
-  background: linear-gradient(135deg, #facc15 0%, #eab308 50%, #facc15 100%);
-  box-shadow: 0 4px 15px rgba(250, 204, 21, 0.5);
+  background: linear-gradient(135deg, rgba(184, 134, 11, 0.9) 0%, rgba(218, 165, 32, 0.9) 100%);
+  color: #FFFFFF;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .toggle-btn.foil-btn.owned:hover {
-  box-shadow: 0 6px 20px rgba(250, 204, 21, 0.7);
+  background: linear-gradient(135deg, rgba(218, 165, 32, 0.95) 0%, rgba(255, 215, 0, 0.95) 100%);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.4),
+    0 0 35px rgba(218, 165, 32, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .checkmark.foil {
-  color: #facc15;
-  text-shadow: 0 0 20px rgba(250, 204, 21, 0.9);
+  color: #FFD700;
+  text-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.8),
+    0 0 45px rgba(255, 215, 0, 1);
 }
 
 @media (max-width: 768px) {
   .card-name {
-    font-size: 1rem;
+    font-size: 1.04rem;
   }
 
   .info-row {
-    font-size: 0.85rem;
+    font-size: 0.84rem;
+  }
+
+  .toggle-btn {
+    padding: 10px;
+    font-size: 0.86rem;
+  }
+
+  .checkmark {
+    font-size: 3.8rem;
   }
 }
