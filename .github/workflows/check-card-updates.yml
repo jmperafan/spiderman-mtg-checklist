@@ -6,6 +6,10 @@ on:
     - cron: '0 9 * * 1'
   workflow_dispatch:  # Allows manual triggering
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   check-updates:
     name: Check Scryfall for Card Updates
@@ -69,6 +73,10 @@ jobs:
           else
             echo "✅ **No Changes** - Card data is up to date" >> $GITHUB_STEP_SUMMARY
           fi
+
+      - name: Remove backup file
+        if: steps.check_diff.outputs.changes_detected == 'true'
+        run: rm backend/data/cards.json.backup
 
       - name: Create Pull Request
         if: steps.check_diff.outputs.changes_detected == 'true'
