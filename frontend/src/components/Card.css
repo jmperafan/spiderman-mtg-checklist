@@ -126,9 +126,27 @@
   text-align: right;
 }
 
+.price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
 .info-value.price {
   color: #22c55e;
   font-weight: bold;
+}
+
+.price-separator {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+.info-value.foil-price {
+  color: #fbbf24;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(251, 191, 36, 0.5);
 }
 
 .source-tags {
