@@ -1,0 +1,60 @@
+name: Validate Card List
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'backend/data/cards.json'
+      - 'scripts/fetch-cards.js'
+      - 'scripts/test-cards.js'
+      - '.github/workflows/validate-cards.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'backend/data/cards.json'
+      - 'scripts/fetch-cards.js'
+      - 'scripts/test-cards.js'
+      - '.github/workflows/validate-cards.yml'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  validate:
+    name: Validate Marvel Spider-Man Card List
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Run card validation tests
+        run: npm test
+
+      - name: Generate test summary
+        if: always()
+        run: |
+          echo "### Card Validation Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Validation against MTGGoldfish reference:" >> $GITHUB_STEP_SUMMARY
+          echo "https://www.mtggoldfish.com/sets/Marvel+Spider-Man/All+Cards#online" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Run test again and capture output for summary
+          npm test 2>&1 | tee test-output.txt || true
+
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          tail -20 test-output.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: test-output.txt
+          retention-days: 30

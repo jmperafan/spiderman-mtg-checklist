@@ -1,0 +1,97 @@
+name: Check for Card Updates
+
+on:
+  schedule:
+    # Run every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  check-updates:
+    name: Check Scryfall for Card Updates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Backup current cards.json
+        run: |
+          cp backend/data/cards.json backend/data/cards.json.backup
+          echo "Backed up cards.json"
+
+      - name: Fetch latest cards from Scryfall
+        run: |
+          node scripts/fetch-cards.js
+          echo "Fetched latest card data"
+
+      - name: Check for differences
+        id: check_diff
+        run: |
+          if ! diff -q backend/data/cards.json backend/data/cards.json.backup > /dev/null; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "Card data has changed!"
+
+            # Count differences
+            OLD_COUNT=$(cat backend/data/cards.json.backup | node -e "const fs=require('fs'); let data=''; process.stdin.on('data', d=>data+=d); process.stdin.on('end', ()=>console.log(JSON.parse(data).length))")
+            NEW_COUNT=$(cat backend/data/cards.json | node -e "const fs=require('fs'); let data=''; process.stdin.on('data', d=>data+=d); process.stdin.on('end', ()=>console.log(JSON.parse(data).length))")
+
+            echo "old_count=$OLD_COUNT" >> $GITHUB_OUTPUT
+            echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in card data"
+          fi
+
+      - name: Run validation tests on new data
+        if: steps.check_diff.outputs.changes_detected == 'true'
+        run: npm test
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "### Card Update Check Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.check_diff.outputs.changes_detected }}" == "true" ]; then
+            echo "🔄 **Changes Detected!**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- Previous card count: ${{ steps.check_diff.outputs.old_count }}" >> $GITHUB_STEP_SUMMARY
+            echo "- New card count: ${{ steps.check_diff.outputs.new_count }}" >> $GITHUB_STEP_SUMMARY
+            echo "- Difference: $((${{ steps.check_diff.outputs.new_count }} - ${{ steps.check_diff.outputs.old_count }}))" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ **No Changes** - Card data is up to date" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Create Pull Request
+        if: steps.check_diff.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: |
+            Update card data from Scryfall
+            Automated update detected ${{ steps.check_diff.outputs.new_count }} cards (was ${{ steps.check_diff.outputs.old_count }})
+          title: "🔄 Update Marvel Spider-Man card data"
+          body: |
+            ## Card Data Update
+
+            This PR was automatically created because new or updated card data was detected from Scryfall.
+
+            ### Changes:
+            - **Previous count:** ${{ steps.check_diff.outputs.old_count }} cards
+            - **New count:** ${{ steps.check_diff.outputs.new_count }} cards
+            - **Difference:** $((${{ steps.check_diff.outputs.new_count }} - ${{ steps.check_diff.outputs.old_count }})) cards
+
+            ### Validation:
+            The card validation tests have been run automatically. Please review the test results below.
+          branch: update-card-data
+          delete-branch: true
+          labels: |
+            automated
+            card-data
