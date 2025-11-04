@@ -9,10 +9,6 @@ class CardService {
   getCards(filters = {}) {
     let filtered = [...this.cards];
 
-    if (filters.subset) {
-      filtered = filtered.filter(card => card.subset === filters.subset);
-    }
-
     if (filters.set) {
       filtered = filtered.filter(card => card.set === filters.set);
     }
@@ -48,11 +44,10 @@ class CardService {
   }
 
   getFilterOptions() {
-    const subsets = [...new Set(this.cards.map(card => card.subset))].sort();
     const sets = [...new Set(this.cards.map(card => card.set))].sort();
     const rarities = ['Common', 'Uncommon', 'Rare', 'Mythic Rare'];
 
-    return { subsets, sets, rarities };
+    return { sets, rarities };
   }
 
   getStats(filteredCards = null) {

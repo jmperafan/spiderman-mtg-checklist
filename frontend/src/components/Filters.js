@@ -39,20 +39,6 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
         </div>
 
         <div className="filter-group">
-          <label>Subset</label>
-          <select
-            value={filters.subset}
-            onChange={(e) => onFilterChange('subset', e.target.value)}
-            className="filter-select"
-          >
-            <option value="">All Subsets</option>
-            {filterOptions.subsets.map(subset => (
-              <option key={subset} value={subset}>{subset}</option>
-            ))}
-          </select>
-        </div>
-
-        <div className="filter-group">
           <label>Set</label>
           <select
             value={filters.set}
