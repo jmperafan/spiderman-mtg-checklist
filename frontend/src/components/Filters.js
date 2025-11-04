@@ -100,8 +100,11 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
             className="filter-select"
           >
             <option value="">All Cards</option>
-            <option value="true">Owned Only</option>
-            <option value="false">Missing Only</option>
+            <option value="owned">Owned (any variant)</option>
+            <option value="not-owned">Not Owned (no variants)</option>
+            <option value="all-variants-owned">All Variants Owned (regular + foil)</option>
+            <option value="all-variants-not-owned">All Variants Not Owned (missing both)</option>
+            <option value="incomplete-variants">Incomplete Variants (some but not all)</option>
           </select>
         </div>
       </div>

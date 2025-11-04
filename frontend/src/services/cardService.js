@@ -34,10 +34,59 @@ class CardService {
       ownedFoil: ownedCards[card.id]?.foil || false
     }));
 
-    if (filters.owned === 'true') {
-      filtered = filtered.filter(card => card.owned || card.ownedFoil);
-    } else if (filters.owned === 'false') {
-      filtered = filtered.filter(card => !card.owned && !card.ownedFoil);
+    if (filters.owned) {
+      filtered = filtered.filter(card => {
+        const hasAnyVariant = card.owned || card.ownedFoil;
+        const hasNoVariants = !card.owned && !card.ownedFoil;
+
+        switch (filters.owned) {
+          case 'owned':
+            // Has at least one variant
+            return hasAnyVariant;
+
+          case 'not-owned':
+            // Has no variants at all
+            return hasNoVariants;
+
+          case 'all-variants-owned':
+            // Has all available variants (both regular and foil if both exist)
+            if (card.hasNonfoil && card.hasFoil) {
+              return card.owned && card.ownedFoil;
+            } else if (card.hasNonfoil) {
+              return card.owned;
+            } else if (card.hasFoil) {
+              return card.ownedFoil;
+            }
+            return false;
+
+          case 'all-variants-not-owned':
+            // Missing all available variants
+            if (card.hasNonfoil && card.hasFoil) {
+              return !card.owned && !card.ownedFoil;
+            } else if (card.hasNonfoil) {
+              return !card.owned;
+            } else if (card.hasFoil) {
+              return !card.ownedFoil;
+            }
+            return false;
+
+          case 'incomplete-variants':
+            // Has some but not all variants (only applies to cards with both variants)
+            if (card.hasNonfoil && card.hasFoil) {
+              return (card.owned && !card.ownedFoil) || (!card.owned && card.ownedFoil);
+            }
+            return false;
+
+          // Legacy support for old filter values
+          case 'true':
+            return hasAnyVariant;
+          case 'false':
+            return hasNoVariants;
+
+          default:
+            return true;
+        }
+      });
     }
 
     return filtered;
