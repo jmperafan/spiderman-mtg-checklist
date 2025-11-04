@@ -130,16 +130,22 @@ function App() {
     switch (sortBy) {
       case 'binderOrder':
         // Binder Order: Sort by set, then by collector number
-        // SPM (Main set) -> SPE (Eternal) -> MAR (Marvel Universe)
-        const getSetOrder = (subset) => {
-          if (subset === 'Welcome Deck' || subset === 'Scene Box') return 2; // SPE
-          if (subset === 'Marvel Universe') return 3; // MAR
-          return 1; // SPM (all other subsets)
+        // Order: SPM -> SPE -> MAR -> TSPM -> LMAR -> PSPM
+        const getSetOrder = (set) => {
+          const setOrder = {
+            'SPM': 1,   // Main set with all variants
+            'SPE': 2,   // Welcome Deck + Scene Box
+            'MAR': 3,   // Marvel Universe crossover
+            'TSPM': 4,  // Tokens
+            'LMAR': 5,  // Marvel Legends Inserts
+            'PSPM': 6   // Promos
+          };
+          return setOrder[set] || 999;
         };
 
         return sorted.sort((a, b) => {
           // First sort by set
-          const setDiff = getSetOrder(a.subset) - getSetOrder(b.subset);
+          const setDiff = getSetOrder(a.set) - getSetOrder(b.set);
           if (setDiff !== 0) return setDiff;
 
           // Within same set, sort by collector number
