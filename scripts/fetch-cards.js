@@ -40,6 +40,7 @@ async function fetchAllCards() {
         id: card.id,
         name: card.name,
         setNumber: card.collector_number,
+        set: card.set.toUpperCase(),
         subset: getSubset(card),
         rarity: capitalizeRarity(card.rarity),
         price: parseFloat(card.prices.usd || card.prices.usd_foil || card.prices.eur || card.prices.eur_foil || 0.25),

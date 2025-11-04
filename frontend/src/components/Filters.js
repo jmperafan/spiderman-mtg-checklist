@@ -53,15 +53,15 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
         </div>
 
         <div className="filter-group">
-          <label>Source</label>
+          <label>Set</label>
           <select
-            value={filters.source}
-            onChange={(e) => onFilterChange('source', e.target.value)}
+            value={filters.set}
+            onChange={(e) => onFilterChange('set', e.target.value)}
             className="filter-select"
           >
-            <option value="">All Sources</option>
-            {filterOptions.sources.map(source => (
-              <option key={source} value={source}>{source}</option>
+            <option value="">All Sets</option>
+            {filterOptions.sets.map(set => (
+              <option key={set} value={set}>{set}</option>
             ))}
           </select>
         </div>

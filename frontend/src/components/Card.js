@@ -76,15 +76,9 @@ function Card({ card, onToggleOwnership }) {
             </div>
           </div>
 
-          <div className="info-row sources">
-            <span className="info-label">Sources:</span>
-            <div className="source-tags">
-              {card.source.map(source => (
-                <span key={source} className="source-tag">
-                  {source}
-                </span>
-              ))}
-            </div>
+          <div className="info-row">
+            <span className="info-label">Set:</span>
+            <span className="info-value">{card.set}</span>
           </div>
         </div>
       </div>

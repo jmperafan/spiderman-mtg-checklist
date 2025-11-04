@@ -11,7 +11,7 @@ function App() {
   const [cards, setCards] = useState([]);
   const [filters, setFilters] = useState({
     subset: '',
-    source: '',
+    set: '',
     rarity: '',
     minPrice: '',
     maxPrice: '',
@@ -26,7 +26,7 @@ function App() {
   });
   const [filterOptions, setFilterOptions] = useState({
     subsets: [],
-    sources: [],
+    sets: [],
     rarities: []
   });
   const [loading, setLoading] = useState(true);
@@ -105,7 +105,7 @@ function App() {
   const resetFilters = () => {
     setFilters({
       subset: '',
-      source: '',
+      set: '',
       rarity: '',
       minPrice: '',
       maxPrice: '',
