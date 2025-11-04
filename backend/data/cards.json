@@ -16,6 +16,22 @@
     "type_line": "Legendary Creature — Symbiote Soldier Hero"
   },
   {
+    "id": "51a15ac9-5d33-4db1-aa64-eefa1a60f056",
+    "name": "Agent Venom",
+    "setNumber": "49s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 3.29,
+    "foilPrice": 3.29,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/5/1/51a15ac9-5d33-4db1-aa64-eefa1a60f056.jpg?1758882609",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Symbiote Soldier Hero"
+  },
+  {
     "id": "5569baf4-0cc9-46da-80cb-2cac5452f460",
     "name": "Agent Venom",
     "setNumber": "255",
@@ -160,6 +176,38 @@
     "type_line": "Legendary Creature — Symbiote Hero"
   },
   {
+    "id": "3865036d-d1cc-4f81-8f2a-a5fef4c67fa8",
+    "name": "Anti-Venom, Horrifying Healer",
+    "setNumber": "1",
+    "subset": "Marvel Legends Inserts",
+    "rarity": "Mythic Rare",
+    "price": 41.1,
+    "foilPrice": 41.1,
+    "source": [
+      "Marvel Legends Action Figures"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/8/3865036d-d1cc-4f81-8f2a-a5fef4c67fa8.jpg?1759409481",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Symbiote Hero"
+  },
+  {
+    "id": "c8ad9739-1f15-45ba-9d26-7080decb8f5a",
+    "name": "Anti-Venom, Horrifying Healer",
+    "setNumber": "1s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 24.32,
+    "foilPrice": 24.32,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/8/c8ad9739-1f15-45ba-9d26-7080decb8f5a.jpg?1758882171",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Symbiote Hero"
+  },
+  {
     "id": "451f215d-b451-42d7-a277-631b6ad8098f",
     "name": "Anti-Venom, Horrifying Healer",
     "setNumber": "244",
@@ -189,6 +237,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/7/c/7c1f871a-bd85-402e-b474-1deb64c18a52.jpg?1758285227",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "0d9ea1ad-686d-4f62-8cd8-b2f40097d2c5",
+    "name": "Arachne, Psionic Weaver",
+    "setNumber": "2s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.5,
+    "foilPrice": 1.5,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/0/d/0d9ea1ad-686d-4f62-8cd8-b2f40097d2c5.jpg?1758882273",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -237,6 +301,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/b/0/b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8.jpg?1757377611",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "5289ce8b-09cc-4fcd-a609-3e01ad8fda6f",
+    "name": "Araña, Heart of the Spider",
+    "setNumber": "123s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.8,
+    "foilPrice": 2.8,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/5/2/5289ce8b-09cc-4fcd-a609-3e01ad8fda6f.jpg?1758882432",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -352,6 +432,22 @@
     "type_line": "Sorcery"
   },
   {
+    "id": "2e5f56ca-6bb3-468f-ae1f-a3c2bcb43499",
+    "name": "Behold the Sinister Six!",
+    "setNumber": "51s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 4.31,
+    "foilPrice": 4.31,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/2/e/2e5f56ca-6bb3-468f-ae1f-a3c2bcb43499.jpg?1758882022",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Sorcery"
+  },
+  {
     "id": "62b76152-4017-487e-81ef-008084e5dcd4",
     "name": "Behold the Sinister Six!",
     "setNumber": "221",
@@ -381,6 +477,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/9/6/9658fdab-9702-4e13-bc53-01a25a2ed41a.jpg?1757377621",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Artifact — Equipment"
+  },
+  {
+    "id": "a72a2aea-9a6b-40db-980e-84e4655dc13e",
+    "name": "Biorganic Carapace",
+    "setNumber": "124s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.28,
+    "foilPrice": 1.28,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/a/7/a72a2aea-9a6b-40db-980e-84e4655dc13e.jpg?1758882346",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Artifact — Equipment"
   },
   {
@@ -416,6 +528,22 @@
     "type_line": "Legendary Creature — Human Rogue Villain"
   },
   {
+    "id": "3a553f75-87fe-4f1e-8fd8-f091aca30bab",
+    "name": "Black Cat, Cunning Thief",
+    "setNumber": "52s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 3.29,
+    "foilPrice": 3.29,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/a/3a553f75-87fe-4f1e-8fd8-f091aca30bab.jpg?1758881992",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Rogue Villain"
+  },
+  {
     "id": "aae8c437-b172-44cd-98e8-d0ab9fae54c2",
     "name": "Black Cat, Cunning Thief",
     "setNumber": "222",
@@ -445,6 +573,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/9/3/930befba-6068-493e-baa2-e9371cd99e93.jpg?1757377631",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Symbiote Villain"
+  },
+  {
+    "id": "d98ec220-ea04-444c-879d-2acb122ed95d",
+    "name": "Carnage, Crimson Chaos",
+    "setNumber": "125s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 7.36,
+    "foilPrice": 7.36,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/d/9/d98ec220-ea04-444c-879d-2acb122ed95d.jpg?1758882335",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Symbiote Villain"
   },
   {
@@ -493,6 +637,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/5/f/5fbce72f-e9a1-4d9f-b9b3-24dbafeef841.jpg?1757377641",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Creature — Human Citizen"
+  },
+  {
+    "id": "c3ead593-ef8a-4522-b07c-d67695aa49a4",
+    "name": "Cheering Crowd",
+    "setNumber": "126s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.92,
+    "foilPrice": 1.92,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/3/c3ead593-ef8a-4522-b07c-d67695aa49a4.jpg?1758882192",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Creature — Human Citizen"
   },
   {
@@ -605,6 +765,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/f/8/f82f4013-7308-4917-9042-19a5909f2134.jpg?1757377651",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "9dd96505-54a8-45bb-be06-430c250c646a",
+    "name": "Cosmic Spider-Man",
+    "setNumber": "127s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 27.65,
+    "foilPrice": 27.65,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/9/d/9dd96505-54a8-45bb-be06-430c250c646a.jpg?1758882638",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -768,6 +944,22 @@
     "type_line": "Artifact — Equipment"
   },
   {
+    "id": "e6875d9b-5bf1-4da4-bc11-f20892dc1a7f",
+    "name": "Doc Ock's Tentacles",
+    "setNumber": "162s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.77,
+    "foilPrice": 2.77,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/e/6/e6875d9b-5bf1-4da4-bc11-f20892dc1a7f.jpg?1758882671",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Artifact — Equipment"
+  },
+  {
     "id": "eab4f4f1-3e4e-403e-8264-b3e73ee8259a",
     "name": "Doc Ock's Tentacles",
     "setNumber": "277",
@@ -797,6 +989,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/7/6/76e1d361-18a1-4dec-a203-f83bf0014e02.jpg?1757377661",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Scientist Villain"
+  },
+  {
+    "id": "d03109d1-fe58-4123-918b-963e6577bd0d",
+    "name": "Doctor Octopus, Master Planner",
+    "setNumber": "128s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 5.31,
+    "foilPrice": 5.31,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/d/0/d03109d1-fe58-4123-918b-963e6577bd0d.jpg?1758882253",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Scientist Villain"
   },
   {
@@ -845,6 +1053,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1757432896",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Hero Villain // Legendary Creature — Symbiote Hero Villain"
+  },
+  {
+    "id": "a246167f-c389-4c2b-ab09-14a6322c1d13",
+    "name": "Eddie Brock // Venom, Lethal Protector",
+    "setNumber": "55s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 19.35,
+    "foilPrice": 19.35,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/a/2/a246167f-c389-4c2b-ab09-14a6322c1d13.jpg?1758882596",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Hero Villain // Legendary Creature — Symbiote Hero Villain"
   },
   {
@@ -909,6 +1133,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/d/6/d672cfad-e656-47f8-bf93-64f262aff33e.jpg?1757377241",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Villain"
+  },
+  {
+    "id": "07d30245-354c-4b21-a6a8-8c9273955380",
+    "name": "Electro, Assaulting Battery",
+    "setNumber": "76s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 7.27,
+    "foilPrice": 7.27,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/0/7/07d30245-354c-4b21-a6a8-8c9273955380.jpg?1758882521",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Villain"
   },
   {
@@ -1070,6 +1310,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/1/7/17a18e2f-221f-4fc2-8dab-25bf12fb8756.jpg?1757376782",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment — Aura"
+  },
+  {
+    "id": "82dc9984-ee11-4031-a60b-824f803332fc",
+    "name": "Friendly Neighborhood",
+    "setNumber": "8s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.1,
+    "foilPrice": 2.1,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/8/2/82dc9984-ee11-4031-a60b-824f803332fc.jpg?1758882013",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment — Aura"
   },
   {
@@ -1265,6 +1521,22 @@
     "type_line": "Legendary Creature — Symbiote Spider Hero"
   },
   {
+    "id": "1f013b42-05d5-43f5-b20b-177ca52c0587",
+    "name": "Gwenom, Remorseless",
+    "setNumber": "56s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 37.98,
+    "foilPrice": 37.98,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/1/f/1f013b42-05d5-43f5-b20b-177ca52c0587.jpg?1758882150",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Symbiote Spider Hero"
+  },
+  {
     "id": "431f3f3b-42a7-4161-946b-c9bbf7bd5535",
     "name": "Gwenom, Remorseless",
     "setNumber": "256",
@@ -1310,6 +1582,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1757432940",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Performer Hero // Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "e4e1d9f4-5a14-43ec-9aea-acd2ed63f5bf",
+    "name": "Gwen Stacy // Ghost-Spider",
+    "setNumber": "78s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 10.14,
+    "foilPrice": 10.14,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/e/4/e4e1d9f4-5a14-43ec-9aea-acd2ed63f5bf.jpg?1758882444",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Performer Hero // Legendary Creature — Spider Human Hero"
   },
   {
@@ -1409,6 +1697,22 @@
     "type_line": "Instant"
   },
   {
+    "id": "ed08526c-ea2a-4902-aae0-705cfa696980",
+    "name": "Hide on the Ceiling",
+    "setNumber": "32s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.93,
+    "foilPrice": 4.93,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/e/d/ed08526c-ea2a-4902-aae0-705cfa696980.jpg?1758882264",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Instant"
+  },
+  {
     "id": "3d9847a8-ae5d-4f24-8605-609f0c1a11bc",
     "name": "Hide on the Ceiling",
     "setNumber": "249",
@@ -1489,6 +1793,22 @@
     "type_line": "Instant"
   },
   {
+    "id": "64b5818e-7d5d-42ac-8d81-e3ad625eb11d",
+    "name": "Huntmaster of the Fells // Ravager of the Fells",
+    "setNumber": "3",
+    "subset": "Marvel Legends Inserts",
+    "rarity": "Rare",
+    "price": 27.63,
+    "foilPrice": 27.63,
+    "source": [
+      "Marvel Legends Action Figures"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/6/4/64b5818e-7d5d-42ac-8d81-e3ad625eb11d.jpg?1759409838",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Creature — Human Werewolf // Creature — Werewolf"
+  },
+  {
     "id": "e53115a4-8959-40fa-b763-931504a1c5a2",
     "name": "Hydro-Man, Fluid Felon",
     "setNumber": "33",
@@ -1502,6 +1822,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/e/5/e53115a4-8959-40fa-b763-931504a1c5a2.jpg?1757376945",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Elemental Villain"
+  },
+  {
+    "id": "2322f64f-177d-4118-8b37-f4566db18615",
+    "name": "Hydro-Man, Fluid Felon",
+    "setNumber": "33s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 3.37,
+    "foilPrice": 3.37,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/2/3/2322f64f-177d-4118-8b37-f4566db18615.jpg?1758882552",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Elemental Villain"
   },
   {
@@ -1550,6 +1886,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/0/8/08da9f92-0e25-4f39-aaa4-d8974af81a41.jpg?1757376952",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment"
+  },
+  {
+    "id": "25ecd453-64de-4cb2-9766-5e4bf13724fd",
+    "name": "Impostor Syndrome",
+    "setNumber": "34s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 19.57,
+    "foilPrice": 19.57,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/2/5/25ecd453-64de-4cb2-9766-5e4bf13724fd.jpg?1758881963",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment"
   },
   {
@@ -1617,6 +1969,22 @@
     "type_line": "Artifact"
   },
   {
+    "id": "e48b28da-13f5-4ca9-9c8d-42274bd24de4",
+    "name": "Interdimensional Web Watch",
+    "setNumber": "165s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.25,
+    "foilPrice": 2.25,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/e/4/e48b28da-13f5-4ca9-9c8d-42274bd24de4.jpg?1758882303",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Artifact"
+  },
+  {
     "id": "740cde32-57e6-4633-98e9-724c505eb008",
     "name": "Interdimensional Web Watch",
     "setNumber": "278",
@@ -1646,6 +2014,38 @@
     "imageUrl": "https://cards.scryfall.io/large/front/8/d/8da5f34e-7f40-406a-88d2-bb1e3ed25200.jpg?1757378035",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Artifact Creature — Spider Hero"
+  },
+  {
+    "id": "b0050aa3-533f-4801-b315-59654e8766bc",
+    "name": "Iron Spider, Stark Upgrade",
+    "setNumber": "4",
+    "subset": "Marvel Legends Inserts",
+    "rarity": "Rare",
+    "price": 43.33,
+    "foilPrice": 43.33,
+    "source": [
+      "Marvel Legends Action Figures"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/b/0/b0050aa3-533f-4801-b315-59654e8766bc.jpg?1759409504",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Artifact Creature — Spider Hero"
+  },
+  {
+    "id": "6995efbf-481f-4ba4-a48c-9a10c4803427",
+    "name": "Iron Spider, Stark Upgrade",
+    "setNumber": "166s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.33,
+    "foilPrice": 4.33,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/6/9/6995efbf-481f-4ba4-a48c-9a10c4803427.jpg?1758882324",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Artifact Creature — Spider Hero"
   },
   {
@@ -1714,6 +2114,22 @@
     "type_line": "Legendary Creature — Human Scientist Villain"
   },
   {
+    "id": "a95420bb-bb7e-4812-9d81-96088f0fc730",
+    "name": "Jackal, Genius Geneticist",
+    "setNumber": "131s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.61,
+    "foilPrice": 1.61,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/a/9/a95420bb-bb7e-4812-9d81-96088f0fc730.jpg?1758882476",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Scientist Villain"
+  },
+  {
     "id": "185bf150-e032-47af-aafc-3b4b69f0bad4",
     "name": "Jackal, Genius Geneticist",
     "setNumber": "272",
@@ -1743,6 +2159,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/9/e/9ee905d6-b647-4eb1-a8d9-89add9bafc31.jpg?1761565998",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Citizen"
+  },
+  {
+    "id": "b6e3fe01-5e75-4cde-b9df-d7cb707e4995",
+    "name": "J. Jonah Jameson",
+    "setNumber": "81s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.79,
+    "foilPrice": 1.79,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/b/6/b6e3fe01-5e75-4cde-b9df-d7cb707e4995.jpg?1758882365",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Citizen"
   },
   {
@@ -1826,6 +2258,22 @@
     "type_line": "Enchantment — Saga"
   },
   {
+    "id": "98663d41-ec8b-413b-905e-4368f67c24d1",
+    "name": "Kraven's Last Hunt",
+    "setNumber": "105s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.22,
+    "foilPrice": 1.22,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/9/8/98663d41-ec8b-413b-905e-4368f67c24d1.jpg?1758882497",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Enchantment — Saga"
+  },
+  {
     "id": "eae0bf5a-d5b1-4d87-af8e-e7dd512dfb4a",
     "name": "Kraven's Last Hunt",
     "setNumber": "226",
@@ -1858,6 +2306,22 @@
     "type_line": "Legendary Creature — Human Warrior Villain"
   },
   {
+    "id": "b438f673-5438-4615-9e7d-5c7a28dd6db7",
+    "name": "Kraven the Hunter",
+    "setNumber": "133s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.12,
+    "foilPrice": 2.12,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/b/4/b438f673-5438-4615-9e7d-5c7a28dd6db7.jpg?1758882421",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Warrior Villain"
+  },
+  {
     "id": "82f977d1-2209-4378-9b79-edb2c338f544",
     "name": "Kraven the Hunter",
     "setNumber": "273",
@@ -1887,6 +2351,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/8/c/8c5f360b-f9a0-46e0-9e8b-58e5b4b0389e.jpg?1757376959",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Scientist Villain"
+  },
+  {
+    "id": "40809406-5d27-4285-b16d-2dd62d0e6aef",
+    "name": "Lady Octopus, Inspired Inventor",
+    "setNumber": "35s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 5.79,
+    "foilPrice": 5.79,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/4/0/40809406-5d27-4285-b16d-2dd62d0e6aef.jpg?1758882313",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Scientist Villain"
   },
   {
@@ -1967,6 +2447,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/6/a/6add5d2a-950e-4bee-9850-e68f5f6d6142.jpg?1757377462",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Lizard Villain"
+  },
+  {
+    "id": "8e677e5d-e80a-41e6-8f6d-9486ff7d47a7",
+    "name": "Lizard, Connors's Curse",
+    "setNumber": "106s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.5,
+    "foilPrice": 1.5,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/8/e/8e677e5d-e80a-41e6-8f6d-9486ff7d47a7.jpg?1758882243",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Lizard Villain"
   },
   {
@@ -2066,6 +2562,22 @@
     "type_line": "Legendary Creature — Human Performer"
   },
   {
+    "id": "39f10a0c-b30e-4f98-8b1f-e95470450a2f",
+    "name": "Mary Jane Watson",
+    "setNumber": "134s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.12,
+    "foilPrice": 2.12,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/9/39f10a0c-b30e-4f98-8b1f-e95470450a2f.jpg?1758882003",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Performer"
+  },
+  {
     "id": "2e5e3a7c-ebb9-483f-9482-636c28f539e0",
     "name": "Mary Jane Watson",
     "setNumber": "229",
@@ -2111,6 +2623,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/7/d/7d72d867-6ed2-4900-a8ae-9d86f581ce32.jpg?1758203946",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment — Saga"
+  },
+  {
+    "id": "92eabf22-99c0-4f5a-b8f1-6c2bd8f4fc55",
+    "name": "Maximum Carnage",
+    "setNumber": "83s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.42,
+    "foilPrice": 1.42,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/9/2/92eabf22-99c0-4f5a-b8f1-6c2bd8f4fc55.jpg?1758882282",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment — Saga"
   },
   {
@@ -2175,6 +2703,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1757432984",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Citizen Hero // Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "2f65e7cd-cbd2-4d2a-85d4-fd598d98b8a4",
+    "name": "Miles Morales // Ultimate Spider-Man",
+    "setNumber": "108s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 10.21,
+    "foilPrice": 10.21,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/2/f/2f65e7cd-cbd2-4d2a-85d4-fd598d98b8a4.jpg?1758882377",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Citizen Hero // Legendary Creature — Spider Human Hero"
   },
   {
@@ -2255,6 +2799,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/2/c/2c9cb13d-55ff-4e26-aa49-755f8bcebc11.jpg?1758215845",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Villain"
+  },
+  {
+    "id": "379cc5b7-c2a5-42d3-b18a-86ce1da95065",
+    "name": "Mister Negative",
+    "setNumber": "135s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 6.46,
+    "foilPrice": 6.46,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/7/379cc5b7-c2a5-42d3-b18a-86ce1da95065.jpg?1758882083",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Villain"
   },
   {
@@ -2354,6 +2914,22 @@
     "type_line": "Legendary Creature — Vampire Villain"
   },
   {
+    "id": "faf3bcb6-170d-4e09-ad1b-e63db294b6df",
+    "name": "Morlun, Devourer of Spiders",
+    "setNumber": "59s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.66,
+    "foilPrice": 1.66,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/f/a/faf3bcb6-170d-4e09-ad1b-e63db294b6df.jpg?1758882043",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Vampire Villain"
+  },
+  {
     "id": "2c5efc7d-7b09-4487-85cb-58867e06b12d",
     "name": "Morlun, Devourer of Spiders",
     "setNumber": "257",
@@ -2419,6 +2995,22 @@
     "type_line": "Land"
   },
   {
+    "id": "940a4490-638e-450a-a25f-eaaa35548361",
+    "name": "Multiversal Passage",
+    "setNumber": "180s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 12.9,
+    "foilPrice": 12.9,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/9/4/940a4490-638e-450a-a25f-eaaa35548361.jpg?1758882619",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Land"
+  },
+  {
     "id": "db88b6b6-7907-4c40-b712-4fa1456d8ad0",
     "name": "Multiversal Passage",
     "setNumber": "206",
@@ -2448,6 +3040,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/f/a/facbd96f-c088-4377-b740-5e0fe99102bb.jpg?1757376972",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Villain"
+  },
+  {
+    "id": "07dda3c1-5b49-49a7-9f50-b3bcdaff6aee",
+    "name": "Mysterio, Master of Illusion",
+    "setNumber": "37s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.77,
+    "foilPrice": 1.77,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/0/7/07dda3c1-5b49-49a7-9f50-b3bcdaff6aee.jpg?1758882661",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Villain"
   },
   {
@@ -2563,6 +3171,22 @@
     "type_line": "Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain"
   },
   {
+    "id": "0676e955-ba95-4f91-8185-f6dae5045df1",
+    "name": "Norman Osborn // Green Goblin",
+    "setNumber": "39s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 31.74,
+    "foilPrice": 31.74,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/0/6/0676e955-ba95-4f91-8185-f6dae5045df1.jpg?1758882508",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain"
+  },
+  {
     "id": "f35d0be0-19e3-417e-aabf-fbed1aefd73c",
     "name": "Norman Osborn // Green Goblin",
     "setNumber": "220",
@@ -2627,6 +3251,22 @@
     "type_line": "Enchantment — Saga"
   },
   {
+    "id": "365f4cef-984e-4c84-9c5d-8a5cc1d8a7bb",
+    "name": "Origin of Spider-Man",
+    "setNumber": "9s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.29,
+    "foilPrice": 1.29,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/6/365f4cef-984e-4c84-9c5d-8a5cc1d8a7bb.jpg?1758882390",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Enchantment — Saga"
+  },
+  {
     "id": "634e0542-066b-4fb5-a130-fa94a019f712",
     "name": "Origin of Spider-Man",
     "setNumber": "218",
@@ -2656,6 +3296,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/1/e/1e609d6e-9e37-45d2-87de-8c76675f7cec.jpg?1757378160",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Land"
+  },
+  {
+    "id": "7edba0b7-1e5c-43d1-9d76-fe5fb9cd556f",
+    "name": "Oscorp Industries",
+    "setNumber": "182s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.86,
+    "foilPrice": 4.86,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/7/e/7edba0b7-1e5c-43d1-9d76-fe5fb9cd556f.jpg?1758882053",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Land"
   },
   {
@@ -2723,6 +3379,22 @@
     "type_line": "Enchantment"
   },
   {
+    "id": "7c5855f8-d612-4b55-9787-639b385022fa",
+    "name": "Parker Luck",
+    "setNumber": "60s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.41,
+    "foilPrice": 2.41,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/7/c/7c5855f8-d612-4b55-9787-639b385022fa.jpg?1758882541",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Enchantment"
+  },
+  {
     "id": "c69e751f-5eee-48d7-9e0f-ddbcca96491e",
     "name": "Parker Luck",
     "setNumber": "258",
@@ -2787,6 +3459,22 @@
     "type_line": "Legendary Creature — Human Scientist Hero // Legendary Creature — Spider Human Hero"
   },
   {
+    "id": "92fe7e10-bdb2-4c15-b16b-99a602cff457",
+    "name": "Peter Parker // Amazing Spider-Man",
+    "setNumber": "10s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 19.33,
+    "foilPrice": 19.33,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/9/2/92fe7e10-bdb2-4c15-b16b-99a602cff457.jpg?1758882117",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Scientist Hero // Legendary Creature — Spider Human Hero"
+  },
+  {
     "id": "97fcf5a5-54e1-43f3-95e3-edc6215bf973",
     "name": "Peter Parker // Amazing Spider-Man",
     "setNumber": "208",
@@ -2832,6 +3520,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/4/7/47875dff-c046-4cb0-b1e3-f926cbe25b59.jpg?1757378068",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Artifact"
+  },
+  {
+    "id": "7515ae35-5d08-45e1-a650-7728be71ae00",
+    "name": "Peter Parker's Camera",
+    "setNumber": "171s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.85,
+    "foilPrice": 4.85,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/7/5/7515ae35-5d08-45e1-a650-7728be71ae00.jpg?1758882161",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Artifact"
   },
   {
@@ -3028,6 +3732,22 @@
     "type_line": "Creature — Spider"
   },
   {
+    "id": "73fa7333-2a4a-49ba-82e6-794044f82a8d",
+    "name": "Radioactive Spider",
+    "setNumber": "111s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.37,
+    "foilPrice": 2.37,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/7/3/73fa7333-2a4a-49ba-82e6-794044f82a8d.jpg?1758882585",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Creature — Spider"
+  },
+  {
     "id": "a0efb06d-7b91-4d64-98b2-244d56a44ecb",
     "name": "Radioactive Spider",
     "setNumber": "212",
@@ -3137,6 +3857,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/b/3/b3f8d221-081f-49f5-a501-07e5eb21a840.jpg?1757376808",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment"
+  },
+  {
+    "id": "ff76e26a-5868-416a-a61d-b8ea257b639e",
+    "name": "Rent Is Due",
+    "setNumber": "11s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.64,
+    "foilPrice": 1.64,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/f/f/ff76e26a-5868-416a-a61d-b8ea257b639e.jpg?1758882457",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment"
   },
   {
@@ -3300,6 +4036,22 @@
     "type_line": "Artifact — Equipment"
   },
   {
+    "id": "3c7f73e3-1084-4e36-a0be-188b8b3a24e4",
+    "name": "Rocket-Powered Goblin Glider",
+    "setNumber": "172s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.65,
+    "foilPrice": 1.65,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c7f73e3-1084-4e36-a0be-188b8b3a24e4.jpg?1758882487",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Artifact — Equipment"
+  },
+  {
     "id": "9fb3e089-17f0-4066-9ab2-c23b7b2a6ee7",
     "name": "Rocket-Powered Goblin Glider",
     "setNumber": "281",
@@ -3345,6 +4097,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/6/0/609ac18c-ec58-4fa7-bbee-3912a69d0ec6.jpg?1757377510",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Sand Elemental Villain"
+  },
+  {
+    "id": "368653b8-cda9-46aa-85c4-b6cd7e0e8d31",
+    "name": "Sandman, Shifting Scoundrel",
+    "setNumber": "112s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.25,
+    "foilPrice": 2.25,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/6/368653b8-cda9-46aa-85c4-b6cd7e0e8d31.jpg?1758882202",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Sand Elemental Villain"
   },
   {
@@ -3441,6 +4209,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/e/e/ee771581-f867-48d7-9ddb-897a1ffcdf0a.jpg?1757377804",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "150d8da9-3dd5-475b-a2a0-f93f9cee7256",
+    "name": "Scarlet Spider, Ben Reilly",
+    "setNumber": "142s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.72,
+    "foilPrice": 2.72,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/1/5/150d8da9-3dd5-475b-a2a0-f93f9cee7256.jpg?1758882573",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -3604,6 +4388,22 @@
     "type_line": "Enchantment"
   },
   {
+    "id": "c6e134b4-35b8-4b3a-9e69-4a69b2f13a06",
+    "name": "Shadow of the Goblin",
+    "setNumber": "87s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.74,
+    "foilPrice": 2.74,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/6/c6e134b4-35b8-4b3a-9e69-4a69b2f13a06.jpg?1758882292",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Enchantment"
+  },
+  {
     "id": "e96068e3-4c79-4c59-8821-053f21db42c7",
     "name": "Shadow of the Goblin",
     "setNumber": "262",
@@ -3713,6 +4513,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1757377835",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "c2c3c484-4b5c-47d9-8ece-61a375eab2d6",
+    "name": "Silk, Web Weaver",
+    "setNumber": "145s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.79,
+    "foilPrice": 2.79,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/2/c2c3c484-4b5c-47d9-8ece-61a375eab2d6.jpg?1758882181",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -3826,6 +4642,38 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Legendary Artifact Creature — Spider Hero"
+  },
+  {
+    "id": "818a5c98-8740-43b1-a42a-6d2382138df8",
+    "name": "Spectacular Spider-Man",
+    "setNumber": "2",
+    "subset": "Marvel Legends Inserts",
+    "rarity": "Rare",
+    "price": 30.56,
+    "foilPrice": 30.56,
+    "source": [
+      "Marvel Legends Action Figures"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/8/1/818a5c98-8740-43b1-a42a-6d2382138df8.jpg?1759409467",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "8c72c239-f551-45cd-ad66-10ec65b1e56a",
+    "name": "Spectacular Spider-Man",
+    "setNumber": "14s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 35.6,
+    "foilPrice": 35.6,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/8/c/8c72c239-f551-45cd-ad66-10ec65b1e56a.jpg?1758882094",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
     "id": "32bff506-efc0-42ef-8286-ed939bf853d7",
@@ -4069,6 +4917,22 @@
     "type_line": "Legendary Creature — Spider Boar Hero"
   },
   {
+    "id": "b38c9e49-4859-4783-a6bf-49ac1e81aee3",
+    "name": "Spider-Ham, Peter Porker",
+    "setNumber": "114s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 3.56,
+    "foilPrice": 3.56,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/b/3/b38c9e49-4859-4783-a6bf-49ac1e81aee3.jpg?1758882129",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Spider Boar Hero"
+  },
+  {
     "id": "020426f0-ca38-4b0e-aa20-6fe12dc34853",
     "name": "Spider-Ham, Peter Porker",
     "setNumber": "201",
@@ -4114,6 +4978,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/2/a/2a72c7e7-34f5-4cb0-9959-35516e398e49.jpg?1757377876",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "ca53f8fe-a4f7-43fc-afaf-0cc308842b60",
+    "name": "Spider-Man 2099",
+    "setNumber": "150s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 3.75,
+    "foilPrice": 3.75,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/a/ca53f8fe-a4f7-43fc-afaf-0cc308842b60.jpg?1758882073",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -4341,6 +5221,22 @@
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
+    "id": "0e64eda4-3487-4d57-bae3-5ddd7a90edd6",
+    "name": "Spider-Punk",
+    "setNumber": "92s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 7.59,
+    "foilPrice": 7.59,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/0/e/0e64eda4-3487-4d57-bae3-5ddd7a90edd6.jpg?1758881982",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
     "id": "8807635d-b5f2-4f08-af5e-5792867eb60b",
     "name": "Spider-Punk",
     "setNumber": "207",
@@ -4402,6 +5298,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/4/4/4499a25b-f4a5-4f2c-9ebd-bc68c7840b39.jpg?1757377036",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Instant"
+  },
+  {
+    "id": "a9514355-0f42-4f5d-9a6b-2c292ef2c7d1",
+    "name": "Spider-Sense",
+    "setNumber": "46s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 5.06,
+    "foilPrice": 5.06,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/a/9/a9514355-0f42-4f5d-9a6b-2c292ef2c7d1.jpg?1758882140",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Instant"
   },
   {
@@ -4518,6 +5430,22 @@
     "type_line": "Enchantment"
   },
   {
+    "id": "55b83dc3-7235-4aef-85f0-35193de21d1e",
+    "name": "Spider-Verse",
+    "setNumber": "93s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 5.13,
+    "foilPrice": 5.13,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/5/5/55b83dc3-7235-4aef-85f0-35193de21d1e.jpg?1758882649",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Enchantment"
+  },
+  {
     "id": "5e85512d-0b46-48f9-a391-6ae6a1b7fb55",
     "name": "Spider-Verse",
     "setNumber": "263",
@@ -4550,6 +5478,22 @@
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
+    "id": "425f8a21-8874-4b9b-be9f-2718a419d76f",
+    "name": "Spider-Woman, Stunning Savior",
+    "setNumber": "152s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 5.4,
+    "foilPrice": 5.4,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/4/2/425f8a21-8874-4b9b-be9f-2718a419d76f.jpg?1758882466",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
     "id": "4d502370-a5d9-41b6-a1d3-fa9626b4fc8b",
     "name": "Spider-Woman, Stunning Savior",
     "setNumber": "230",
@@ -4579,6 +5523,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/a/2/a27834b7-e763-48ac-845e-ed49f2fa6c6d.jpg?1757377380",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "3ce397f2-a57e-4db3-8ac5-6ba4ea753f43",
+    "name": "Spinneret and Spiderling",
+    "setNumber": "94s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 0.87,
+    "foilPrice": 0.87,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/c/3ce397f2-a57e-4db3-8ac5-6ba4ea753f43.jpg?1758882400",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -4659,6 +5619,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/6/8/68f985c7-7765-46c3-ad31-edae3abb9fbf.jpg?1757377560",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Instant"
+  },
+  {
+    "id": "d4b3a40f-ca7a-46a5-b02d-6550b3f2a95a",
+    "name": "Strength of Will",
+    "setNumber": "118s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.01,
+    "foilPrice": 4.01,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/d/4/d4b3a40f-ca7a-46a5-b02d-6550b3f2a95a.jpg?1758882213",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Instant"
   },
   {
@@ -4771,6 +5747,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/a/d/ad4adc3e-ec41-4406-8ff2-59ba8067cf4e.jpg?1758203859",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "0c9118ac-79eb-4832-b14a-9f43e9243dd2",
+    "name": "Superior Spider-Man",
+    "setNumber": "155s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.76,
+    "foilPrice": 4.76,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/0/c/0c9118ac-79eb-4832-b14a-9f43e9243dd2.jpg?1758882410",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Spider Human Hero"
   },
   {
@@ -4887,6 +5879,22 @@
     "type_line": "Legendary Creature — Symbiote Spider Hero"
   },
   {
+    "id": "40a500be-0bc9-48de-ab18-102210be72d0",
+    "name": "Symbiote Spider-Man",
+    "setNumber": "156s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.55,
+    "foilPrice": 4.55,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/4/0/40a500be-0bc9-48de-ab18-102210be72d0.jpg?1758882232",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Symbiote Spider Hero"
+  },
+  {
     "id": "89e046ae-f27a-484f-986c-61c86e754c92",
     "name": "Symbiote Spider-Man",
     "setNumber": "217",
@@ -4983,6 +5991,22 @@
     "type_line": "Enchantment — Saga"
   },
   {
+    "id": "2da59ecc-6377-4242-af1c-b24b1a014459",
+    "name": "The Clone Saga",
+    "setNumber": "28s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 1.62,
+    "foilPrice": 1.62,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/2/d/2da59ecc-6377-4242-af1c-b24b1a014459.jpg?1758882355",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Enchantment — Saga"
+  },
+  {
     "id": "903b133f-fd72-4173-9dfe-3dcc411a0b92",
     "name": "The Clone Saga",
     "setNumber": "219",
@@ -5012,6 +6036,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/6/9/690f1f31-f8c5-4336-9ec9-72ff761e3adc.jpg?1757377086",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment — Saga"
+  },
+  {
+    "id": "cc9134e1-98bf-4f3e-a5b1-b0acecc3e323",
+    "name": "The Death of Gwen Stacy",
+    "setNumber": "54s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.11,
+    "foilPrice": 2.11,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/c/cc9134e1-98bf-4f3e-a5b1-b0acecc3e323.jpg?1758882223",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment — Saga"
   },
   {
@@ -5063,6 +6103,22 @@
     "type_line": "Legendary Artifact — Infinity Stone"
   },
   {
+    "id": "44daf574-3c47-4124-a7c7-6fe7a11304a7",
+    "name": "The Soul Stone",
+    "setNumber": "66s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 157.05,
+    "foilPrice": 157.05,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/4/4/44daf574-3c47-4124-a7c7-6fe7a11304a7.jpg?1758882033",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Artifact — Infinity Stone"
+  },
+  {
     "id": "2c3df372-09d5-42fb-9357-3f97745e07c4",
     "name": "The Soul Stone",
     "setNumber": "242",
@@ -5108,6 +6164,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/0/9/09081740-1180-48ea-b50b-e016d9c3828a.jpg?1757377906",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Scientist Villain"
+  },
+  {
+    "id": "77619443-e714-4a35-ae19-bd3b20933734",
+    "name": "The Spot, Living Portal",
+    "setNumber": "153s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.08,
+    "foilPrice": 2.08,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/7/7/77619443-e714-4a35-ae19-bd3b20933734.jpg?1758881972",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Legendary Creature — Human Scientist Villain"
   },
   {
@@ -5255,6 +6327,22 @@
     "type_line": "Legendary Creature — Goblin Villain"
   },
   {
+    "id": "c13b36e4-0e03-4517-a04e-99b5b35ca7da",
+    "name": "Ultimate Green Goblin",
+    "setNumber": "157s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.26,
+    "foilPrice": 2.26,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/1/c13b36e4-0e03-4517-a04e-99b5b35ca7da.jpg?1758882562",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Goblin Villain"
+  },
+  {
     "id": "5e96fe19-9671-48b0-92fc-c46224c433c6",
     "name": "Ultimate Green Goblin",
     "setNumber": "276",
@@ -5332,6 +6420,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/2/5/2581f320-8238-413d-ab04-d5535da55630.jpg?1758203143",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Land"
+  },
+  {
+    "id": "5552aa94-057a-4a1e-804d-dac5987fd1e0",
+    "name": "Urban Retreat",
+    "setNumber": "187s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 4.41,
+    "foilPrice": 4.41,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/5/5/5552aa94-057a-4a1e-804d-dac5987fd1e0.jpg?1758882063",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Land"
   },
   {
@@ -5479,6 +6583,22 @@
     "type_line": "Sorcery"
   },
   {
+    "id": "eb35fbd8-1f56-43bc-a3b5-d1f93b1a5bca",
+    "name": "Villainous Wrath",
+    "setNumber": "74s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.24,
+    "foilPrice": 2.24,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/e/b/eb35fbd8-1f56-43bc-a3b5-d1f93b1a5bca.jpg?1758882531",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Sorcery"
+  },
+  {
     "id": "6f7d7311-2248-4841-960a-8c93497e3de1",
     "name": "Villainous Wrath",
     "setNumber": "259",
@@ -5540,6 +6660,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/3/b/3b3c609e-f7c9-4fe5-84d9-4f4c76020a4b.jpg?1757377601",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment"
+  },
+  {
+    "id": "33944308-bf44-4f9d-bd0e-e7f0c40c5ad9",
+    "name": "Web of Life and Destiny",
+    "setNumber": "122s",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 7.56,
+    "foilPrice": 7.56,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/3/33944308-bf44-4f9d-bd0e-e7f0c40c5ad9.jpg?1758882105",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment"
   },
   {
@@ -5716,6 +6852,22 @@
     "imageUrl": "https://cards.scryfall.io/large/front/f/7/f717c096-e161-426e-a8d7-c93b117e16b9.jpg?1757376888",
     "hasFoil": true,
     "hasNonfoil": true,
+    "type_line": "Enchantment — Aura"
+  },
+  {
+    "id": "ec6cb136-38c4-459f-a002-9bac0b5e99a5",
+    "name": "With Great Power...",
+    "setNumber": "24s",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.25,
+    "foilPrice": 2.25,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/e/c/ec6cb136-38c4-459f-a002-9bac0b5e99a5.jpg?1758882629",
+    "hasFoil": true,
+    "hasNonfoil": false,
     "type_line": "Enchantment — Aura"
   },
   {

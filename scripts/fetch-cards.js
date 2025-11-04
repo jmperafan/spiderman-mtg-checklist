@@ -3,7 +3,7 @@ const fs = require('fs');
 
 async function fetchAllCards() {
   const cards = [];
-  let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar+OR+set:tspm&unique=prints&format=json';
+  let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar+OR+set:tspm+OR+set:lmar+OR+set:pspm&unique=prints&format=json';
 
   while (url) {
     console.log('Fetching:', url);
@@ -97,6 +97,14 @@ function getSubset(card) {
     return 'Tokens';
   }
 
+  if (card.set === 'lmar') {
+    return 'Marvel Legends Inserts';
+  }
+
+  if (card.set === 'pspm') {
+    return 'Promo';
+  }
+
   if (card.set === 'spe') {
     if (parseInt(card.collector_number) <= 20) return 'Welcome Deck';
     return 'Scene Box';
@@ -133,6 +141,16 @@ function getSource(card) {
 
   if (card.set === 'tspm') {
     sources.push('Token Insert');
+    return sources;
+  }
+
+  if (card.set === 'lmar') {
+    sources.push('Marvel Legends Action Figures');
+    return sources;
+  }
+
+  if (card.set === 'pspm') {
+    sources.push('Promos');
     return sources;
   }
 
