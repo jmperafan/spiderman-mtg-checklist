@@ -20,7 +20,12 @@ async function fetchAllCards() {
     }
 
     console.log(`Found ${data.data.length} cards in this page`);
-    cards.push(...data.data.map(card => {
+
+    // Filter out cards with 2025 Planeswalker symbol (oval security stamp)
+    const filteredData = data.data.filter(card => card.security_stamp !== 'oval');
+    console.log(`After filtering 2025 symbol: ${filteredData.length} cards`);
+
+    cards.push(...filteredData.map(card => {
       let imageUrl = null;
       if (card.image_uris) {
         imageUrl = card.image_uris.large || card.image_uris.normal;
