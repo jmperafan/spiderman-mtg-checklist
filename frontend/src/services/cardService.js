@@ -55,8 +55,9 @@ class CardService {
     return { subsets, sources, rarities };
   }
 
-  getStats() {
+  getStats(filteredCards = null) {
     const ownedCards = storageService.getOwnedCards();
+    const cardsToAnalyze = filteredCards || this.cards;
 
     let totalCards = 0;
     let uniqueOwned = 0;
@@ -65,7 +66,7 @@ class CardService {
     let totalValue = 0;
     let ownedValue = 0;
 
-    this.cards.forEach(card => {
+    cardsToAnalyze.forEach(card => {
       const ownership = ownedCards[card.id];
 
       totalCards++;

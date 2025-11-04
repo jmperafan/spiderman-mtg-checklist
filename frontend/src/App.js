@@ -52,8 +52,8 @@ function App() {
       const filteredCards = cardService.getCards(filters);
       setCards(filteredCards);
 
-      // Load stats
-      const statistics = cardService.getStats();
+      // Load stats based on filtered cards
+      const statistics = cardService.getStats(filteredCards);
       setStats(statistics);
     } catch (error) {
       console.error('Error loading data:', error);
@@ -118,6 +118,14 @@ function App() {
     card.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     card.setNumber.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  // Update stats when search term filters the cards
+  useEffect(() => {
+    if (cards.length > 0) {
+      const statistics = cardService.getStats(filteredCards);
+      setStats(statistics);
+    }
+  }, [searchTerm, cards]);
 
   const sortCards = (cardsToSort) => {
     const sorted = [...cardsToSort];
