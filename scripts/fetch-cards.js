@@ -3,7 +3,7 @@ const fs = require('fs');
 
 async function fetchAllCards() {
   const cards = [];
-  let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar&unique=prints&format=json';
+  let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar+OR+set:tspm&unique=prints&format=json';
 
   while (url) {
     console.log('Fetching:', url);
@@ -42,7 +42,8 @@ async function fetchAllCards() {
         source: getSource(card),
         imageUrl: imageUrl,
         hasFoil: (card.finishes || []).includes('foil'),
-        hasNonfoil: (card.finishes || []).includes('nonfoil')
+        hasNonfoil: (card.finishes || []).includes('nonfoil'),
+        type_line: card.type_line || ''
       };
     }));
 
@@ -92,6 +93,10 @@ function capitalizeRarity(rarity) {
 }
 
 function getSubset(card) {
+  if (card.set === 'tspm') {
+    return 'Tokens';
+  }
+
   if (card.set === 'spe') {
     if (parseInt(card.collector_number) <= 20) return 'Welcome Deck';
     return 'Scene Box';
@@ -125,6 +130,11 @@ function getSubset(card) {
 
 function getSource(card) {
   const sources = [];
+
+  if (card.set === 'tspm') {
+    sources.push('Token Insert');
+    return sources;
+  }
 
   if (card.set === 'spe') {
     if (parseInt(card.collector_number) <= 20) {
