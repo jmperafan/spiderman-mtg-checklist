@@ -109,6 +109,25 @@
   text-overflow: ellipsis;
 }
 
+.filter-label-collapsible {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
+}
+
+.filter-label-collapsible:hover {
+  color: rgba(227, 6, 19, 0.9);
+}
+
+.selected-count {
+  font-size: 0.7rem;
+  color: rgba(227, 6, 19, 0.9);
+  font-weight: 700;
+}
+
 .filter-input,
 .filter-select {
   padding: 10px 12px;
@@ -188,6 +207,24 @@
   color: #FFFFFF;
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+.checkbox-item.select-all {
+  font-weight: 600;
+  border-bottom: 1px solid rgba(13, 71, 161, 0.3);
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.checkbox-divider {
+  height: 1px;
+  background: rgba(13, 71, 161, 0.3);
+  margin: 4px 0 8px 0;
+}
+
+.select-all-text {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 @media (max-width: 1200px) {

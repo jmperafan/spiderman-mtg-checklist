@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Filters.css';
 
 function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, onSearchChange, sortBy, onSortChange }) {
+  const [isSetExpanded, setIsSetExpanded] = useState(false);
+
+  const handleSelectAll = (e) => {
+    if (e.target.checked) {
+      onFilterChange('sets', filterOptions.sets);
+    } else {
+      onFilterChange('sets', []);
+    }
+  };
+
+  const allSelected = filters.sets?.length === filterOptions.sets?.length && filterOptions.sets?.length > 0;
+  const someSelected = filters.sets?.length > 0 && filters.sets?.length < filterOptions.sets?.length;
+
   return (
     <div className="filters-container">
       <div className="filters-header">
@@ -39,25 +52,47 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
         </div>
 
         <div className="filter-group">
-          <label>Set</label>
-          <div className="checkbox-list">
-            {filterOptions.sets.map(set => (
-              <label key={set} className="checkbox-item">
+          <label
+            onClick={() => setIsSetExpanded(!isSetExpanded)}
+            className="filter-label-collapsible"
+          >
+            Set {isSetExpanded ? '▼' : '▶'}
+            {filters.sets?.length > 0 && (
+              <span className="selected-count"> ({filters.sets.length})</span>
+            )}
+          </label>
+          {isSetExpanded && (
+            <div className="checkbox-list">
+              <label className="checkbox-item select-all">
                 <input
                   type="checkbox"
-                  checked={filters.sets?.includes(set) || false}
-                  onChange={(e) => {
-                    const currentSets = filters.sets || [];
-                    const newSets = e.target.checked
-                      ? [...currentSets, set]
-                      : currentSets.filter(s => s !== set);
-                    onFilterChange('sets', newSets);
+                  checked={allSelected}
+                  ref={input => {
+                    if (input) input.indeterminate = someSelected;
                   }}
+                  onChange={handleSelectAll}
                 />
-                <span>{set}</span>
+                <span className="select-all-text">Select All</span>
               </label>
-            ))}
-          </div>
+              <div className="checkbox-divider"></div>
+              {filterOptions.sets.map(set => (
+                <label key={set} className="checkbox-item">
+                  <input
+                    type="checkbox"
+                    checked={filters.sets?.includes(set) || false}
+                    onChange={(e) => {
+                      const currentSets = filters.sets || [];
+                      const newSets = e.target.checked
+                        ? [...currentSets, set]
+                        : currentSets.filter(s => s !== set);
+                      onFilterChange('sets', newSets);
+                    }}
+                  />
+                  <span>{set}</span>
+                </label>
+              ))}
+            </div>
+          )}
         </div>
 
         <div className="filter-group">
