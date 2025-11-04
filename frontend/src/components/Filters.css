@@ -150,6 +150,46 @@
   padding: 8px;
 }
 
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(13, 71, 161, 0.4);
+  border-radius: 6px;
+  padding: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.checkbox-item:hover {
+  background: rgba(13, 71, 161, 0.2);
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: rgba(227, 6, 19, 0.9);
+}
+
+.checkbox-item span {
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 @media (max-width: 1200px) {
   .filters-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));

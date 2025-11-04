@@ -40,16 +40,24 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
 
         <div className="filter-group">
           <label>Set</label>
-          <select
-            value={filters.set}
-            onChange={(e) => onFilterChange('set', e.target.value)}
-            className="filter-select"
-          >
-            <option value="">All Sets</option>
+          <div className="checkbox-list">
             {filterOptions.sets.map(set => (
-              <option key={set} value={set}>{set}</option>
+              <label key={set} className="checkbox-item">
+                <input
+                  type="checkbox"
+                  checked={filters.sets?.includes(set) || false}
+                  onChange={(e) => {
+                    const currentSets = filters.sets || [];
+                    const newSets = e.target.checked
+                      ? [...currentSets, set]
+                      : currentSets.filter(s => s !== set);
+                    onFilterChange('sets', newSets);
+                  }}
+                />
+                <span>{set}</span>
+              </label>
             ))}
-          </select>
+          </div>
         </div>
 
         <div className="filter-group">

@@ -10,7 +10,7 @@ import storageService from './services/storageService';
 function App() {
   const [cards, setCards] = useState([]);
   const [filters, setFilters] = useState({
-    set: '',
+    sets: [],
     rarity: '',
     minPrice: '',
     maxPrice: '',
@@ -102,7 +102,7 @@ function App() {
 
   const resetFilters = () => {
     setFilters({
-      set: '',
+      sets: [],
       rarity: '',
       minPrice: '',
       maxPrice: '',

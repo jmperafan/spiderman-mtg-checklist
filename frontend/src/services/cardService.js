@@ -9,8 +9,8 @@ class CardService {
   getCards(filters = {}) {
     let filtered = [...this.cards];
 
-    if (filters.set) {
-      filtered = filtered.filter(card => card.set === filters.set);
+    if (filters.sets && filters.sets.length > 0) {
+      filtered = filtered.filter(card => filters.sets.includes(card.set));
     }
 
     if (filters.rarity) {
