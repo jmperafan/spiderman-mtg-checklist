@@ -32,11 +32,9 @@ function Stats({ stats }) {
               <div className="stat-subtext">of ${stats.totalValue} total</div>
             </div>
           </div>
-        </div>
 
-        <div className="stats-bottom-layout">
           {stats.setCompletion && stats.setCompletion.length > 0 && (
-            <div className="set-progress-section">
+            <div className="stat-item set-progress-item-container">
               <div className="set-progress-bars">
                 {stats.setCompletion.map(set => (
                   <div key={set.setCode} className="set-progress-item">
@@ -53,34 +51,6 @@ function Stats({ stats }) {
               </div>
             </div>
           )}
-
-          <div className="large-progress-section">
-            <div className="progress-bars">
-              <div className="progress-section">
-                <div className="progress-label-top">Set Completion</div>
-                <div className="progress-bar-container">
-                  <div
-                    className="progress-bar-fill"
-                    style={{ width: `${stats.percentage}%` }}
-                  >
-                    <span className="progress-label">{stats.percentage}%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="progress-section">
-                <div className="progress-label-top">Master Set (with Foils)</div>
-                <div className="progress-bar-container master">
-                  <div
-                    className="progress-bar-fill master"
-                    style={{ width: `${stats.masterPercentage}%` }}
-                  >
-                    <span className="progress-label">{stats.masterPercentage}%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
