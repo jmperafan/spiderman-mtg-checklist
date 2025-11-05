@@ -66,12 +66,14 @@ function Card({ card, onToggleOwnership }) {
           <div className="info-row">
             <span className="info-label">Price:</span>
             <div className="price-container">
-              <span className="info-value price">${card.price.toFixed(2)}</span>
+              {card.hasNonfoil && (
+                <span className="info-value price">${card.price.toFixed(2)}</span>
+              )}
+              {card.hasNonfoil && card.hasFoil && card.foilPrice > 0 && (
+                <span className="price-separator"> - </span>
+              )}
               {card.hasFoil && card.foilPrice > 0 && (
-                <>
-                  <span className="price-separator"> - </span>
-                  <span className="info-value foil-price">${card.foilPrice.toFixed(2)}</span>
-                </>
+                <span className="info-value foil-price">${card.foilPrice.toFixed(2)}</span>
               )}
             </div>
           </div>
