@@ -110,6 +110,9 @@ class CardService {
     let totalValue = 0;
     let ownedValue = 0;
 
+    // Per-set statistics
+    const setStats = {};
+
     cardsToAnalyze.forEach(card => {
       const ownership = ownedCards[card.id];
 
@@ -119,9 +122,21 @@ class CardService {
       if (card.hasNonfoil) totalMasterCards++;
       if (card.hasFoil) totalMasterCards++;
 
+      // Initialize set stats if not exists
+      if (!setStats[card.set]) {
+        setStats[card.set] = {
+          setCode: card.set,
+          total: 0,
+          owned: 0
+        };
+      }
+
+      setStats[card.set].total++;
+
       if (ownership) {
         if (ownership.regular || ownership.foil) {
           uniqueOwned++;
+          setStats[card.set].owned++;
         }
 
         if (ownership.regular && card.hasNonfoil) ownedMasterCards++;
@@ -139,6 +154,19 @@ class CardService {
     const percentage = totalCards > 0 ? (uniqueOwned / totalCards) * 100 : 0;
     const masterPercentage = totalMasterCards > 0 ? (ownedMasterCards / totalMasterCards) * 100 : 0;
 
+    // Calculate percentages for each set and sort by set order
+    const setOrder = ['SPM', 'SPE', 'MAR', 'TSPM', 'LMAR', 'PSPM'];
+    const setCompletion = Object.values(setStats)
+      .map(set => ({
+        ...set,
+        percentage: set.total > 0 ? parseFloat(((set.owned / set.total) * 100).toFixed(1)) : 0
+      }))
+      .sort((a, b) => {
+        const aIndex = setOrder.indexOf(a.setCode);
+        const bIndex = setOrder.indexOf(b.setCode);
+        return aIndex - bIndex;
+      });
+
     return {
       totalCards,
       uniqueOwned,
@@ -147,7 +175,8 @@ class CardService {
       ownedMasterCards,
       masterPercentage: parseFloat(masterPercentage.toFixed(1)),
       totalValue: parseFloat(totalValue.toFixed(2)),
-      ownedValue: parseFloat(ownedValue.toFixed(2))
+      ownedValue: parseFloat(ownedValue.toFixed(2)),
+      setCompletion
     };
   }
 
