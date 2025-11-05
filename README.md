@@ -1,26 +1,8 @@
 # Spider-Man MTG Collection Tracker
 
-A beautiful, interactive web application for tracking your Marvel Spider-Man Magic: The Gathering card collection. Built with a Spider-Man themed interface featuring web animations and a sleek crimson and black design.
+An interactive web application for tracking your Marvel Spider-Man Magic: The Gathering card collection. Built with a Spider-Man themed interface featuring web animations and a crimson and black design.
 
 Track over 647 cards including Main Set, Extended Art, Borderless variants, Promos, Welcome Deck, Scene Box, and Marvel Universe inserts!
-
-## Features
-
-- **Complete Card Database**: Track all 647+ cards from the Marvel Spider-Man set
-- **Dual Ownership Tracking**: Mark both regular and foil versions independently
-- **Advanced Filtering**: Filter by subset, source, rarity, price range, and ownership status
-- **Multiple Sort Options**: Binder order, set number, name, price, or rarity
-- **Smart Search**: Find cards by name or collector number
-- **Collection Statistics**:
-  - Set completion percentage (unique cards)
-  - Master set tracking (regular + foil versions)
-  - Collection value calculator
-  - Real-time progress bars
-- **Export/Import**: Download and restore your collection as JSON
-- **Browser Storage**: Automatic saving using localStorage
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Spider-Man Theme**: Animated web patterns and thematic UI
-- **No Backend Required**: Runs entirely in the browser
 
 ## Quick Start
 
@@ -30,16 +12,6 @@ Track over 647 cards including Main Set, Extended Art, Borderless variants, Prom
 2. Go to Settings → Pages → Source: "GitHub Actions"
 3. Push to main branch
 4. Visit `https://your-username.github.io/Spiderman-Magic/`
-
-### Run Locally
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-Open <http://localhost:3000> to view the app.
 
 ### Run with Docker
 
@@ -100,58 +72,16 @@ Spiderman Magic/
     └── analyze-foils.js           # Analyze foil distribution
 ```
 
-## Available Filters
+## Card Sets & Subsets
 
-- **Sort By**: Binder Order, Set Number, Name, Price (Low/High), Rarity
-- **Search**: Card name or collector number
-- **Subset**: Main Set, Extended Art, Borderless, Showcase, Promos, etc.
-- **Source**: Normal Boosters, Collection Boosters, Promos, Special Inserts
-- **Rarity**: Common, Uncommon, Rare, Mythic Rare
-- **Price Range**: Minimum and maximum price
-- **Ownership**: All Cards, Owned Only, Missing Only
+The collection tracks cards from **6 sets**:
 
-## Card Subsets
-
-The collection includes these subsets:
-
-- **Main Set** (198 cards): Core set cards #1-198
-- **Extended Art**: Alternate art versions from Collection Boosters
-- **Borderless Variants**: Web-Slinger, Panel, Classic Comic styles
-- **Showcase Scenes**: Special borderless scene cards
-- **Textured Foil Costume**: Premium textured foils
-- **Special Foil Infinity Stone**: Unique promotional cards
-- **Full-Art Spiderweb Lands**: Borderless basic lands
-- **Welcome Deck**: Starter deck exclusive cards
-- **Scene Box**: Scene box exclusive cards
-- **Marvel Universe**: Special insert cards
-- **Promos**: Buy-a-Box, Bundle, and other promotional cards
-
-## Tech Stack
-
-### Frontend
-
-- React 18.2.0
-- Custom CSS with animations
-- Browser localStorage API
-- FileReader API (import/export)
-
-### Backend (Optional)
-
-- Node.js 18
-- Express 4.18.2
-- CORS support
-
-### DevOps
-
-- Docker & Docker Compose
-- GitHub Actions CI/CD
-- GitHub Pages deployment
-- Automated card validation
-
-### Data Source
-
-- Scryfall API
-- MTGGoldfish validation
+- **SPM** (Spider-Man Main Set): 345 cards including Main Set, Extended Art, Borderless variants, Showcase Scenes, Textured Foils, and Special Infinity Stone foils
+- **SPE** (Spider-Man Extras): 19 cards from Welcome Deck and Scene Box exclusives
+- **MAR** (Marvel Universe): 15 special insert cards
+- **TSPM** (Tokens): 39 token cards
+- **LMAR** (Marvel Legends Inserts): 23 special insert cards
+- **PSPM** (Promos): 206 promotional cards with 2025 date stamps
 
 ## Development
 
@@ -222,13 +152,37 @@ When running with the backend:
 
 ## Using the App
 
-1. **Browse Cards**: View all cards in the database
-2. **Search**: Find specific cards by name or number
-3. **Filter**: Use dropdowns to narrow results
-4. **Mark Owned**: Click "+ Regular" or "+ Foil" buttons
-5. **View Stats**: Check progress at the top of the page
-6. **Export**: Download collection backup
-7. **Import**: Restore from backup file
+### Main Features
+
+1. **Browse Cards**: View all 647+ cards in grid layout with card images, names, set numbers, and prices
+2. **Search**: Find specific cards by name or collector number in real-time
+3. **Filter by Set**: Multi-select filter for SPM, SPE, MAR, TSPM, LMAR, and PSPM sets
+4. **Sort Options**:
+   - Binder Order (by set, then collector number)
+   - Set Number
+   - Name (A-Z)
+   - Price (Low to High / High to Low)
+   - Rarity
+5. **Advanced Ownership Filters**:
+   - Owned (any variant)
+   - Not Owned (no variants)
+   - All Variants Owned (both regular + foil)
+   - All Variants Not Owned (missing both)
+   - Incomplete Variants (some but not all)
+6. **Mark Owned**: Click "+ Regular" or "+ Foil" buttons to track ownership
+7. **View Stats**: Real-time statistics showing:
+   - Set Completion percentage with progress bar
+   - Master Set completion (including foils)
+   - Collection Value (total market value)
+   - Per-set completion progress bars (6 bars showing % complete for each set)
+8. **Export/Import**: Backup and restore your collection data
+
+### Conditional Variant Display
+
+Cards intelligently show ownership options based on availability:
+- Cards with both regular and foil: Show both "+ Regular" and "+ Foil" buttons
+- Foil-only cards: Show only "+ Foil" button
+- Regular-only cards: Show only "+ Regular" button
 
 ## Collection Data Format
 
@@ -246,13 +200,23 @@ When running with the backend:
 
 ## Statistics Calculation
 
-- **Set Completion**: Unique cards owned ÷ total unique cards
-- **Master Set**: (Regular + Foil versions owned) ÷ total available versions
-- **Collection Value**: Sum of prices for owned cards (including foil premiums)
+### Main KPI Cards
 
-## License
+- **Set Completion**: Unique cards owned ÷ total unique cards (excludes variant counting)
+- **Master Set**: (Regular + Foil versions owned) ÷ total available versions (counts each variant separately)
+- **Collection Value**: Sum of market prices for all owned cards (uses foil prices for foil cards, regular prices for regular cards)
 
-MIT License - Feel free to fork and customize!
+### Per-Set Progress Bars
+
+Six compact progress bars show completion percentage for each set:
+- SPM (Spider-Man Main Set)
+- SPE (Extras)
+- MAR (Marvel Universe)
+- TSPM (Tokens)
+- LMAR (Legends Inserts)
+- PSPM (Promos)
+
+Progress bars automatically hide when sets are filtered out using the set filter.
 
 ## Contributing
 
