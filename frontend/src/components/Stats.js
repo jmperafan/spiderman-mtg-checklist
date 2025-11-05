@@ -36,20 +36,17 @@ function Stats({ stats }) {
           {stats.setCompletion && stats.setCompletion.length > 0 && (
             <div className="stat-item set-progress-container">
               <div className="stat-details">
-                <div className="stat-label">Set Progress</div>
                 <div className="set-progress-bars">
                   {stats.setCompletion.map(set => (
                     <div key={set.setCode} className="set-progress-item">
-                      <div className="set-progress-header">
-                        <span className="set-code">{set.setCode}</span>
-                        <span className="set-percentage">{set.percentage}%</span>
-                      </div>
+                      <span className="set-code">{set.setCode}</span>
                       <div className="set-progress-bar-container">
                         <div
                           className="set-progress-bar-fill"
                           style={{ width: `${set.percentage}%` }}
                         />
                       </div>
+                      <span className="set-percentage">{set.percentage}%</span>
                     </div>
                   ))}
                 </div>
