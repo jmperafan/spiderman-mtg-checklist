@@ -52,47 +52,67 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
         </div>
 
         <div className="filter-group">
-          <label
-            onClick={() => setIsSetExpanded(!isSetExpanded)}
-            className="filter-label-collapsible"
-          >
-            Set {isSetExpanded ? '▼' : '▶'}
-            {filters.sets?.length > 0 && (
-              <span className="selected-count"> ({filters.sets.length})</span>
-            )}
-          </label>
-          {isSetExpanded && (
-            <div className="checkbox-list">
-              <label className="checkbox-item select-all">
-                <input
-                  type="checkbox"
-                  checked={allSelected}
-                  ref={input => {
-                    if (input) input.indeterminate = someSelected;
-                  }}
-                  onChange={handleSelectAll}
-                />
-                <span className="select-all-text">Select All</span>
-              </label>
-              <div className="checkbox-divider"></div>
-              {filterOptions.sets.map(set => (
-                <label key={set} className="checkbox-item">
+          <label>Set</label>
+          <div className="tableau-filter">
+            <div className="tableau-filter-header" onClick={() => setIsSetExpanded(!isSetExpanded)}>
+              <div className="selected-pills">
+                {filters.sets?.length === 0 ? (
+                  <span className="placeholder-text">All Sets</span>
+                ) : filters.sets?.length === filterOptions.sets?.length ? (
+                  <span className="placeholder-text">All Sets</span>
+                ) : (
+                  filters.sets?.map(set => (
+                    <span key={set} className="filter-pill">
+                      {set}
+                      <button
+                        className="pill-remove"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const newSets = filters.sets.filter(s => s !== set);
+                          onFilterChange('sets', newSets);
+                        }}
+                      >
+                        ×
+                      </button>
+                    </span>
+                  ))
+                )}
+              </div>
+              <span className="dropdown-arrow">{isSetExpanded ? '▲' : '▼'}</span>
+            </div>
+            {isSetExpanded && (
+              <div className="checkbox-list">
+                <label className="checkbox-item select-all">
                   <input
                     type="checkbox"
-                    checked={filters.sets?.includes(set) || false}
-                    onChange={(e) => {
-                      const currentSets = filters.sets || [];
-                      const newSets = e.target.checked
-                        ? [...currentSets, set]
-                        : currentSets.filter(s => s !== set);
-                      onFilterChange('sets', newSets);
+                    checked={allSelected}
+                    ref={input => {
+                      if (input) input.indeterminate = someSelected;
                     }}
+                    onChange={handleSelectAll}
                   />
-                  <span>{set}</span>
+                  <span className="select-all-text">Select All</span>
                 </label>
-              ))}
-            </div>
-          )}
+                <div className="checkbox-divider"></div>
+                {filterOptions.sets.map(set => (
+                  <label key={set} className="checkbox-item">
+                    <input
+                      type="checkbox"
+                      checked={filters.sets?.includes(set) || false}
+                      onChange={(e) => {
+                        const currentSets = filters.sets || [];
+                        const newSets = e.target.checked
+                          ? [...currentSets, set]
+                          : currentSets.filter(s => s !== set);
+                        onFilterChange('sets', newSets);
+                      }}
+                    />
+                    <span>{set}</span>
+                  </label>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="filter-group">

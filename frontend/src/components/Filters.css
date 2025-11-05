@@ -109,23 +109,93 @@
   text-overflow: ellipsis;
 }
 
-.filter-label-collapsible {
-  cursor: pointer;
-  user-select: none;
+.tableau-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.tableau-filter-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(13, 71, 161, 0.4);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 42px;
+}
+
+.tableau-filter-header:hover {
+  border-color: rgba(227, 6, 19, 0.7);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.selected-pills {
+  display: flex;
+  flex-wrap: wrap;
   gap: 6px;
-  transition: color 0.2s;
+  flex: 1;
+  min-width: 0;
 }
 
-.filter-label-collapsible:hover {
-  color: rgba(227, 6, 19, 0.9);
+.placeholder-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
-.selected-count {
-  font-size: 0.7rem;
-  color: rgba(227, 6, 19, 0.9);
-  font-weight: 700;
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: rgba(227, 6, 19, 0.2);
+  border: 1px solid rgba(227, 6, 19, 0.5);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.filter-pill:hover {
+  background: rgba(227, 6, 19, 0.3);
+  border-color: rgba(227, 6, 19, 0.7);
+}
+
+.pill-remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 2px;
+}
+
+.pill-remove:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(227, 6, 19, 1);
+}
+
+.dropdown-arrow {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+  transition: transform 0.2s;
+  flex-shrink: 0;
 }
 
 .filter-input,
@@ -175,10 +245,12 @@
   gap: 8px;
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(13, 71, 161, 0.4);
-  border-radius: 6px;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
   padding: 12px;
   max-height: 200px;
   overflow-y: auto;
+  margin-top: -1px;
 }
 
 .checkbox-item {
