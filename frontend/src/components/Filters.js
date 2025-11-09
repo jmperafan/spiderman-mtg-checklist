@@ -32,7 +32,7 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
               <span></span>
             </span>
           </button>
-          <button className="reset-btn" onClick={onReset}>
+          <button className="reset-btn desktop-reset" onClick={onReset}>
             Reset All
           </button>
         </div>
@@ -183,6 +183,12 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
             <option value="all-variants-not-owned">All Variants Not Owned (missing both)</option>
             <option value="incomplete-variants">Incomplete Variants (some but not all)</option>
           </select>
+        </div>
+
+        <div className="filter-group mobile-reset-container">
+          <button className="reset-btn mobile-reset" onClick={onReset}>
+            Reset All Filters
+          </button>
         </div>
       </div>
     </div>

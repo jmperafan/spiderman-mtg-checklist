@@ -363,10 +363,24 @@
     display: block;
   }
 
+  .desktop-reset {
+    display: none;
+  }
+
+  .mobile-reset-container {
+    margin-top: 8px;
+  }
+
+  .mobile-reset {
+    width: 100%;
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+
   .filters-grid {
     display: none;
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 16px;
     position: absolute;
     top: calc(100% + 8px);
     left: 0;
@@ -374,7 +388,7 @@
     background: linear-gradient(135deg, rgba(20, 20, 26, 0.98) 0%, rgba(25, 25, 32, 0.98) 100%);
     border: 1px solid rgba(13, 71, 161, 0.5);
     border-radius: 12px;
-    padding: 16px;
+    padding: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
     z-index: 2000;
     max-height: 65vh;
@@ -401,18 +415,34 @@
     gap: 8px;
   }
 
-  .reset-btn {
-    padding: 7px 14px;
-    font-size: 0.8rem;
-  }
-
   .filter-group label {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+    margin-bottom: 2px;
   }
 
   .filter-input,
   .filter-select {
-    padding: 10px;
-    font-size: 0.9rem;
+    padding: 14px 12px;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  .tableau-filter-header {
+    min-height: 48px;
+    padding: 12px 14px;
+  }
+
+  .checkbox-item {
+    padding: 10px 12px;
+    min-height: 44px;
+  }
+
+  .checkbox-item input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+  }
+
+  .checkbox-item span {
+    font-size: 1rem;
   }
 }
