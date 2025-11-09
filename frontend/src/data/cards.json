@@ -7332,5 +7332,73 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Legendary Creature — Human Detective Hero"
+  },
+  {
+    "id": "1402d294-8772-4b13-b1d0-f4205d57208b",
+    "name": "Spider-Ham, Peter Porker",
+    "setNumber": "10",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 0.68,
+    "foilPrice": 9.76,
+    "source": [
+      "Wizards Play Network 2025"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/1/4/1402d294-8772-4b13-b1d0-f4205d57208b.jpg?1760608671",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Boar Hero"
+  },
+  {
+    "id": "a513b54a-fc86-4a8f-a427-6fe972d246a9",
+    "name": "Mary Jane Watson",
+    "setNumber": "11",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.39,
+    "foilPrice": 6.35,
+    "source": [
+      "Wizards Play Network 2025"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/a/5/a513b54a-fc86-4a8f-a427-6fe972d246a9.jpg?1760608679",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Performer"
+  },
+  {
+    "id": "2c76914f-fc3a-4cb2-b825-e92d8b801ec3",
+    "name": "Ultimate Green Goblin",
+    "setNumber": "12",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 2.05,
+    "foilPrice": 1.52,
+    "source": [
+      "Wizards Play Network 2025"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/2/c/2c76914f-fc3a-4cb2-b825-e92d8b801ec3.jpg?1760608687",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Goblin Villain"
+  },
+  {
+    "id": "1efc11ba-8fe9-45cc-9de5-bd5a577f0a87",
+    "name": "Carnage, Crimson Chaos",
+    "setNumber": "13",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 3.21,
+    "foilPrice": 33.56,
+    "source": [
+      "Wizards Play Network 2025"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/1/e/1efc11ba-8fe9-45cc-9de5-bd5a577f0a87.jpg?1760609212",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Symbiote Villain"
   }
 ]
