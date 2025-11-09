@@ -353,6 +353,10 @@
     padding: 14px 16px;
     overflow: visible;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(135deg, rgba(20, 20, 26, 0.98) 0%, rgba(25, 25, 32, 0.98) 100%);
   }
 
   .mobile-menu-toggle {
@@ -372,7 +376,7 @@
     border-radius: 12px;
     padding: 16px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
-    z-index: 1000;
+    z-index: 2000;
     max-height: 65vh;
     overflow-y: auto;
     backdrop-filter: blur(20px);

@@ -395,7 +395,8 @@
 
   .info-value.price,
   .info-value.foil-price {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    word-break: break-all;
   }
 
   .price-container {
