@@ -169,53 +169,74 @@
 }
 
 @media (max-width: 768px) {
+  .stats-container {
+    margin: 20px 0;
+  }
+
   .integrated-stats-card {
-    padding: 24px 18px;
+    padding: 16px 12px;
+    border-radius: 12px;
   }
 
   .stats-header {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
   .stat-item {
-    padding: 20px;
+    padding: 12px 10px;
+    gap: 6px;
+    border-radius: 8px;
   }
 
   .stat-icon {
-    font-size: 2.2rem;
-  }
-
-  .stat-value {
     font-size: 1.5rem;
   }
 
+  .stat-details {
+    gap: 2px;
+  }
+
+  .stat-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.5px;
+  }
+
+  .stat-value {
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+  }
+
   .stat-percentage {
-    font-size: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .stat-subtext {
+    font-size: 0.75rem;
   }
 
   .set-progress-item-container {
-    padding: 20px;
+    padding: 12px;
   }
 
   .set-progress-bars {
-    gap: 8px;
+    gap: 6px;
   }
 
   .set-progress-item {
-    grid-template-columns: 40px 1fr 40px;
-    gap: 8px;
+    grid-template-columns: 35px 1fr 35px;
+    gap: 6px;
   }
 
   .set-code {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
 
   .set-percentage {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
 
   .set-progress-bar-container {
-    height: 14px;
+    height: 12px;
   }
 }

@@ -176,31 +176,37 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 28px 16px;
+    padding: 20px 14px;
   }
 
   .title {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     letter-spacing: 0.5px;
   }
 
   .spider-icon {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .subtitle {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    margin-top: 6px;
   }
 
   .collection-actions {
-    margin-top: 18px;
-    gap: 12px;
+    margin-top: 14px;
+    gap: 10px;
   }
 
   .action-btn {
-    padding: 10px 20px;
-    font-size: 0.9rem;
+    padding: 9px 16px;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+  }
+
+  .btn-icon {
+    font-size: 1.1rem;
   }
 }
