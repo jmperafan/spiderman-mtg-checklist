@@ -24,7 +24,7 @@ const cardsByFinish = { foil: [], nonfoil: [] };
 const uniqueCardNames = new Set();
 
 cardsData.forEach(card => {
-  const setCode = inferSetCode(card);
+  const setCode = card.set || inferSetCode(card);
   if (!cardsBySet[setCode]) cardsBySet[setCode] = [];
   cardsBySet[setCode].push(card);
 
@@ -38,6 +38,10 @@ cardsData.forEach(card => {
 });
 
 function inferSetCode(card) {
+  // Use the actual set field if it exists
+  if (card.set) return card.set;
+
+  // Fallback to legacy inference for cards without set field
   if (card.subset === 'Welcome Deck') return 'SPE';
   if (card.subset === 'Scene Box') return 'SPE';
   if (card.subset === 'Marvel Universe') return 'MAR';
@@ -91,7 +95,8 @@ const collectorNumbers = {};
 let duplicateNumbers = false;
 
 cardsData.forEach(card => {
-  const key = `${inferSetCode(card)}-${card.setNumber}`;
+  const setCode = card.set || inferSetCode(card);
+  const key = `${setCode}-${card.setNumber}`;
   if (!collectorNumbers[key]) {
     collectorNumbers[key] = [];
   }
