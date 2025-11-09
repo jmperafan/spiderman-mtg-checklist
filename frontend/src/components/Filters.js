@@ -3,6 +3,7 @@ import './Filters.css';
 
 function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, onSearchChange, sortBy, onSortChange }) {
   const [isSetExpanded, setIsSetExpanded] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleSelectAll = (e) => {
     if (e.target.checked) {
@@ -19,12 +20,25 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
     <div className="filters-container">
       <div className="filters-header">
         <h2>🔍 Filters</h2>
-        <button className="reset-btn" onClick={onReset}>
-          Reset All
-        </button>
+        <div className="filters-header-actions">
+          <button
+            className="mobile-menu-toggle"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle filters menu"
+          >
+            <span className={`hamburger ${isMobileMenuOpen ? 'open' : ''}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+          <button className="reset-btn" onClick={onReset}>
+            Reset All
+          </button>
+        </div>
       </div>
 
-      <div className="filters-grid">
+      <div className={`filters-grid ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
         <div className="filter-group">
           <label>Sort By</label>
           <select

@@ -341,20 +341,51 @@
 }
 
 @media (max-width: 768px) {
+  .card {
+    border-radius: 10px;
+  }
+
+  .card-header {
+    padding: 8px 10px;
+  }
+
+  .card-number {
+    font-size: 0.8rem;
+  }
+
+  .card-rarity {
+    font-size: 0.75rem;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
   .card-name {
-    font-size: 1.04rem;
+    font-size: 0.95rem;
+    line-height: 1.3;
   }
 
   .info-row {
-    font-size: 0.84rem;
+    font-size: 0.75rem;
+    margin: 4px 0;
+  }
+
+  .card-actions {
+    gap: 6px;
+    margin-top: 8px;
   }
 
   .toggle-btn {
-    padding: 10px;
-    font-size: 0.86rem;
+    padding: 8px;
+    font-size: 0.75rem;
   }
 
   .checkmark {
-    font-size: 3.8rem;
+    font-size: 3rem;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
   }
 }
