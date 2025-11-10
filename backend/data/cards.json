@@ -6,8 +6,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.62,
-    "foilPrice": 0.71,
+    "price": 0.6,
+    "foilPrice": 0.7,
     "source": [
       "Normal Boosters"
     ],
@@ -23,8 +23,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 3.29,
-    "foilPrice": 3.29,
+    "price": 3.35,
+    "foilPrice": 3.35,
     "source": [
       "Promos"
     ],
@@ -40,8 +40,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.82,
-    "foilPrice": 1.09,
+    "price": 0.8,
+    "foilPrice": 1.14,
     "source": [
       "Collection Boosters"
     ],
@@ -57,8 +57,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Common",
-    "price": 0.38,
-    "foilPrice": 0.18,
+    "price": 0.33,
+    "foilPrice": 0.21,
     "source": [
       "Welcome Deck"
     ],
@@ -74,8 +74,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.55,
-    "foilPrice": 7.28,
+    "price": 1.33,
+    "foilPrice": 7.3,
     "source": [
       "Special Insert"
     ],
@@ -91,8 +91,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.1,
-    "foilPrice": 0.17,
+    "price": 0.06,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -108,8 +108,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Common",
-    "price": 0.25,
-    "foilPrice": 0.14,
+    "price": 0.26,
+    "foilPrice": 0.16,
     "source": [
       "Welcome Deck"
     ],
@@ -125,8 +125,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.08,
-    "foilPrice": 0.15,
+    "price": 0.05,
+    "foilPrice": 0.22,
     "source": [
       "Normal Boosters"
     ],
@@ -142,8 +142,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Rare",
-    "price": 3.82,
-    "foilPrice": 4.71,
+    "price": 3.17,
+    "foilPrice": 6.79,
     "source": [
       "Welcome Deck"
     ],
@@ -159,7 +159,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.01,
+    "price": 0.02,
     "foilPrice": 0.05,
     "source": [
       "Normal Boosters"
@@ -176,8 +176,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 10,
-    "foilPrice": 11.46,
+    "price": 8.02,
+    "foilPrice": 11.43,
     "source": [
       "Normal Boosters"
     ],
@@ -193,8 +193,8 @@
     "set": "LMAR",
     "subset": "Marvel Legends Inserts",
     "rarity": "Mythic Rare",
-    "price": 41.1,
-    "foilPrice": 41.1,
+    "price": 39.45,
+    "foilPrice": 39.45,
     "source": [
       "Marvel Legends Action Figures"
     ],
@@ -210,8 +210,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 24.32,
-    "foilPrice": 24.32,
+    "price": 24.27,
+    "foilPrice": 24.27,
     "source": [
       "Promos"
     ],
@@ -227,8 +227,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 10.29,
-    "foilPrice": 12.16,
+    "price": 10.24,
+    "foilPrice": 12.42,
     "source": [
       "Collection Boosters"
     ],
@@ -244,7 +244,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.31,
+    "price": 0.27,
     "foilPrice": 0.41,
     "source": [
       "Normal Boosters"
@@ -261,8 +261,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.5,
-    "foilPrice": 1.5,
+    "price": 1.47,
+    "foilPrice": 1.47,
     "source": [
       "Promos"
     ],
@@ -278,8 +278,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.42,
-    "foilPrice": 0.48,
+    "price": 0.4,
+    "foilPrice": 0.44,
     "source": [
       "Collection Boosters"
     ],
@@ -295,8 +295,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 9.33,
-    "foilPrice": 24.48,
+    "price": 8.1,
+    "foilPrice": 23.93,
     "source": [
       "Special Insert"
     ],
@@ -312,8 +312,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.37,
-    "foilPrice": 0.5,
+    "price": 0.34,
+    "foilPrice": 0.43,
     "source": [
       "Normal Boosters"
     ],
@@ -329,8 +329,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.8,
-    "foilPrice": 2.8,
+    "price": 2.79,
+    "foilPrice": 2.79,
     "source": [
       "Promos"
     ],
@@ -346,8 +346,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 0.76,
-    "foilPrice": 1.08,
+    "price": 0.87,
+    "foilPrice": 1.3,
     "source": [
       "Collection Boosters"
     ],
@@ -363,8 +363,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.89,
-    "foilPrice": 5.55,
+    "price": 1.54,
+    "foilPrice": 5.1,
     "source": [
       "Special Insert"
     ],
@@ -380,8 +380,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.26,
-    "foilPrice": 0.3,
+    "price": 0.15,
+    "foilPrice": 0.28,
     "source": [
       "Normal Boosters"
     ],
@@ -397,8 +397,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
-    "foilPrice": 0.12,
+    "price": 0.08,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -414,8 +414,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 4.9,
-    "foilPrice": 15.77,
+    "price": 3.68,
+    "foilPrice": 15.59,
     "source": [
       "Special Insert"
     ],
@@ -431,8 +431,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
-    "foilPrice": 0.06,
+    "price": 0.02,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -448,8 +448,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 2.5,
-    "foilPrice": 3.54,
+    "price": 2.72,
+    "foilPrice": 3.67,
     "source": [
       "Normal Boosters"
     ],
@@ -482,8 +482,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Mythic Rare",
-    "price": 3.65,
-    "foilPrice": 5.41,
+    "price": 2.85,
+    "foilPrice": 4.86,
     "source": [
       "Collection Boosters"
     ],
@@ -499,8 +499,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.3,
-    "foilPrice": 0.28,
+    "price": 0.18,
+    "foilPrice": 0.29,
     "source": [
       "Normal Boosters"
     ],
@@ -516,8 +516,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.28,
-    "foilPrice": 1.28,
+    "price": 1.2,
+    "foilPrice": 1.2,
     "source": [
       "Promos"
     ],
@@ -550,8 +550,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.59,
-    "foilPrice": 0.71,
+    "price": 0.51,
+    "foilPrice": 0.65,
     "source": [
       "Normal Boosters"
     ],
@@ -567,8 +567,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 3.29,
-    "foilPrice": 3.29,
+    "price": 3.25,
+    "foilPrice": 3.25,
     "source": [
       "Promos"
     ],
@@ -584,8 +584,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 1.49,
-    "foilPrice": 2.8,
+    "price": 1.76,
+    "foilPrice": 2.7,
     "source": [
       "Collection Boosters"
     ],
@@ -601,8 +601,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.86,
-    "foilPrice": 1.64,
+    "price": 0.96,
+    "foilPrice": 1.56,
     "source": [
       "Normal Boosters"
     ],
@@ -618,8 +618,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 7.36,
-    "foilPrice": 7.36,
+    "price": 7.29,
+    "foilPrice": 7.29,
     "source": [
       "Promos"
     ],
@@ -635,8 +635,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 2.13,
-    "foilPrice": 2.97,
+    "price": 1.67,
+    "foilPrice": 2.75,
     "source": [
       "Collection Boosters"
     ],
@@ -652,8 +652,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.43,
-    "foilPrice": 1.1,
+    "price": 0.96,
+    "foilPrice": 2.52,
     "source": [
       "Normal Boosters"
     ],
@@ -669,8 +669,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.24,
-    "foilPrice": 0.24,
+    "price": 0.26,
+    "foilPrice": 0.26,
     "source": [
       "Normal Boosters"
     ],
@@ -703,7 +703,7 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.22,
+    "price": 0.24,
     "foilPrice": 0.43,
     "source": [
       "Collection Boosters"
@@ -720,8 +720,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.07,
-    "foilPrice": 0.14,
+    "price": 0.06,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -737,8 +737,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.12,
-    "foilPrice": 5.1,
+    "price": 1.62,
+    "foilPrice": 5.28,
     "source": [
       "Special Insert"
     ],
@@ -754,8 +754,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.63,
-    "foilPrice": 5.08,
+    "price": 1.43,
+    "foilPrice": 4.29,
     "source": [
       "Special Insert"
     ],
@@ -772,7 +772,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.02,
-    "foilPrice": 0.1,
+    "foilPrice": 0.13,
     "source": [
       "Normal Boosters"
     ],
@@ -805,8 +805,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 6.21,
-    "foilPrice": 7.58,
+    "price": 6.09,
+    "foilPrice": 7.75,
     "source": [
       "Normal Boosters"
     ],
@@ -822,8 +822,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 27.65,
-    "foilPrice": 27.65,
+    "price": 26.54,
+    "foilPrice": 26.54,
     "source": [
       "Promos"
     ],
@@ -839,8 +839,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 8.63,
-    "foilPrice": 14.26,
+    "price": 8.41,
+    "foilPrice": 13.16,
     "source": [
       "Collection Boosters"
     ],
@@ -857,7 +857,7 @@
     "subset": "Main Set",
     "rarity": "Uncommon",
     "price": 0.05,
-    "foilPrice": 0.08,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -873,8 +873,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 6.91,
-    "foilPrice": 16.61,
+    "price": 6.15,
+    "foilPrice": 15.92,
     "source": [
       "Special Insert"
     ],
@@ -890,8 +890,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.17,
-    "foilPrice": 0.29,
+    "price": 0.23,
+    "foilPrice": 0.31,
     "source": [
       "Normal Boosters"
     ],
@@ -924,8 +924,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
-    "foilPrice": 0.1,
+    "price": 0.06,
+    "foilPrice": 0.09,
     "source": [
       "Normal Boosters"
     ],
@@ -941,8 +941,8 @@
     "set": "SPE",
     "subset": "Scene Box",
     "rarity": "Rare",
-    "price": 0.42,
-    "foilPrice": 0.91,
+    "price": 0.39,
+    "foilPrice": 0.93,
     "source": [
       "Scene Box"
     ],
@@ -959,7 +959,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.02,
-    "foilPrice": 0.03,
+    "foilPrice": 0.02,
     "source": [
       "Normal Boosters"
     ],
@@ -975,8 +975,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.04,
-    "foilPrice": 0.1,
+    "price": 0.07,
+    "foilPrice": 0.14,
     "source": [
       "Normal Boosters"
     ],
@@ -992,8 +992,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.4,
-    "foilPrice": 0.45,
+    "price": 0.28,
+    "foilPrice": 0.49,
     "source": [
       "Normal Boosters"
     ],
@@ -1009,8 +1009,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.77,
-    "foilPrice": 2.77,
+    "price": 2.65,
+    "foilPrice": 2.65,
     "source": [
       "Promos"
     ],
@@ -1026,8 +1026,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.48,
-    "foilPrice": 0.83,
+    "price": 0.41,
+    "foilPrice": 0.73,
     "source": [
       "Collection Boosters"
     ],
@@ -1043,8 +1043,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 1.51,
-    "foilPrice": 3.22,
+    "price": 1.74,
+    "foilPrice": 2.11,
     "source": [
       "Normal Boosters"
     ],
@@ -1077,8 +1077,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Mythic Rare",
-    "price": 2.73,
-    "foilPrice": 4.64,
+    "price": 2.03,
+    "foilPrice": 4.14,
     "source": [
       "Collection Boosters"
     ],
@@ -1094,8 +1094,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Rare",
-    "price": 2.11,
-    "foilPrice": 5.8,
+    "price": 1.38,
+    "foilPrice": 5.34,
     "source": [
       "Welcome Deck"
     ],
@@ -1111,8 +1111,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 4.87,
-    "foilPrice": 7.63,
+    "price": 3.86,
+    "foilPrice": 7.13,
     "source": [
       "Normal Boosters"
     ],
@@ -1128,8 +1128,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 19.35,
-    "foilPrice": 19.35,
+    "price": 19.46,
+    "foilPrice": 19.46,
     "source": [
       "Promos"
     ],
@@ -1145,8 +1145,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Mythic Rare",
-    "price": 5.63,
-    "foilPrice": 9.07,
+    "price": 5.4,
+    "foilPrice": 8.75,
     "source": [
       "Collection Boosters"
     ],
@@ -1162,8 +1162,8 @@
     "set": "SPM",
     "subset": "Borderless Classic Comic",
     "rarity": "Mythic Rare",
-    "price": 137.72,
-    "foilPrice": 137.72,
+    "price": 131.97,
+    "foilPrice": 131.97,
     "source": [
       "Collection Boosters"
     ],
@@ -1180,7 +1180,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.03,
-    "foilPrice": 0.07,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -1196,8 +1196,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 2.67,
-    "foilPrice": 2.89,
+    "price": 2.76,
+    "foilPrice": 2.78,
     "source": [
       "Normal Boosters"
     ],
@@ -1213,8 +1213,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 7.27,
-    "foilPrice": 7.27,
+    "price": 7.26,
+    "foilPrice": 7.26,
     "source": [
       "Promos"
     ],
@@ -1230,8 +1230,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 3.55,
-    "foilPrice": 5.47,
+    "price": 3.08,
+    "foilPrice": 4.94,
     "source": [
       "Collection Boosters"
     ],
@@ -1247,8 +1247,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.12,
+    "price": 0.03,
+    "foilPrice": 0.13,
     "source": [
       "Normal Boosters"
     ],
@@ -1264,8 +1264,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
-    "foilPrice": 0.14,
+    "price": 0.06,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -1281,8 +1281,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.8,
-    "foilPrice": 6.52,
+    "price": 2.14,
+    "foilPrice": 5.82,
     "source": [
       "Special Insert"
     ],
@@ -1298,8 +1298,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.11,
+    "price": 0.1,
+    "foilPrice": 0.14,
     "source": [
       "Normal Boosters"
     ],
@@ -1315,7 +1315,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.03,
+    "price": 0.04,
     "foilPrice": 0.04,
     "source": [
       "Normal Boosters"
@@ -1349,8 +1349,8 @@
     "set": "SPM",
     "subset": "Basic Lands",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.08,
+    "price": 0.03,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -1366,8 +1366,8 @@
     "set": "SPM",
     "subset": "Borderless",
     "rarity": "Common",
-    "price": 0.36,
-    "foilPrice": 0.33,
+    "price": 0.26,
+    "foilPrice": 0.36,
     "source": [
       "Normal Boosters",
       "Collection Boosters"
@@ -1384,8 +1384,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.3,
-    "foilPrice": 0.3,
+    "price": 0.22,
+    "foilPrice": 0.33,
     "source": [
       "Normal Boosters"
     ],
@@ -1401,8 +1401,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.1,
-    "foilPrice": 2.1,
+    "price": 1.96,
+    "foilPrice": 1.96,
     "source": [
       "Promos"
     ],
@@ -1418,8 +1418,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.26,
-    "foilPrice": 0.42,
+    "price": 0.23,
+    "foilPrice": 0.35,
     "source": [
       "Collection Boosters"
     ],
@@ -1435,8 +1435,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Rare",
-    "price": 1.1,
-    "foilPrice": 1.83,
+    "price": 1.05,
+    "foilPrice": 1.46,
     "source": [
       "Welcome Deck"
     ],
@@ -1452,7 +1452,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
+    "price": 0.04,
     "foilPrice": 0.08,
     "source": [
       "Normal Boosters"
@@ -1469,8 +1469,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Mythic Rare",
-    "price": 14.43,
-    "foilPrice": 15.78,
+    "price": 13,
+    "foilPrice": 15.33,
     "source": [
       "Welcome Deck"
     ],
@@ -1486,8 +1486,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.3,
-    "foilPrice": 6.02,
+    "price": 2.11,
+    "foilPrice": 6.21,
     "source": [
       "Special Insert"
     ],
@@ -1503,8 +1503,8 @@
     "set": "SPE",
     "subset": "Scene Box",
     "rarity": "Rare",
-    "price": 0.63,
-    "foilPrice": 0.87,
+    "price": 0.61,
+    "foilPrice": 1.04,
     "source": [
       "Scene Box"
     ],
@@ -1520,8 +1520,8 @@
     "set": "SPE",
     "subset": "Scene Box",
     "rarity": "Rare",
-    "price": 1.38,
-    "foilPrice": 2.3,
+    "price": 1.32,
+    "foilPrice": 2.31,
     "source": [
       "Scene Box"
     ],
@@ -1537,8 +1537,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.14,
-    "foilPrice": 0.17,
+    "price": 0.1,
+    "foilPrice": 0.16,
     "source": [
       "Normal Boosters"
     ],
@@ -1554,8 +1554,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Uncommon",
-    "price": 0.54,
-    "foilPrice": 0.67,
+    "price": 0.53,
+    "foilPrice": 0.65,
     "source": [
       "Welcome Deck"
     ],
@@ -1571,8 +1571,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.05,
-    "foilPrice": 0.13,
+    "price": 0.04,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -1588,7 +1588,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.04,
+    "price": 0.03,
     "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
@@ -1605,8 +1605,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 9.32,
-    "foilPrice": 10.83,
+    "price": 6.95,
+    "foilPrice": 9.01,
     "source": [
       "Normal Boosters"
     ],
@@ -1639,8 +1639,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 10.64,
-    "foilPrice": 18.51,
+    "price": 9.03,
+    "foilPrice": 16.61,
     "source": [
       "Collection Boosters"
     ],
@@ -1656,8 +1656,8 @@
     "set": "SPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 6.68,
-    "foilPrice": 6.68,
+    "price": 4.55,
+    "foilPrice": 4.55,
     "source": [
       "Promos"
     ],
@@ -1673,8 +1673,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 3.44,
-    "foilPrice": 4.99,
+    "price": 2.95,
+    "foilPrice": 4.96,
     "source": [
       "Normal Boosters"
     ],
@@ -1690,8 +1690,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 10.14,
-    "foilPrice": 10.14,
+    "price": 10.06,
+    "foilPrice": 10.06,
     "source": [
       "Promos"
     ],
@@ -1707,8 +1707,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Mythic Rare",
-    "price": 31.97,
-    "foilPrice": 86.32,
+    "price": 30.55,
+    "foilPrice": 76.57,
     "source": [
       "Collection Boosters"
     ],
@@ -1724,8 +1724,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Mythic Rare",
-    "price": 18.45,
-    "foilPrice": 33.44,
+    "price": 15.67,
+    "foilPrice": 33.96,
     "source": [
       "Collection Boosters"
     ],
@@ -1741,8 +1741,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.08,
-    "foilPrice": 0.23,
+    "price": 0.09,
+    "foilPrice": 0.26,
     "source": [
       "Normal Boosters"
     ],
@@ -1758,8 +1758,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 11.38,
-    "foilPrice": 22.47,
+    "price": 11.48,
+    "foilPrice": 20.92,
     "source": [
       "Special Insert"
     ],
@@ -1775,8 +1775,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.41,
-    "foilPrice": 3.36,
+    "price": 1.22,
+    "foilPrice": 3.42,
     "source": [
       "Special Insert"
     ],
@@ -1792,8 +1792,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.97,
-    "foilPrice": 1.3,
+    "price": 0.92,
+    "foilPrice": 1.14,
     "source": [
       "Normal Boosters"
     ],
@@ -1809,8 +1809,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 4.93,
-    "foilPrice": 4.93,
+    "price": 4.96,
+    "foilPrice": 4.96,
     "source": [
       "Promos"
     ],
@@ -1826,8 +1826,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 1.03,
-    "foilPrice": 1.56,
+    "price": 1.05,
+    "foilPrice": 1.5,
     "source": [
       "Collection Boosters"
     ],
@@ -1843,8 +1843,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.08,
-    "foilPrice": 0.18,
+    "price": 0.09,
+    "foilPrice": 0.22,
     "source": [
       "Normal Boosters"
     ],
@@ -1860,8 +1860,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
-    "foilPrice": 0.14,
+    "price": 0.09,
+    "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
     ],
@@ -1894,7 +1894,7 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 0.91,
+    "price": 0.92,
     "foilPrice": 3.63,
     "source": [
       "Special Insert"
@@ -1911,8 +1911,8 @@
     "set": "LMAR",
     "subset": "Marvel Legends Inserts",
     "rarity": "Rare",
-    "price": 27.63,
-    "foilPrice": 27.63,
+    "price": 26.04,
+    "foilPrice": 26.04,
     "source": [
       "Marvel Legends Action Figures"
     ],
@@ -1928,7 +1928,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.36,
+    "price": 0.29,
     "foilPrice": 0.47,
     "source": [
       "Normal Boosters"
@@ -1962,8 +1962,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.34,
-    "foilPrice": 0.6,
+    "price": 0.39,
+    "foilPrice": 0.67,
     "source": [
       "Collection Boosters"
     ],
@@ -1996,8 +1996,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 8.99,
-    "foilPrice": 9.62,
+    "price": 9,
+    "foilPrice": 9.22,
     "source": [
       "Normal Boosters"
     ],
@@ -2013,8 +2013,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 19.57,
-    "foilPrice": 19.57,
+    "price": 19.86,
+    "foilPrice": 19.86,
     "source": [
       "Promos"
     ],
@@ -2030,8 +2030,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 10.31,
-    "foilPrice": 13.07,
+    "price": 9.82,
+    "foilPrice": 12.63,
     "source": [
       "Collection Boosters"
     ],
@@ -2047,8 +2047,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 5.39,
-    "foilPrice": 12.29,
+    "price": 4.56,
+    "foilPrice": 11.81,
     "source": [
       "Special Insert"
     ],
@@ -2064,7 +2064,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
+    "price": 0.02,
     "foilPrice": 0.04,
     "source": [
       "Normal Boosters"
@@ -2081,8 +2081,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.28,
-    "foilPrice": 0.34,
+    "price": 0.22,
+    "foilPrice": 0.4,
     "source": [
       "Normal Boosters"
     ],
@@ -2115,8 +2115,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.28,
-    "foilPrice": 0.39,
+    "price": 0.3,
+    "foilPrice": 0.38,
     "source": [
       "Collection Boosters"
     ],
@@ -2132,8 +2132,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 1.07,
-    "foilPrice": 1.9,
+    "price": 0.95,
+    "foilPrice": 1.19,
     "source": [
       "Normal Boosters"
     ],
@@ -2149,8 +2149,8 @@
     "set": "LMAR",
     "subset": "Marvel Legends Inserts",
     "rarity": "Rare",
-    "price": 43.33,
-    "foilPrice": 43.33,
+    "price": 43.83,
+    "foilPrice": 43.83,
     "source": [
       "Marvel Legends Action Figures"
     ],
@@ -2183,8 +2183,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 1.31,
-    "foilPrice": 1.68,
+    "price": 1.29,
+    "foilPrice": 1.98,
     "source": [
       "Collection Boosters"
     ],
@@ -2200,8 +2200,8 @@
     "set": "SPM",
     "subset": "Basic Lands",
     "rarity": "Common",
-    "price": 0.06,
-    "foilPrice": 0.08,
+    "price": 0.09,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -2217,8 +2217,8 @@
     "set": "SPM",
     "subset": "Borderless",
     "rarity": "Common",
-    "price": 0.3,
-    "foilPrice": 0.27,
+    "price": 0.25,
+    "foilPrice": 0.38,
     "source": [
       "Normal Boosters",
       "Collection Boosters"
@@ -2235,8 +2235,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.41,
-    "foilPrice": 0.5,
+    "price": 0.32,
+    "foilPrice": 0.58,
     "source": [
       "Normal Boosters"
     ],
@@ -2269,8 +2269,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.56,
-    "foilPrice": 0.7,
+    "price": 0.47,
+    "foilPrice": 0.68,
     "source": [
       "Collection Boosters"
     ],
@@ -2286,8 +2286,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.27,
-    "foilPrice": 0.37,
+    "price": 0.24,
+    "foilPrice": 0.39,
     "source": [
       "Normal Boosters"
     ],
@@ -2303,8 +2303,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.79,
-    "foilPrice": 1.79,
+    "price": 1.72,
+    "foilPrice": 1.72,
     "source": [
       "Promos"
     ],
@@ -2320,8 +2320,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.29,
-    "foilPrice": 0.54,
+    "price": 0.33,
+    "foilPrice": 0.52,
     "source": [
       "Collection Boosters"
     ],
@@ -2337,8 +2337,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.05,
-    "foilPrice": 0.1,
+    "price": 0.07,
+    "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
     ],
@@ -2354,8 +2354,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.11,
+    "price": 0.09,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -2371,8 +2371,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.04,
+    "price": 0.01,
+    "foilPrice": 0.03,
     "source": [
       "Normal Boosters"
     ],
@@ -2388,8 +2388,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.13,
-    "foilPrice": 0.29,
+    "price": 0.11,
+    "foilPrice": 0.26,
     "source": [
       "Normal Boosters"
     ],
@@ -2405,8 +2405,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.22,
-    "foilPrice": 1.22,
+    "price": 1.18,
+    "foilPrice": 1.18,
     "source": [
       "Promos"
     ],
@@ -2422,8 +2422,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 0.35,
-    "foilPrice": 0.42,
+    "price": 0.29,
+    "foilPrice": 0.5,
     "source": [
       "Collection Boosters"
     ],
@@ -2439,8 +2439,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.22,
-    "foilPrice": 0.35,
+    "price": 0.17,
+    "foilPrice": 0.32,
     "source": [
       "Normal Boosters"
     ],
@@ -2473,7 +2473,7 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.22,
+    "price": 0.28,
     "foilPrice": 0.4,
     "source": [
       "Collection Boosters"
@@ -2490,8 +2490,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.71,
-    "foilPrice": 0.9,
+    "price": 0.62,
+    "foilPrice": 0.96,
     "source": [
       "Normal Boosters"
     ],
@@ -2524,8 +2524,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.92,
-    "foilPrice": 1.69,
+    "price": 1.06,
+    "foilPrice": 1.67,
     "source": [
       "Collection Boosters"
     ],
@@ -2541,8 +2541,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Rare",
-    "price": 2.52,
-    "foilPrice": 2.73,
+    "price": 2.45,
+    "foilPrice": 2.24,
     "source": [
       "Welcome Deck"
     ],
@@ -2558,8 +2558,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 0.9,
-    "foilPrice": 2.6,
+    "price": 0.94,
+    "foilPrice": 2.46,
     "source": [
       "Special Insert"
     ],
@@ -2575,8 +2575,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.11,
+    "price": 0.08,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -2592,8 +2592,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.27,
-    "foilPrice": 0.34,
+    "price": 0.24,
+    "foilPrice": 0.43,
     "source": [
       "Normal Boosters"
     ],
@@ -2609,8 +2609,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.5,
-    "foilPrice": 1.5,
+    "price": 1.51,
+    "foilPrice": 1.51,
     "source": [
       "Promos"
     ],
@@ -2626,8 +2626,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.35,
-    "foilPrice": 0.48,
+    "price": 0.33,
+    "foilPrice": 0.51,
     "source": [
       "Collection Boosters"
     ],
@@ -2643,8 +2643,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 0.73,
-    "foilPrice": 2.12,
+    "price": 0.64,
+    "foilPrice": 2.08,
     "source": [
       "Special Insert"
     ],
@@ -2660,8 +2660,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.05,
+    "price": 0.03,
+    "foilPrice": 0.04,
     "source": [
       "Normal Boosters"
     ],
@@ -2677,8 +2677,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Uncommon",
-    "price": 2.74,
-    "foilPrice": 3.25,
+    "price": 2.53,
+    "foilPrice": 4.39,
     "source": [
       "Welcome Deck"
     ],
@@ -2694,7 +2694,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.08,
+    "price": 0.04,
     "foilPrice": 0.14,
     "source": [
       "Normal Boosters"
@@ -2711,8 +2711,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.26,
-    "foilPrice": 0.36,
+    "price": 0.27,
+    "foilPrice": 0.42,
     "source": [
       "Normal Boosters"
     ],
@@ -2728,8 +2728,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.12,
-    "foilPrice": 2.12,
+    "price": 2.13,
+    "foilPrice": 2.13,
     "source": [
       "Promos"
     ],
@@ -2745,8 +2745,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 0.69,
-    "foilPrice": 0.91,
+    "price": 0.53,
+    "foilPrice": 0.79,
     "source": [
       "Collection Boosters"
     ],
@@ -2762,8 +2762,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.07,
-    "foilPrice": 0.13,
+    "price": 0.09,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -2779,8 +2779,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.43,
-    "foilPrice": 0.46,
+    "price": 0.36,
+    "foilPrice": 0.54,
     "source": [
       "Normal Boosters"
     ],
@@ -2796,8 +2796,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.42,
-    "foilPrice": 1.42,
+    "price": 1.43,
+    "foilPrice": 1.43,
     "source": [
       "Promos"
     ],
@@ -2813,8 +2813,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 1.56,
-    "foilPrice": 1.7,
+    "price": 1.19,
+    "foilPrice": 1.8,
     "source": [
       "Collection Boosters"
     ],
@@ -2830,8 +2830,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.01,
-    "foilPrice": 0.05,
+    "price": 0.03,
+    "foilPrice": 0.04,
     "source": [
       "Normal Boosters"
     ],
@@ -2847,8 +2847,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.04,
+    "price": 0.03,
+    "foilPrice": 0.03,
     "source": [
       "Normal Boosters"
     ],
@@ -2864,8 +2864,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 5.33,
-    "foilPrice": 6.57,
+    "price": 5.44,
+    "foilPrice": 6.3,
     "source": [
       "Normal Boosters"
     ],
@@ -2881,8 +2881,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 10.21,
-    "foilPrice": 10.21,
+    "price": 10.15,
+    "foilPrice": 10.15,
     "source": [
       "Promos"
     ],
@@ -2898,8 +2898,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Mythic Rare",
-    "price": 11.45,
-    "foilPrice": 21.29,
+    "price": 11.11,
+    "foilPrice": 20.73,
     "source": [
       "Collection Boosters"
     ],
@@ -2915,8 +2915,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Mythic Rare",
-    "price": 9.76,
-    "foilPrice": 20.92,
+    "price": 9.88,
+    "foilPrice": 20.61,
     "source": [
       "Collection Boosters"
     ],
@@ -2932,8 +2932,8 @@
     "set": "SPM",
     "subset": "Borderless Classic Comic",
     "rarity": "Mythic Rare",
-    "price": 45.7,
-    "foilPrice": 45.7,
+    "price": 40.36,
+    "foilPrice": 40.36,
     "source": [
       "Collection Boosters"
     ],
@@ -2949,8 +2949,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 4.14,
-    "foilPrice": 17.21,
+    "price": 4.32,
+    "foilPrice": 16.19,
     "source": [
       "Special Insert"
     ],
@@ -2966,8 +2966,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 1.66,
-    "foilPrice": 5.83,
+    "price": 1.27,
+    "foilPrice": 3.96,
     "source": [
       "Normal Boosters"
     ],
@@ -2983,8 +2983,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 6.46,
-    "foilPrice": 6.46,
+    "price": 6.58,
+    "foilPrice": 6.58,
     "source": [
       "Promos"
     ],
@@ -3000,8 +3000,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 2.78,
-    "foilPrice": 5.59,
+    "price": 2.59,
+    "foilPrice": 5.19,
     "source": [
       "Collection Boosters"
     ],
@@ -3017,8 +3017,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Uncommon",
-    "price": 0.63,
-    "foilPrice": 0.4,
+    "price": 0.58,
+    "foilPrice": 0.34,
     "source": [
       "Welcome Deck"
     ],
@@ -3051,8 +3051,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
-    "foilPrice": 0.12,
+    "price": 0.09,
+    "foilPrice": 0.16,
     "source": [
       "Normal Boosters"
     ],
@@ -3068,8 +3068,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.1,
-    "foilPrice": 0.15,
+    "price": 0.08,
+    "foilPrice": 0.17,
     "source": [
       "Normal Boosters"
     ],
@@ -3085,8 +3085,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.48,
-    "foilPrice": 0.65,
+    "price": 0.44,
+    "foilPrice": 0.47,
     "source": [
       "Normal Boosters"
     ],
@@ -3102,8 +3102,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.66,
-    "foilPrice": 1.66,
+    "price": 1.63,
+    "foilPrice": 1.63,
     "source": [
       "Promos"
     ],
@@ -3119,8 +3119,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.69,
-    "foilPrice": 0.72,
+    "price": 0.56,
+    "foilPrice": 0.91,
     "source": [
       "Collection Boosters"
     ],
@@ -3136,7 +3136,7 @@
     "set": "SPM",
     "subset": "Basic Lands",
     "rarity": "Common",
-    "price": 0.04,
+    "price": 0.05,
     "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
@@ -3153,8 +3153,8 @@
     "set": "SPM",
     "subset": "Borderless",
     "rarity": "Common",
-    "price": 0.28,
-    "foilPrice": 0.26,
+    "price": 0.32,
+    "foilPrice": 0.39,
     "source": [
       "Normal Boosters",
       "Collection Boosters"
@@ -3171,8 +3171,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 5.74,
-    "foilPrice": 7.65,
+    "price": 4.97,
+    "foilPrice": 6.48,
     "source": [
       "Normal Boosters"
     ],
@@ -3188,8 +3188,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 12.9,
-    "foilPrice": 12.9,
+    "price": 12.71,
+    "foilPrice": 12.71,
     "source": [
       "Promos"
     ],
@@ -3205,8 +3205,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Rare",
-    "price": 6.18,
-    "foilPrice": 8.22,
+    "price": 5.13,
+    "foilPrice": 7.57,
     "source": [
       "Collection Boosters"
     ],
@@ -3222,8 +3222,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.18,
-    "foilPrice": 0.21,
+    "price": 0.17,
+    "foilPrice": 0.17,
     "source": [
       "Normal Boosters"
     ],
@@ -3239,8 +3239,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.77,
-    "foilPrice": 1.77,
+    "price": 1.83,
+    "foilPrice": 1.83,
     "source": [
       "Promos"
     ],
@@ -3256,8 +3256,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.27,
-    "foilPrice": 0.35,
+    "price": 0.3,
+    "foilPrice": 0.33,
     "source": [
       "Collection Boosters"
     ],
@@ -3273,7 +3273,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
+    "price": 0.02,
     "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
@@ -3290,8 +3290,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.87,
-    "foilPrice": 9.18,
+    "price": 1.34,
+    "foilPrice": 8.89,
     "source": [
       "Special Insert"
     ],
@@ -3307,8 +3307,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 4.09,
-    "foilPrice": 17.25,
+    "price": 2.73,
+    "foilPrice": 15.22,
     "source": [
       "Special Insert"
     ],
@@ -3324,8 +3324,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.05,
+    "price": 0.03,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -3341,8 +3341,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.91,
-    "foilPrice": 9.08,
+    "price": 1.53,
+    "foilPrice": 8.34,
     "source": [
       "Special Insert"
     ],
@@ -3358,8 +3358,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 9.81,
-    "foilPrice": 12.49,
+    "price": 8.43,
+    "foilPrice": 12.12,
     "source": [
       "Normal Boosters"
     ],
@@ -3375,8 +3375,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 31.74,
-    "foilPrice": 31.74,
+    "price": 31.28,
+    "foilPrice": 31.28,
     "source": [
       "Promos"
     ],
@@ -3392,8 +3392,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Mythic Rare",
-    "price": 11.96,
-    "foilPrice": 33.33,
+    "price": 11.74,
+    "foilPrice": 32.16,
     "source": [
       "Collection Boosters"
     ],
@@ -3409,8 +3409,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.04,
-    "foilPrice": 0.07,
+    "price": 0.1,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -3426,8 +3426,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 18.93,
-    "foilPrice": 45.33,
+    "price": 17.51,
+    "foilPrice": 44.92,
     "source": [
       "Special Insert"
     ],
@@ -3443,8 +3443,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.21,
-    "foilPrice": 0.25,
+    "price": 0.22,
+    "foilPrice": 0.22,
     "source": [
       "Normal Boosters"
     ],
@@ -3460,8 +3460,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.29,
-    "foilPrice": 1.29,
+    "price": 1.22,
+    "foilPrice": 1.22,
     "source": [
       "Promos"
     ],
@@ -3477,8 +3477,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 0.38,
-    "foilPrice": 0.75,
+    "price": 0.35,
+    "foilPrice": 0.67,
     "source": [
       "Collection Boosters"
     ],
@@ -3494,7 +3494,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.88,
+    "price": 0.85,
     "foilPrice": 1.11,
     "source": [
       "Normal Boosters"
@@ -3511,8 +3511,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 4.86,
-    "foilPrice": 4.86,
+    "price": 4.78,
+    "foilPrice": 4.78,
     "source": [
       "Promos"
     ],
@@ -3528,8 +3528,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 1.02,
-    "foilPrice": 1.48,
+    "price": 1.06,
+    "foilPrice": 1.36,
     "source": [
       "Collection Boosters"
     ],
@@ -3545,7 +3545,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
+    "price": 0.02,
     "foilPrice": 0.05,
     "source": [
       "Normal Boosters"
@@ -3562,8 +3562,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 14.7,
-    "foilPrice": 19.91,
+    "price": 13.9,
+    "foilPrice": 19.02,
     "source": [
       "Special Insert"
     ],
@@ -3579,8 +3579,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.31,
-    "foilPrice": 0.38,
+    "price": 0.23,
+    "foilPrice": 0.39,
     "source": [
       "Normal Boosters"
     ],
@@ -3596,8 +3596,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.41,
-    "foilPrice": 2.41,
+    "price": 2.32,
+    "foilPrice": 2.32,
     "source": [
       "Promos"
     ],
@@ -3613,8 +3613,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.38,
-    "foilPrice": 0.58,
+    "price": 0.35,
+    "foilPrice": 0.63,
     "source": [
       "Collection Boosters"
     ],
@@ -3631,7 +3631,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.04,
-    "foilPrice": 0.05,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -3647,8 +3647,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 5.68,
-    "foilPrice": 14.13,
+    "price": 5.1,
+    "foilPrice": 13.37,
     "source": [
       "Special Insert"
     ],
@@ -3664,8 +3664,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 5.39,
-    "foilPrice": 7.47,
+    "price": 3.86,
+    "foilPrice": 6.77,
     "source": [
       "Normal Boosters"
     ],
@@ -3681,8 +3681,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 19.33,
-    "foilPrice": 19.33,
+    "price": 19.42,
+    "foilPrice": 19.42,
     "source": [
       "Promos"
     ],
@@ -3698,8 +3698,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Mythic Rare",
-    "price": 5.55,
-    "foilPrice": 8.27,
+    "price": 5.23,
+    "foilPrice": 6.74,
     "source": [
       "Collection Boosters"
     ],
@@ -3715,8 +3715,8 @@
     "set": "SPM",
     "subset": "Borderless Classic Comic",
     "rarity": "Mythic Rare",
-    "price": 80.88,
-    "foilPrice": 80.88,
+    "price": 80.17,
+    "foilPrice": 80.17,
     "source": [
       "Collection Boosters"
     ],
@@ -3732,8 +3732,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 1.54,
-    "foilPrice": 1.51,
+    "price": 1.17,
+    "foilPrice": 1.43,
     "source": [
       "Normal Boosters"
     ],
@@ -3749,8 +3749,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 4.85,
-    "foilPrice": 4.85,
+    "price": 4.78,
+    "foilPrice": 4.78,
     "source": [
       "Promos"
     ],
@@ -3766,8 +3766,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 1.28,
-    "foilPrice": 2.39,
+    "price": 0.87,
+    "foilPrice": 2.5,
     "source": [
       "Collection Boosters"
     ],
@@ -3783,8 +3783,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.12,
-    "foilPrice": 0.13,
+    "price": 0.11,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -3801,7 +3801,7 @@
     "subset": "Basic Lands",
     "rarity": "Common",
     "price": 0.06,
-    "foilPrice": 0.1,
+    "foilPrice": 0.08,
     "source": [
       "Normal Boosters"
     ],
@@ -3817,8 +3817,8 @@
     "set": "SPM",
     "subset": "Borderless",
     "rarity": "Common",
-    "price": 0.45,
-    "foilPrice": 0.37,
+    "price": 0.31,
+    "foilPrice": 0.39,
     "source": [
       "Normal Boosters",
       "Collection Boosters"
@@ -3835,8 +3835,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 5.27,
-    "foilPrice": 16.22,
+    "price": 4.39,
+    "foilPrice": 15.7,
     "source": [
       "Special Insert"
     ],
@@ -3852,8 +3852,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.09,
-    "foilPrice": 0.1,
+    "price": 0.07,
+    "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
     ],
@@ -3869,8 +3869,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.01,
-    "foilPrice": 0.07,
+    "price": 0.02,
+    "foilPrice": 0.08,
     "source": [
       "Normal Boosters"
     ],
@@ -3886,8 +3886,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.05,
-    "foilPrice": 0.13,
+    "price": 0.07,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -3920,8 +3920,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.05,
-    "foilPrice": 0.11,
+    "price": 0.04,
+    "foilPrice": 0.14,
     "source": [
       "Normal Boosters"
     ],
@@ -3937,8 +3937,8 @@
     "set": "SPE",
     "subset": "Scene Box",
     "rarity": "Rare",
-    "price": 1.29,
-    "foilPrice": 2.4,
+    "price": 1.21,
+    "foilPrice": 2.42,
     "source": [
       "Scene Box"
     ],
@@ -3954,8 +3954,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.33,
-    "foilPrice": 0.52,
+    "price": 0.39,
+    "foilPrice": 0.51,
     "source": [
       "Normal Boosters"
     ],
@@ -3988,8 +3988,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 0.46,
-    "foilPrice": 1.01,
+    "price": 0.45,
+    "foilPrice": 0.94,
     "source": [
       "Collection Boosters"
     ],
@@ -4005,8 +4005,8 @@
     "set": "SPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 0.29,
-    "foilPrice": 0.29,
+    "price": 0.3,
+    "foilPrice": 0.3,
     "source": [
       "Promos"
     ],
@@ -4022,8 +4022,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.05,
-    "foilPrice": 0.07,
+    "price": 0.04,
+    "foilPrice": 0.09,
     "source": [
       "Normal Boosters"
     ],
@@ -4039,8 +4039,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Common",
-    "price": 0.31,
-    "foilPrice": 0.18,
+    "price": 0.29,
+    "foilPrice": 0.2,
     "source": [
       "Welcome Deck"
     ],
@@ -4056,8 +4056,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 18.16,
-    "foilPrice": 50.02,
+    "price": 16.77,
+    "foilPrice": 48.35,
     "source": [
       "Special Insert"
     ],
@@ -4073,8 +4073,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.84,
-    "foilPrice": 6.33,
+    "price": 2.64,
+    "foilPrice": 6.03,
     "source": [
       "Special Insert"
     ],
@@ -4090,8 +4090,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.25,
-    "foilPrice": 0.27,
+    "price": 0.27,
+    "foilPrice": 0.24,
     "source": [
       "Normal Boosters"
     ],
@@ -4107,8 +4107,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.64,
-    "foilPrice": 1.64,
+    "price": 1.6,
+    "foilPrice": 1.6,
     "source": [
       "Promos"
     ],
@@ -4124,8 +4124,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.38,
-    "foilPrice": 0.44,
+    "price": 0.34,
+    "foilPrice": 0.46,
     "source": [
       "Collection Boosters"
     ],
@@ -4141,8 +4141,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.67,
-    "foilPrice": 5.45,
+    "price": 1.31,
+    "foilPrice": 5.09,
     "source": [
       "Special Insert"
     ],
@@ -4158,8 +4158,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.29,
-    "foilPrice": 3.39,
+    "price": 1,
+    "foilPrice": 3.48,
     "source": [
       "Special Insert"
     ],
@@ -4175,8 +4175,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.05,
-    "foilPrice": 0.19,
+    "price": 0.08,
+    "foilPrice": 0.18,
     "source": [
       "Normal Boosters"
     ],
@@ -4192,8 +4192,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.11,
-    "foilPrice": 0.14,
+    "price": 0.1,
+    "foilPrice": 0.2,
     "source": [
       "Normal Boosters"
     ],
@@ -4210,7 +4210,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.03,
-    "foilPrice": 0.1,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -4226,8 +4226,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.42,
-    "foilPrice": 7.71,
+    "price": 2.05,
+    "foilPrice": 7.26,
     "source": [
       "Special Insert"
     ],
@@ -4260,8 +4260,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.04,
-    "foilPrice": 0.05,
+    "price": 0.03,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -4277,7 +4277,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.24,
+    "price": 0.19,
     "foilPrice": 0.29,
     "source": [
       "Normal Boosters"
@@ -4294,8 +4294,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.65,
-    "foilPrice": 1.65,
+    "price": 1.6,
+    "foilPrice": 1.6,
     "source": [
       "Promos"
     ],
@@ -4311,8 +4311,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.32,
-    "foilPrice": 0.43,
+    "price": 0.29,
+    "foilPrice": 0.42,
     "source": [
       "Collection Boosters"
     ],
@@ -4328,8 +4328,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
-    "foilPrice": 0.15,
+    "price": 0.09,
+    "foilPrice": 0.21,
     "source": [
       "Normal Boosters"
     ],
@@ -4345,8 +4345,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.4,
-    "foilPrice": 0.71,
+    "price": 0.36,
+    "foilPrice": 0.54,
     "source": [
       "Normal Boosters"
     ],
@@ -4379,8 +4379,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.54,
-    "foilPrice": 0.82,
+    "price": 0.57,
+    "foilPrice": 0.8,
     "source": [
       "Collection Boosters"
     ],
@@ -4396,8 +4396,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.05,
-    "foilPrice": 0.09,
+    "price": 0.09,
+    "foilPrice": 0.08,
     "source": [
       "Normal Boosters"
     ],
@@ -4413,8 +4413,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 6.91,
-    "foilPrice": 17.61,
+    "price": 5.5,
+    "foilPrice": 17.92,
     "source": [
       "Special Insert"
     ],
@@ -4431,7 +4431,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.03,
-    "foilPrice": 0.1,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -4447,8 +4447,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 4.47,
-    "foilPrice": 10.65,
+    "price": 3.82,
+    "foilPrice": 10.23,
     "source": [
       "Special Insert"
     ],
@@ -4464,8 +4464,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.65,
-    "foilPrice": 0.74,
+    "price": 0.67,
+    "foilPrice": 0.57,
     "source": [
       "Normal Boosters"
     ],
@@ -4481,8 +4481,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.72,
-    "foilPrice": 2.72,
+    "price": 2.71,
+    "foilPrice": 2.71,
     "source": [
       "Promos"
     ],
@@ -4498,8 +4498,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 1.17,
-    "foilPrice": 1.76,
+    "price": 0.94,
+    "foilPrice": 1.58,
     "source": [
       "Collection Boosters"
     ],
@@ -4515,8 +4515,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.12,
-    "foilPrice": 0.19,
+    "price": 0.08,
+    "foilPrice": 0.21,
     "source": [
       "Normal Boosters"
     ],
@@ -4532,8 +4532,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.15,
+    "price": 0.04,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -4549,8 +4549,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.11,
+    "price": 0.04,
+    "foilPrice": 0.09,
     "source": [
       "Normal Boosters"
     ],
@@ -4567,7 +4567,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.02,
-    "foilPrice": 0.06,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -4584,7 +4584,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.03,
-    "foilPrice": 0.08,
+    "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
     ],
@@ -4600,8 +4600,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.14,
+    "price": 0.08,
+    "foilPrice": 0.16,
     "source": [
       "Normal Boosters"
     ],
@@ -4617,8 +4617,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.87,
-    "foilPrice": 0.04,
+    "price": 0.08,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -4634,8 +4634,8 @@
     "set": "SPE",
     "subset": "Scene Box",
     "rarity": "Rare",
-    "price": 2.53,
-    "foilPrice": 4.56,
+    "price": 2.24,
+    "foilPrice": 4.54,
     "source": [
       "Scene Box"
     ],
@@ -4651,8 +4651,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 1.12,
-    "foilPrice": 1.24,
+    "price": 1.06,
+    "foilPrice": 1.25,
     "source": [
       "Normal Boosters"
     ],
@@ -4668,8 +4668,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.74,
-    "foilPrice": 2.74,
+    "price": 2.71,
+    "foilPrice": 2.71,
     "source": [
       "Promos"
     ],
@@ -4685,8 +4685,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.99,
-    "foilPrice": 1.18,
+    "price": 0.94,
+    "foilPrice": 0.98,
     "source": [
       "Collection Boosters"
     ],
@@ -4702,8 +4702,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.06,
+    "price": 0.05,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -4719,8 +4719,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 0.9,
-    "foilPrice": 3.67,
+    "price": 0.72,
+    "foilPrice": 3.7,
     "source": [
       "Special Insert"
     ],
@@ -4753,8 +4753,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.05,
-    "foilPrice": 0.11,
+    "price": 0.06,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -4770,8 +4770,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 3.36,
-    "foilPrice": 8.31,
+    "price": 2.99,
+    "foilPrice": 8.03,
     "source": [
       "Special Insert"
     ],
@@ -4787,7 +4787,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.37,
+    "price": 0.4,
     "foilPrice": 0.55,
     "source": [
       "Normal Boosters"
@@ -4804,8 +4804,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.79,
-    "foilPrice": 2.79,
+    "price": 2.47,
+    "foilPrice": 2.47,
     "source": [
       "Promos"
     ],
@@ -4821,7 +4821,7 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 0.89,
+    "price": 0.82,
     "foilPrice": 1.62,
     "source": [
       "Collection Boosters"
@@ -4839,7 +4839,7 @@
     "subset": "Main Set",
     "rarity": "Uncommon",
     "price": 0.07,
-    "foilPrice": 0.15,
+    "foilPrice": 0.16,
     "source": [
       "Normal Boosters"
     ],
@@ -4856,7 +4856,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.05,
-    "foilPrice": 0.11,
+    "foilPrice": 0.93,
     "source": [
       "Normal Boosters"
     ],
@@ -4872,8 +4872,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 14.83,
-    "foilPrice": 36.01,
+    "price": 11.66,
+    "foilPrice": 35.5,
     "source": [
       "Special Insert"
     ],
@@ -4889,8 +4889,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.09,
-    "foilPrice": 0.12,
+    "price": 0.03,
+    "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
     ],
@@ -4907,7 +4907,7 @@
     "subset": "Main Set",
     "rarity": "Uncommon",
     "price": 0.11,
-    "foilPrice": 0.13,
+    "foilPrice": 0.18,
     "source": [
       "Normal Boosters"
     ],
@@ -4923,8 +4923,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Uncommon",
-    "price": 0.24,
-    "foilPrice": 0.27,
+    "price": 0.23,
+    "foilPrice": 0.28,
     "source": [
       "Collection Boosters"
     ],
@@ -4940,8 +4940,8 @@
     "set": "LMAR",
     "subset": "Marvel Legends Inserts",
     "rarity": "Rare",
-    "price": 30.56,
-    "foilPrice": 30.56,
+    "price": 29.45,
+    "foilPrice": 29.45,
     "source": [
       "Marvel Legends Action Figures"
     ],
@@ -4957,8 +4957,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 35.6,
-    "foilPrice": 35.6,
+    "price": 35.26,
+    "foilPrice": 35.26,
     "source": [
       "Promos"
     ],
@@ -4974,8 +4974,8 @@
     "set": "SPM",
     "subset": "Borderless",
     "rarity": "Rare",
-    "price": 4.73,
-    "foilPrice": 10.22,
+    "price": 4.11,
+    "foilPrice": 8.46,
     "source": [
       "Normal Boosters",
       "Collection Boosters"
@@ -5043,8 +5043,8 @@
     "set": "SPM",
     "subset": "Textured Foil Costume",
     "rarity": "Rare",
-    "price": 467.2,
-    "foilPrice": 467.2,
+    "price": 453.57,
+    "foilPrice": 453.57,
     "source": [
       "Collection Boosters"
     ],
@@ -5111,8 +5111,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.05,
-    "foilPrice": 0.11,
+    "price": 0.03,
+    "foilPrice": 0.16,
     "source": [
       "Normal Boosters"
     ],
@@ -5145,7 +5145,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
+    "price": 0.04,
     "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
@@ -5162,8 +5162,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.11,
-    "foilPrice": 0.14,
+    "price": 0.08,
+    "foilPrice": 0.13,
     "source": [
       "Normal Boosters"
     ],
@@ -5179,8 +5179,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.11,
-    "foilPrice": 0.16,
+    "price": 0.1,
+    "foilPrice": 0.18,
     "source": [
       "Normal Boosters"
     ],
@@ -5196,8 +5196,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
-    "foilPrice": 0.17,
+    "price": 0.03,
+    "foilPrice": 0.19,
     "source": [
       "Normal Boosters"
     ],
@@ -5213,8 +5213,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.77,
-    "foilPrice": 0.98,
+    "price": 0.63,
+    "foilPrice": 0.96,
     "source": [
       "Normal Boosters"
     ],
@@ -5230,8 +5230,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 3.56,
-    "foilPrice": 3.56,
+    "price": 3.49,
+    "foilPrice": 3.49,
     "source": [
       "Promos"
     ],
@@ -5247,8 +5247,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Rare",
-    "price": 1.96,
-    "foilPrice": 2.88,
+    "price": 1.51,
+    "foilPrice": 2.42,
     "source": [
       "Collection Boosters"
     ],
@@ -5264,8 +5264,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.01,
-    "foilPrice": 0.07,
+    "price": 0.02,
+    "foilPrice": 0.08,
     "source": [
       "Normal Boosters"
     ],
@@ -5281,7 +5281,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.6,
+    "price": 0.8,
     "foilPrice": 0.92,
     "source": [
       "Normal Boosters"
@@ -5298,8 +5298,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 3.75,
-    "foilPrice": 3.75,
+    "price": 3.83,
+    "foilPrice": 3.83,
     "source": [
       "Promos"
     ],
@@ -5315,8 +5315,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Rare",
-    "price": 2.52,
-    "foilPrice": 3.53,
+    "price": 2.8,
+    "foilPrice": 3.38,
     "source": [
       "Collection Boosters"
     ],
@@ -5332,8 +5332,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 2.83,
-    "foilPrice": 5.22,
+    "price": 2.98,
+    "foilPrice": 5,
     "source": [
       "Collection Boosters"
     ],
@@ -5349,8 +5349,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Mythic Rare",
-    "price": 11.79,
-    "foilPrice": 16.73,
+    "price": 11.54,
+    "foilPrice": 15.06,
     "source": [
       "Welcome Deck"
     ],
@@ -5366,8 +5366,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
-    "foilPrice": 0.14,
+    "price": 0.03,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -5383,8 +5383,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.09,
-    "foilPrice": 0.21,
+    "price": 0.1,
+    "foilPrice": 0.32,
     "source": [
       "Normal Boosters"
     ],
@@ -5417,8 +5417,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Mythic Rare",
-    "price": 24.29,
-    "foilPrice": 33.92,
+    "price": 21.41,
+    "foilPrice": 34.78,
     "source": [
       "Welcome Deck"
     ],
@@ -5434,8 +5434,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.08,
-    "foilPrice": 0.2,
+    "price": 0.11,
+    "foilPrice": 0.22,
     "source": [
       "Normal Boosters"
     ],
@@ -5451,8 +5451,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Uncommon",
-    "price": 0.25,
-    "foilPrice": 0.38,
+    "price": 0.21,
+    "foilPrice": 0.35,
     "source": [
       "Collection Boosters"
     ],
@@ -5468,8 +5468,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.04,
-    "foilPrice": 0.11,
+    "price": 0.05,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -5485,8 +5485,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Mythic Rare",
-    "price": 15.89,
-    "foilPrice": 19.34,
+    "price": 15.42,
+    "foilPrice": 20.02,
     "source": [
       "Welcome Deck"
     ],
@@ -5502,7 +5502,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.08,
+    "price": 0.07,
     "foilPrice": 0.17,
     "source": [
       "Normal Boosters"
@@ -5536,8 +5536,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 3.31,
-    "foilPrice": 3.66,
+    "price": 2.51,
+    "foilPrice": 2.71,
     "source": [
       "Normal Boosters"
     ],
@@ -5553,8 +5553,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 7.59,
-    "foilPrice": 7.59,
+    "price": 7.55,
+    "foilPrice": 7.55,
     "source": [
       "Promos"
     ],
@@ -5570,8 +5570,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Rare",
-    "price": 6.14,
-    "foilPrice": 9.06,
+    "price": 4.23,
+    "foilPrice": 7.98,
     "source": [
       "Collection Boosters"
     ],
@@ -5587,8 +5587,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 5.88,
-    "foilPrice": 11.98,
+    "price": 5.16,
+    "foilPrice": 11.55,
     "source": [
       "Collection Boosters"
     ],
@@ -5604,8 +5604,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.08,
-    "foilPrice": 0.19,
+    "price": 0.05,
+    "foilPrice": 0.23,
     "source": [
       "Normal Boosters"
     ],
@@ -5621,8 +5621,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 1.61,
-    "foilPrice": 2.75,
+    "price": 1.07,
+    "foilPrice": 2.66,
     "source": [
       "Normal Boosters"
     ],
@@ -5638,8 +5638,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 5.06,
-    "foilPrice": 5.06,
+    "price": 4.98,
+    "foilPrice": 4.98,
     "source": [
       "Promos"
     ],
@@ -5655,8 +5655,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 1.56,
-    "foilPrice": 2.71,
+    "price": 1.14,
+    "foilPrice": 2.44,
     "source": [
       "Collection Boosters"
     ],
@@ -5690,8 +5690,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.02,
-    "foilPrice": 0.12,
+    "price": 0.06,
+    "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
     ],
@@ -5707,8 +5707,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.08,
-    "foilPrice": 0.18,
+    "price": 0.09,
+    "foilPrice": 0.27,
     "source": [
       "Normal Boosters"
     ],
@@ -5724,8 +5724,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.16,
+    "price": 0.05,
+    "foilPrice": 0.19,
     "source": [
       "Normal Boosters"
     ],
@@ -5741,8 +5741,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.09,
-    "foilPrice": 0.22,
+    "price": 0.13,
+    "foilPrice": 0.27,
     "source": [
       "Normal Boosters"
     ],
@@ -5758,8 +5758,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 1.85,
-    "foilPrice": 2.6,
+    "price": 1.59,
+    "foilPrice": 2.38,
     "source": [
       "Normal Boosters"
     ],
@@ -5775,8 +5775,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 5.13,
-    "foilPrice": 5.13,
+    "price": 5.21,
+    "foilPrice": 5.21,
     "source": [
       "Promos"
     ],
@@ -5792,8 +5792,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 1.99,
-    "foilPrice": 2.72,
+    "price": 2.15,
+    "foilPrice": 2.64,
     "source": [
       "Collection Boosters"
     ],
@@ -5809,8 +5809,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 1.03,
-    "foilPrice": 1.08,
+    "price": 0.78,
+    "foilPrice": 1.21,
     "source": [
       "Normal Boosters"
     ],
@@ -5826,8 +5826,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 5.4,
-    "foilPrice": 5.4,
+    "price": 5.22,
+    "foilPrice": 5.22,
     "source": [
       "Promos"
     ],
@@ -5843,8 +5843,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 0.95,
-    "foilPrice": 1.69,
+    "price": 1.23,
+    "foilPrice": 1.82,
     "source": [
       "Collection Boosters"
     ],
@@ -5860,8 +5860,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.23,
-    "foilPrice": 0.28,
+    "price": 0.18,
+    "foilPrice": 0.25,
     "source": [
       "Normal Boosters"
     ],
@@ -5877,8 +5877,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 0.87,
-    "foilPrice": 0.87,
+    "price": 0.88,
+    "foilPrice": 0.88,
     "source": [
       "Promos"
     ],
@@ -5894,8 +5894,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.26,
-    "foilPrice": 0.37,
+    "price": 0.23,
+    "foilPrice": 0.41,
     "source": [
       "Collection Boosters"
     ],
@@ -5911,8 +5911,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.04,
-    "foilPrice": 0.05,
+    "price": 0.03,
+    "foilPrice": 0.04,
     "source": [
       "Normal Boosters"
     ],
@@ -5929,7 +5929,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.05,
-    "foilPrice": 0.05,
+    "foilPrice": 0.04,
     "source": [
       "Normal Boosters"
     ],
@@ -5945,8 +5945,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.02,
-    "foilPrice": 0.07,
+    "price": 0.03,
+    "foilPrice": 0.05,
     "source": [
       "Normal Boosters"
     ],
@@ -5962,8 +5962,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.72,
-    "foilPrice": 1.39,
+    "price": 1.01,
+    "foilPrice": 1.19,
     "source": [
       "Normal Boosters"
     ],
@@ -5979,8 +5979,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 4.01,
-    "foilPrice": 4.01,
+    "price": 3.98,
+    "foilPrice": 3.98,
     "source": [
       "Promos"
     ],
@@ -5996,8 +5996,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 1.07,
-    "foilPrice": 1.53,
+    "price": 1.2,
+    "foilPrice": 1.52,
     "source": [
       "Collection Boosters"
     ],
@@ -6014,7 +6014,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.05,
-    "foilPrice": 0.07,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -6031,7 +6031,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.03,
-    "foilPrice": 0.06,
+    "foilPrice": 0.05,
     "source": [
       "Normal Boosters"
     ],
@@ -6047,8 +6047,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.09,
-    "foilPrice": 0.14,
+    "price": 0.07,
+    "foilPrice": 0.24,
     "source": [
       "Normal Boosters"
     ],
@@ -6064,8 +6064,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
-    "foilPrice": 0.19,
+    "price": 0.09,
+    "foilPrice": 0.24,
     "source": [
       "Normal Boosters"
     ],
@@ -6081,8 +6081,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.03,
-    "foilPrice": 0.06,
+    "price": 0.05,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -6098,8 +6098,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 1.63,
-    "foilPrice": 3.42,
+    "price": 1.62,
+    "foilPrice": 2.35,
     "source": [
       "Normal Boosters"
     ],
@@ -6132,8 +6132,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 2.44,
-    "foilPrice": 4.24,
+    "price": 1.96,
+    "foilPrice": 4.15,
     "source": [
       "Collection Boosters"
     ],
@@ -6149,7 +6149,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
+    "price": 0.1,
     "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
@@ -6167,7 +6167,7 @@
     "subset": "Basic Lands",
     "rarity": "Common",
     "price": 0.06,
-    "foilPrice": 0.08,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -6183,8 +6183,8 @@
     "set": "SPM",
     "subset": "Borderless",
     "rarity": "Common",
-    "price": 0.26,
-    "foilPrice": 0.51,
+    "price": 0.36,
+    "foilPrice": 0.41,
     "source": [
       "Normal Boosters",
       "Collection Boosters"
@@ -6201,8 +6201,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.05,
-    "foilPrice": 0.1,
+    "price": 0.04,
+    "foilPrice": 0.12,
     "source": [
       "Normal Boosters"
     ],
@@ -6218,8 +6218,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Common",
-    "price": 0.3,
-    "foilPrice": 0.97,
+    "price": 0.35,
+    "foilPrice": 0.85,
     "source": [
       "Welcome Deck"
     ],
@@ -6235,8 +6235,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.53,
-    "foilPrice": 0.71,
+    "price": 0.47,
+    "foilPrice": 0.7,
     "source": [
       "Normal Boosters"
     ],
@@ -6252,8 +6252,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 4.55,
-    "foilPrice": 4.55,
+    "price": 4.48,
+    "foilPrice": 4.48,
     "source": [
       "Promos"
     ],
@@ -6269,8 +6269,8 @@
     "set": "SPM",
     "subset": "Borderless Web-Slinger",
     "rarity": "Rare",
-    "price": 1.64,
-    "foilPrice": 2.63,
+    "price": 1.17,
+    "foilPrice": 1.69,
     "source": [
       "Collection Boosters"
     ],
@@ -6286,8 +6286,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 5.64,
-    "foilPrice": 14.99,
+    "price": 4.9,
+    "foilPrice": 14.98,
     "source": [
       "Special Insert"
     ],
@@ -6303,8 +6303,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.04,
-    "foilPrice": 0.1,
+    "price": 0.02,
+    "foilPrice": 0.08,
     "source": [
       "Normal Boosters"
     ],
@@ -6320,8 +6320,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 5.43,
-    "foilPrice": 14.41,
+    "price": 4.14,
+    "foilPrice": 14.08,
     "source": [
       "Special Insert"
     ],
@@ -6337,8 +6337,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.08,
-    "foilPrice": 0.12,
+    "price": 0.07,
+    "foilPrice": 0.18,
     "source": [
       "Normal Boosters"
     ],
@@ -6354,8 +6354,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.26,
-    "foilPrice": 0.24,
+    "price": 0.17,
+    "foilPrice": 0.3,
     "source": [
       "Normal Boosters"
     ],
@@ -6371,8 +6371,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 1.62,
-    "foilPrice": 1.62,
+    "price": 1.58,
+    "foilPrice": 1.58,
     "source": [
       "Promos"
     ],
@@ -6388,8 +6388,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 0.72,
-    "foilPrice": 1.42,
+    "price": 0.55,
+    "foilPrice": 1.15,
     "source": [
       "Collection Boosters"
     ],
@@ -6405,8 +6405,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.26,
-    "foilPrice": 0.33,
+    "price": 0.27,
+    "foilPrice": 0.31,
     "source": [
       "Normal Boosters"
     ],
@@ -6422,8 +6422,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.11,
-    "foilPrice": 2.11,
+    "price": 2.1,
+    "foilPrice": 2.1,
     "source": [
       "Promos"
     ],
@@ -6439,8 +6439,8 @@
     "set": "SPM",
     "subset": "Borderless Panel",
     "rarity": "Rare",
-    "price": 0.8,
-    "foilPrice": 1.38,
+    "price": 0.99,
+    "foilPrice": 1.26,
     "source": [
       "Collection Boosters"
     ],
@@ -6456,8 +6456,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Uncommon",
-    "price": 0.46,
-    "foilPrice": 0.23,
+    "price": 0.51,
+    "foilPrice": 0.26,
     "source": [
       "Welcome Deck"
     ],
@@ -6473,8 +6473,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 61.69,
-    "foilPrice": 92.92,
+    "price": 57.59,
+    "foilPrice": 90.55,
     "source": [
       "Normal Boosters"
     ],
@@ -6490,8 +6490,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Mythic Rare",
-    "price": 157.05,
-    "foilPrice": 157.05,
+    "price": 155.23,
+    "foilPrice": 155.23,
     "source": [
       "Promos"
     ],
@@ -6524,8 +6524,8 @@
     "set": "SPM",
     "subset": "Special Foil Infinity Stone",
     "rarity": "Mythic Rare",
-    "price": 1577.19,
-    "foilPrice": 1577.19,
+    "price": 1573.79,
+    "foilPrice": 1573.79,
     "source": [
       "Collection Boosters"
     ],
@@ -6541,8 +6541,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.19,
-    "foilPrice": 0.33,
+    "price": 0.18,
+    "foilPrice": 0.3,
     "source": [
       "Normal Boosters"
     ],
@@ -6558,8 +6558,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.08,
-    "foilPrice": 2.08,
+    "price": 1.99,
+    "foilPrice": 1.99,
     "source": [
       "Promos"
     ],
@@ -6576,7 +6576,7 @@
     "subset": "Borderless Panel",
     "rarity": "Rare",
     "price": 0.36,
-    "foilPrice": 0.55,
+    "foilPrice": 0.51,
     "source": [
       "Collection Boosters"
     ],
@@ -6592,8 +6592,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
-    "foilPrice": 0.12,
+    "price": 0.11,
+    "foilPrice": 0.14,
     "source": [
       "Normal Boosters"
     ],
@@ -6609,8 +6609,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.02,
-    "foilPrice": 7.68,
+    "price": 1.94,
+    "foilPrice": 7.35,
     "source": [
       "Special Insert"
     ],
@@ -6627,7 +6627,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.03,
-    "foilPrice": 0.08,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -6643,8 +6643,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.07,
-    "foilPrice": 0.99,
+    "price": 0.08,
+    "foilPrice": 1.06,
     "source": [
       "Normal Boosters"
     ],
@@ -6660,8 +6660,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 1.66,
-    "foilPrice": 4.43,
+    "price": 1.59,
+    "foilPrice": 4.63,
     "source": [
       "Special Insert"
     ],
@@ -6694,8 +6694,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Common",
-    "price": 0.28,
-    "foilPrice": 0.25,
+    "price": 0.26,
+    "foilPrice": 0.27,
     "source": [
       "Welcome Deck"
     ],
@@ -6711,8 +6711,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.27,
-    "foilPrice": 0.42,
+    "price": 0.34,
+    "foilPrice": 0.43,
     "source": [
       "Normal Boosters"
     ],
@@ -6728,8 +6728,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.26,
-    "foilPrice": 2.26,
+    "price": 2.21,
+    "foilPrice": 2.21,
     "source": [
       "Promos"
     ],
@@ -6745,8 +6745,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.45,
-    "foilPrice": 0.49,
+    "price": 0.42,
+    "foilPrice": 0.52,
     "source": [
       "Collection Boosters"
     ],
@@ -6762,8 +6762,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 2.12,
-    "foilPrice": 5.14,
+    "price": 2.01,
+    "foilPrice": 4.98,
     "source": [
       "Special Insert"
     ],
@@ -6780,7 +6780,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.05,
-    "foilPrice": 0.09,
+    "foilPrice": 0.07,
     "source": [
       "Normal Boosters"
     ],
@@ -6796,8 +6796,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
-    "foilPrice": 0.11,
+    "price": 0.02,
+    "foilPrice": 0.1,
     "source": [
       "Normal Boosters"
     ],
@@ -6813,8 +6813,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.71,
-    "foilPrice": 0.87,
+    "price": 0.64,
+    "foilPrice": 0.83,
     "source": [
       "Normal Boosters"
     ],
@@ -6830,8 +6830,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 4.41,
-    "foilPrice": 4.41,
+    "price": 4.36,
+    "foilPrice": 4.36,
     "source": [
       "Promos"
     ],
@@ -6847,8 +6847,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.78,
-    "foilPrice": 1.47,
+    "price": 0.73,
+    "foilPrice": 1.49,
     "source": [
       "Collection Boosters"
     ],
@@ -6864,8 +6864,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Rare",
-    "price": 1.05,
-    "foilPrice": 1.72,
+    "price": 0.98,
+    "foilPrice": 1.49,
     "source": [
       "Welcome Deck"
     ],
@@ -6881,8 +6881,8 @@
     "set": "SPE",
     "subset": "Scene Box",
     "rarity": "Rare",
-    "price": 2.88,
-    "foilPrice": 5.3,
+    "price": 2.14,
+    "foilPrice": 5.16,
     "source": [
       "Scene Box"
     ],
@@ -6898,8 +6898,8 @@
     "set": "SPE",
     "subset": "Welcome Deck",
     "rarity": "Mythic Rare",
-    "price": 17.22,
-    "foilPrice": 18.94,
+    "price": 12.59,
+    "foilPrice": 18.58,
     "source": [
       "Welcome Deck"
     ],
@@ -6915,7 +6915,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.06,
+    "price": 0.08,
     "foilPrice": 0.11,
     "source": [
       "Normal Boosters"
@@ -6932,8 +6932,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.05,
-    "foilPrice": 0.11,
+    "price": 0.04,
+    "foilPrice": 0.09,
     "source": [
       "Normal Boosters"
     ],
@@ -6949,8 +6949,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
-    "foilPrice": 0.07,
+    "price": 0.02,
+    "foilPrice": 0.09,
     "source": [
       "Normal Boosters"
     ],
@@ -6966,8 +6966,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.11,
-    "foilPrice": 0.25,
+    "price": 0.18,
+    "foilPrice": 0.33,
     "source": [
       "Normal Boosters"
     ],
@@ -6983,8 +6983,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.99,
-    "foilPrice": 1.4,
+    "price": 0.73,
+    "foilPrice": 0.92,
     "source": [
       "Normal Boosters"
     ],
@@ -7000,8 +7000,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.24,
-    "foilPrice": 2.24,
+    "price": 2.22,
+    "foilPrice": 2.22,
     "source": [
       "Promos"
     ],
@@ -7017,8 +7017,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.81,
-    "foilPrice": 1.13,
+    "price": 0.67,
+    "foilPrice": 1.16,
     "source": [
       "Collection Boosters"
     ],
@@ -7034,8 +7034,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.11,
+    "price": 0.05,
+    "foilPrice": 0.13,
     "source": [
       "Normal Boosters"
     ],
@@ -7052,7 +7052,7 @@
     "subset": "Main Set",
     "rarity": "Uncommon",
     "price": 0.06,
-    "foilPrice": 0.13,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -7068,8 +7068,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Mythic Rare",
-    "price": 2.97,
-    "foilPrice": 3.49,
+    "price": 2.44,
+    "foilPrice": 3.43,
     "source": [
       "Normal Boosters"
     ],
@@ -7102,8 +7102,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Mythic Rare",
-    "price": 3.67,
-    "foilPrice": 4.3,
+    "price": 3.23,
+    "foilPrice": 4.36,
     "source": [
       "Collection Boosters"
     ],
@@ -7119,8 +7119,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.06,
-    "foilPrice": 0.12,
+    "price": 0.12,
+    "foilPrice": 0.13,
     "source": [
       "Normal Boosters"
     ],
@@ -7137,7 +7137,7 @@
     "subset": "Main Set",
     "rarity": "Common",
     "price": 0.02,
-    "foilPrice": 0.03,
+    "foilPrice": 0.05,
     "source": [
       "Normal Boosters"
     ],
@@ -7153,8 +7153,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.11,
-    "foilPrice": 0.14,
+    "price": 0.08,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -7170,8 +7170,8 @@
     "set": "SPM",
     "subset": "Showcase Scenes",
     "rarity": "Uncommon",
-    "price": 0.19,
-    "foilPrice": 0.3,
+    "price": 0.16,
+    "foilPrice": 0.32,
     "source": [
       "Collection Boosters"
     ],
@@ -7187,8 +7187,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 4.94,
-    "foilPrice": 11.77,
+    "price": 3.66,
+    "foilPrice": 11.27,
     "source": [
       "Special Insert"
     ],
@@ -7204,7 +7204,7 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
+    "price": 0.02,
     "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
@@ -7221,8 +7221,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Common",
-    "price": 0.03,
-    "foilPrice": 0.07,
+    "price": 0.02,
+    "foilPrice": 0.06,
     "source": [
       "Normal Boosters"
     ],
@@ -7238,8 +7238,8 @@
     "set": "MAR",
     "subset": "Marvel Universe",
     "rarity": "Mythic Rare",
-    "price": 4.41,
-    "foilPrice": 9.43,
+    "price": 3.38,
+    "foilPrice": 9.06,
     "source": [
       "Special Insert"
     ],
@@ -7255,8 +7255,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.11,
-    "foilPrice": 0.11,
+    "price": 0.09,
+    "foilPrice": 0.15,
     "source": [
       "Normal Boosters"
     ],
@@ -7272,8 +7272,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Rare",
-    "price": 0.47,
-    "foilPrice": 0.7,
+    "price": 0.44,
+    "foilPrice": 0.64,
     "source": [
       "Normal Boosters"
     ],
@@ -7289,8 +7289,8 @@
     "set": "PSPM",
     "subset": "Promo",
     "rarity": "Rare",
-    "price": 2.25,
-    "foilPrice": 2.25,
+    "price": 2.23,
+    "foilPrice": 2.23,
     "source": [
       "Promos"
     ],
@@ -7306,8 +7306,8 @@
     "set": "SPM",
     "subset": "Extended Art",
     "rarity": "Rare",
-    "price": 0.73,
-    "foilPrice": 0.96,
+    "price": 0.66,
+    "foilPrice": 0.81,
     "source": [
       "Collection Boosters"
     ],
@@ -7323,8 +7323,8 @@
     "set": "SPM",
     "subset": "Main Set",
     "rarity": "Uncommon",
-    "price": 0.1,
-    "foilPrice": 0.15,
+    "price": 0.11,
+    "foilPrice": 0.19,
     "source": [
       "Normal Boosters"
     ],
@@ -7332,73 +7332,5 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Legendary Creature — Human Detective Hero"
-  },
-  {
-    "id": "1402d294-8772-4b13-b1d0-f4205d57208b",
-    "name": "Spider-Ham, Peter Porker",
-    "setNumber": "10",
-    "set": "PW25",
-    "subset": "Promo",
-    "rarity": "Rare",
-    "price": 0.68,
-    "foilPrice": 9.76,
-    "source": [
-      "Wizards Play Network 2025"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/1/4/1402d294-8772-4b13-b1d0-f4205d57208b.jpg?1760608671",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Legendary Creature — Spider Boar Hero"
-  },
-  {
-    "id": "a513b54a-fc86-4a8f-a427-6fe972d246a9",
-    "name": "Mary Jane Watson",
-    "setNumber": "11",
-    "set": "PW25",
-    "subset": "Promo",
-    "rarity": "Rare",
-    "price": 2.39,
-    "foilPrice": 6.35,
-    "source": [
-      "Wizards Play Network 2025"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/a/5/a513b54a-fc86-4a8f-a427-6fe972d246a9.jpg?1760608679",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Legendary Creature — Human Performer"
-  },
-  {
-    "id": "2c76914f-fc3a-4cb2-b825-e92d8b801ec3",
-    "name": "Ultimate Green Goblin",
-    "setNumber": "12",
-    "set": "PW25",
-    "subset": "Promo",
-    "rarity": "Rare",
-    "price": 2.05,
-    "foilPrice": 1.52,
-    "source": [
-      "Wizards Play Network 2025"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/2/c/2c76914f-fc3a-4cb2-b825-e92d8b801ec3.jpg?1760608687",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Legendary Creature — Goblin Villain"
-  },
-  {
-    "id": "1efc11ba-8fe9-45cc-9de5-bd5a577f0a87",
-    "name": "Carnage, Crimson Chaos",
-    "setNumber": "13",
-    "set": "PW25",
-    "subset": "Promo",
-    "rarity": "Rare",
-    "price": 3.21,
-    "foilPrice": 33.56,
-    "source": [
-      "Wizards Play Network 2025"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/1/e/1efc11ba-8fe9-45cc-9de5-bd5a577f0a87.jpg?1760609212",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Legendary Creature — Symbiote Villain"
   }
 ]
