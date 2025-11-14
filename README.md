@@ -74,13 +74,14 @@ Spiderman Magic/
 
 ## Card Sets & Subsets
 
-The collection tracks cards from **6 sets**:
+The collection tracks cards from **7 sets**:
 
 - **SPM** (Spider-Man Main Set): 345 cards including Main Set, Extended Art, Borderless variants, Showcase Scenes, Textured Foils, and Special Infinity Stone foils
 - **SPE** (Spider-Man Extras): 19 cards from Welcome Deck and Scene Box exclusives
 - **MAR** (Marvel Universe): 15 special insert cards
 - **TSPM** (Tokens): 39 token cards
 - **LMAR** (Marvel Legends Inserts): 23 special insert cards
+- **ASPM** (Art Series): 50 art-only special cards featuring artwork from the set
 - **PSPM** (Promos): 206 promotional cards with 2025 date stamps
 
 ## Development
@@ -92,6 +93,19 @@ Fetch latest card data from Scryfall:
 ```bash
 npm run fetch-cards
 ```
+
+### Add Art Series Cards
+
+The Art Series cards are not yet available in Scryfall's API. To add them manually:
+
+1. Edit `scripts/add-art-series.js` and replace the placeholder data with actual card information from TCGPlayer
+1. Run the script:
+
+```bash
+node scripts/add-art-series.js
+```
+
+1. Restart the application to see the Art Series cards
 
 ### Validate Card Data
 

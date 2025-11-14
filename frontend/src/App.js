@@ -138,7 +138,8 @@ function App() {
             'MAR': 3,   // Marvel Universe crossover
             'TSPM': 4,  // Tokens
             'LMAR': 5,  // Marvel Legends Inserts
-            'PSPM': 6   // Promos
+            'ASPM': 6,  // Art Series
+            'PSPM': 7   // Promos
           };
           return setOrder[set] || 999;
         };

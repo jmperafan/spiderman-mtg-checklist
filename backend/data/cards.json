@@ -7400,5 +7400,855 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Legendary Creature — Symbiote Villain"
+  },
+  {
+    "id": "aspm-001",
+    "name": "Flash Thompson, Spider-Fan",
+    "setNumber": "1",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.83,
+    "foilPrice": 1.2449999999999999,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Flash%20Thompson%2C%20Spider-Fan",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-002",
+    "name": "Friendly Neighborhood",
+    "setNumber": "2",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 2.25,
+    "foilPrice": 3.375,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Friendly%20Neighborhood",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-003",
+    "name": "Peter Parker",
+    "setNumber": "3",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.25,
+    "foilPrice": 1.875,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Peter%20Parker",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-004",
+    "name": "Spider-Man, Web-Slinger",
+    "setNumber": "4",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 2.2,
+    "foilPrice": 3.3000000000000003,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Man%2C%20Web-Slinger",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-005",
+    "name": "Chameleon, Master of Disguise",
+    "setNumber": "5",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.38,
+    "foilPrice": 2.07,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Chameleon%2C%20Master%20of%20Disguise",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-007",
+    "name": "Behold the Sinister Six!",
+    "setNumber": "7",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.67,
+    "foilPrice": 1.0050000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Behold%20the%20Sinister%20Six!",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-008",
+    "name": "Gwenom, Remorseless",
+    "setNumber": "8",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.66,
+    "foilPrice": 2.4899999999999998,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Gwenom%2C%20Remorseless",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-009",
+    "name": "Morlun, Devourer of Spiders",
+    "setNumber": "9",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.56,
+    "foilPrice": 2.34,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Morlun%2C%20Devourer%20of%20Spiders",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-010",
+    "name": "The Soul Stone",
+    "setNumber": "10",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.37,
+    "foilPrice": 2.055,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=The%20Soul%20Stone",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-011",
+    "name": "Swarm, Being of Bees",
+    "setNumber": "11",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.28,
+    "foilPrice": 1.92,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Swarm%2C%20Being%20of%20Bees",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-012",
+    "name": "Venom, Evil Unleashed",
+    "setNumber": "12",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.67,
+    "foilPrice": 1.0050000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Venom%2C%20Evil%20Unleashed",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-013",
+    "name": "Gwen Stacy",
+    "setNumber": "13",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.85,
+    "foilPrice": 1.275,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Gwen%20Stacy",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-014",
+    "name": "Heroes' Hangout",
+    "setNumber": "14",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.65,
+    "foilPrice": 0.9750000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Heroes'%20Hangout",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-015",
+    "name": "Hobgoblin, Mantled Marauder",
+    "setNumber": "15",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.85,
+    "foilPrice": 1.275,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Hobgoblin%2C%20Mantled%20Marauder",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-016",
+    "name": "Wisecrack",
+    "setNumber": "16",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.02,
+    "foilPrice": 1.53,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Wisecrack",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-017",
+    "name": "Kapow!",
+    "setNumber": "17",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.02,
+    "foilPrice": 1.53,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Kapow!",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-018",
+    "name": "Lizard, Connors's Curse",
+    "setNumber": "18",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.92,
+    "foilPrice": 1.3800000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Lizard%2C%20Connors's%20Curse",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-019",
+    "name": "Spider-Ham, Peter Porker",
+    "setNumber": "19",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.54,
+    "foilPrice": 2.31,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Ham%2C%20Peter%20Porker",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-020",
+    "name": "Spider-Man, Brooklyn Visionary",
+    "setNumber": "20",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.63,
+    "foilPrice": 0.9450000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Man%2C%20Brooklyn%20Visionary",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-021",
+    "name": "Spiders-Man, Heroic Horde",
+    "setNumber": "21",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.02,
+    "foilPrice": 1.53,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spiders-Man%2C%20Heroic%20Horde",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-022",
+    "name": "Strength of Will",
+    "setNumber": "22",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 2.55,
+    "foilPrice": 3.8249999999999997,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Strength%20of%20Will",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-023",
+    "name": "Terrific Team-Up",
+    "setNumber": "23",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.87,
+    "foilPrice": 1.305,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Terrific%20Team-Up",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-025",
+    "name": "Doctor Octopus, Master Planner",
+    "setNumber": "25",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.68,
+    "foilPrice": 1.02,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Doctor%20Octopus%2C%20Master%20Planner",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-026",
+    "name": "Green Goblin",
+    "setNumber": "26",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.77,
+    "foilPrice": 1.155,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Green%20Goblin",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-027",
+    "name": "Green Goblin, Revenant",
+    "setNumber": "27",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.99,
+    "foilPrice": 1.4849999999999999,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Green%20Goblin%2C%20Revenant",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-028",
+    "name": "Kraven, Proud Predator",
+    "setNumber": "28",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.93,
+    "foilPrice": 1.395,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Kraven%2C%20Proud%20Predator",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-030",
+    "name": "Spider-Man 2099",
+    "setNumber": "30",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.1,
+    "foilPrice": 1.6500000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Man%202099",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-031",
+    "name": "Spider-Man India",
+    "setNumber": "31",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.66,
+    "foilPrice": 0.99,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Man%20India",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-032",
+    "name": "Superior Spider-Man",
+    "setNumber": "32",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1,
+    "foilPrice": 1.5,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Superior%20Spider-Man",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-033",
+    "name": "Peter Parker",
+    "setNumber": "33",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 2.27,
+    "foilPrice": 3.4050000000000002,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Peter%20Parker",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-034",
+    "name": "Gwen Stacy",
+    "setNumber": "34",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 2.8,
+    "foilPrice": 4.199999999999999,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Gwen%20Stacy",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-035",
+    "name": "Miles Morales",
+    "setNumber": "35",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.89,
+    "foilPrice": 1.335,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Miles%20Morales",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-036",
+    "name": "Amazing Spider-Man",
+    "setNumber": "36",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.96,
+    "foilPrice": 1.44,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Amazing%20Spider-Man",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-037",
+    "name": "Arana, Heart of the Spider",
+    "setNumber": "37",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.75,
+    "foilPrice": 1.125,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Arana%2C%20Heart%20of%20the%20Spider",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-038",
+    "name": "Scarlet Spider, Ben Reilly",
+    "setNumber": "38",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.59,
+    "foilPrice": 0.885,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Scarlet%20Spider%2C%20Ben%20Reilly",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-039",
+    "name": "Silk, Web Weaver",
+    "setNumber": "39",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.68,
+    "foilPrice": 2.52,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Silk%2C%20Web%20Weaver",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-040",
+    "name": "Symbiote Spider-Man",
+    "setNumber": "40",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.16,
+    "foilPrice": 1.7399999999999998,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Symbiote%20Spider-Man",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-041",
+    "name": "Ultimate Spider-Man",
+    "setNumber": "41",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.97,
+    "foilPrice": 1.455,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Ultimate%20Spider-Man",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-043",
+    "name": "Norman Osborn",
+    "setNumber": "43",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.21,
+    "foilPrice": 1.815,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Norman%20Osborn",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-044",
+    "name": "Black Cat, Cunning Thief",
+    "setNumber": "44",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.07,
+    "foilPrice": 1.605,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Black%20Cat%2C%20Cunning%20Thief",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-045",
+    "name": "Behold the Sinister Six!",
+    "setNumber": "45",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.1,
+    "foilPrice": 1.6500000000000001,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Behold%20the%20Sinister%20Six!",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-046",
+    "name": "Maximum Carnage",
+    "setNumber": "46",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.22,
+    "foilPrice": 1.83,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Maximum%20Carnage",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-047",
+    "name": "Carnage, Crimson Chaos",
+    "setNumber": "47",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.87,
+    "foilPrice": 1.305,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Carnage%2C%20Crimson%20Chaos",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-048",
+    "name": "Doctor Octopus, Master Planner",
+    "setNumber": "48",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 2.02,
+    "foilPrice": 3.0300000000000002,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Doctor%20Octopus%2C%20Master%20Planner",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-049",
+    "name": "Green Goblin",
+    "setNumber": "49",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.69,
+    "foilPrice": 2.535,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Green%20Goblin",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-050",
+    "name": "Mary Jane Watson",
+    "setNumber": "50",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.9,
+    "foilPrice": 1.35,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Mary%20Jane%20Watson",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-051",
+    "name": "Spider-Woman, Stunning Savior",
+    "setNumber": "51",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.18,
+    "foilPrice": 1.77,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Woman%2C%20Stunning%20Savior",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-052",
+    "name": "Spectacular Spider-Man (Black)",
+    "setNumber": "52",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 1.21,
+    "foilPrice": 1.815,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spectacular%20Spider-Man%20(Black)",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-053",
+    "name": "Spider-Man, Peter Parker",
+    "setNumber": "53",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.6,
+    "foilPrice": 0.8999999999999999,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Spider-Man%2C%20Peter%20Parker",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  },
+  {
+    "id": "aspm-054",
+    "name": "Grendel, Spawn of Knull",
+    "setNumber": "54",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.93,
+    "foilPrice": 1.395,
+    "source": [
+      "Art Series Packs"
+    ],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Grendel%2C%20Spawn%20of%20Knull",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
   }
 ]

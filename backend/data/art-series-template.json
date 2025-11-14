@@ -1,0 +1,17 @@
+[
+  {
+    "id": "aspm-001",
+    "name": "Art Series Card 1",
+    "setNumber": "1",
+    "set": "ASPM",
+    "subset": "Art Series",
+    "rarity": "Common",
+    "price": 0.25,
+    "foilPrice": 0.50,
+    "source": ["Art Series Packs"],
+    "imageUrl": "https://via.placeholder.com/250x350/1a1a2e/dc143c?text=Art+Series+1",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Art Card"
+  }
+]
