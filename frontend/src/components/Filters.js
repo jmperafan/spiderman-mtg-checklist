@@ -177,11 +177,11 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
             className="filter-select"
           >
             <option value="">All Cards</option>
-            <option value="owned">Owned (any variant)</option>
-            <option value="not-owned">Not Owned (no variants)</option>
-            <option value="all-variants-owned">All Variants Owned (regular + foil)</option>
-            <option value="all-variants-not-owned">All Variants Not Owned (missing both)</option>
-            <option value="incomplete-variants">Incomplete Variants (some but not all)</option>
+            <option value="owned">Owned (at least one variant)</option>
+            <option value="not-owned">Not owned (no variants owned)</option>
+            <option value="all-variants-owned">All variants owned</option>
+            <option value="foil">Foil</option>
+            <option value="regular">Regular</option>
           </select>
         </div>
       </div>

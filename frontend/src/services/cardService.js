@@ -59,23 +59,13 @@ class CardService {
             }
             return false;
 
-          case 'all-variants-not-owned':
-            // Missing all available variants
-            if (card.hasNonfoil && card.hasFoil) {
-              return !card.owned && !card.ownedFoil;
-            } else if (card.hasNonfoil) {
-              return !card.owned;
-            } else if (card.hasFoil) {
-              return !card.ownedFoil;
-            }
-            return false;
+          case 'foil':
+            // Owns the foil variant
+            return card.ownedFoil;
 
-          case 'incomplete-variants':
-            // Has some but not all variants (only applies to cards with both variants)
-            if (card.hasNonfoil && card.hasFoil) {
-              return (card.owned && !card.ownedFoil) || (!card.owned && card.ownedFoil);
-            }
-            return false;
+          case 'regular':
+            // Owns the regular variant
+            return card.owned;
 
           // Legacy support for old filter values
           case 'true':
