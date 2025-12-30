@@ -8,14 +8,31 @@ import cardService from './services/cardService';
 import storageService from './services/storageService';
 
 function App() {
+  // Helper function to parse filters from URL
+  const getFiltersFromURL = () => {
+    const params = new URLSearchParams(window.location.search);
+    const urlFilters = {
+      sets: params.get('sets') ? params.get('sets').split(',') : [],
+      rarity: params.get('rarity') || '',
+      minPrice: params.get('minPrice') || '',
+      maxPrice: params.get('maxPrice') || '',
+      owned: params.get('owned') || ''
+    };
+    return urlFilters;
+  };
+
+  const getSearchFromURL = () => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('search') || '';
+  };
+
+  const getSortFromURL = () => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('sort') || 'binderOrder';
+  };
+
   const [cards, setCards] = useState([]);
-  const [filters, setFilters] = useState({
-    sets: [],
-    rarity: '',
-    minPrice: '',
-    maxPrice: '',
-    owned: ''
-  });
+  const [filters, setFilters] = useState(getFiltersFromURL());
   const [stats, setStats] = useState({
     totalCards: 0,
     ownedCards: 0,
@@ -28,8 +45,51 @@ function App() {
     rarities: []
   });
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [sortBy, setSortBy] = useState('binderOrder');
+  const [searchTerm, setSearchTerm] = useState(getSearchFromURL());
+  const [sortBy, setSortBy] = useState(getSortFromURL());
+
+  // Update URL when filters, search, or sort change
+  useEffect(() => {
+    const params = new URLSearchParams();
+
+    if (filters.sets.length > 0) {
+      params.set('sets', filters.sets.join(','));
+    }
+    if (filters.rarity) {
+      params.set('rarity', filters.rarity);
+    }
+    if (filters.minPrice) {
+      params.set('minPrice', filters.minPrice);
+    }
+    if (filters.maxPrice) {
+      params.set('maxPrice', filters.maxPrice);
+    }
+    if (filters.owned) {
+      params.set('owned', filters.owned);
+    }
+    if (searchTerm) {
+      params.set('search', searchTerm);
+    }
+    if (sortBy !== 'binderOrder') {
+      params.set('sort', sortBy);
+    }
+
+    const queryString = params.toString();
+    const newUrl = queryString ? `?${queryString}` : window.location.pathname;
+    window.history.replaceState({}, '', newUrl);
+  }, [filters, searchTerm, sortBy]);
+
+  // Listen for browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      setFilters(getFiltersFromURL());
+      setSearchTerm(getSearchFromURL());
+      setSortBy(getSortFromURL());
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   useEffect(() => {
     loadData();
