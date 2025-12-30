@@ -21,33 +21,45 @@ async function fetchAllCards() {
 
     console.log(`Found ${data.data.length} cards in this page`);
 
-    cards.push(...data.data.map(card => {
-      let imageUrl = null;
-      if (card.image_uris) {
-        imageUrl = card.image_uris.large || card.image_uris.normal;
-      } else if (card.card_faces && card.card_faces.length > 0 && card.card_faces[0].image_uris) {
-        imageUrl = card.card_faces[0].image_uris.large || card.card_faces[0].image_uris.normal;
-      }
-      if (!imageUrl) {
-        imageUrl = 'https://via.placeholder.com/250x350/1a1a2e/dc143c?text=' + encodeURIComponent(card.name);
-      }
+    cards.push(...data.data
+      .filter(card => {
+        // Filter out MAR cards with collector number > 40 (non-Spider-Man cards)
+        if (card.set.toUpperCase() === 'MAR') {
+          const collectorNum = parseInt(card.collector_number);
+          if (collectorNum > 40) {
+            console.log(`Skipping MAR card ${card.collector_number}: ${card.name} (not Spider-Man)`);
+            return false;
+          }
+        }
+        return true;
+      })
+      .map(card => {
+        let imageUrl = null;
+        if (card.image_uris) {
+          imageUrl = card.image_uris.large || card.image_uris.normal;
+        } else if (card.card_faces && card.card_faces.length > 0 && card.card_faces[0].image_uris) {
+          imageUrl = card.card_faces[0].image_uris.large || card.card_faces[0].image_uris.normal;
+        }
+        if (!imageUrl) {
+          imageUrl = 'https://via.placeholder.com/250x350/1a1a2e/dc143c?text=' + encodeURIComponent(card.name);
+        }
 
-      return {
-        id: card.id,
-        name: card.name,
-        setNumber: card.collector_number,
-        set: card.set.toUpperCase(),
-        subset: getSubset(card),
-        rarity: capitalizeRarity(card.rarity),
-        price: parseFloat(card.prices.usd || card.prices.usd_foil || card.prices.eur || card.prices.eur_foil || 0.25),
-        foilPrice: parseFloat(card.prices.usd_foil || card.prices.eur_foil || 0),
-        source: getSource(card),
-        imageUrl: imageUrl,
-        hasFoil: (card.finishes || []).includes('foil'),
-        hasNonfoil: (card.finishes || []).includes('nonfoil'),
-        type_line: card.type_line || ''
-      };
-    }));
+        return {
+          id: card.id,
+          name: card.name,
+          setNumber: card.collector_number,
+          set: card.set.toUpperCase(),
+          subset: getSubset(card),
+          rarity: capitalizeRarity(card.rarity),
+          price: parseFloat(card.prices.usd || card.prices.usd_foil || card.prices.eur || card.prices.eur_foil || 0.25),
+          foilPrice: parseFloat(card.prices.usd_foil || card.prices.eur_foil || 0),
+          source: getSource(card),
+          imageUrl: imageUrl,
+          hasFoil: (card.finishes || []).includes('foil'),
+          hasNonfoil: (card.finishes || []).includes('nonfoil'),
+          type_line: card.type_line || ''
+        };
+      }));
 
     url = data.has_more ? data.next_page : null;
 

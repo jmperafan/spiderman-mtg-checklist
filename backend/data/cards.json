@@ -663,23 +663,6 @@
     "type_line": "Legendary Creature — Human Shapeshifter Villain"
   },
   {
-    "id": "2a6c3d3b-93ec-43df-a0cd-ea12ab047d51",
-    "name": "Chaos Warp",
-    "setNumber": "69",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/2/a/2a6c3d3b-93ec-43df-a0cd-ea12ab047d51.jpg?1765297129",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
-  },
-  {
     "id": "5fbce72f-e9a1-4d9f-b9b3-24dbafeef841",
     "name": "Cheering Crowd",
     "setNumber": "126",
@@ -950,40 +933,6 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Creature — Human Citizen"
-  },
-  {
-    "id": "ee10e249-5000-4348-8e8e-6b9ac879db12",
-    "name": "Dauthi Voidwalker",
-    "setNumber": "63",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/e/e/ee10e249-5000-4348-8e8e-6b9ac879db12.jpg?1765296132",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Creature — Dauthi Rogue"
-  },
-  {
-    "id": "87c899c1-401f-4090-8f71-307e7106cdf2",
-    "name": "Dig Through Time",
-    "setNumber": "54",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/8/7/87c899c1-401f-4090-8f71-307e7106cdf2.jpg?1765295172",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
   },
   {
     "id": "ad287357-9602-4090-8feb-6f658f2a47b0",
@@ -1309,40 +1258,6 @@
     "type_line": "Sorcery"
   },
   {
-    "id": "621e3239-b527-4154-bce6-b51241809fc5",
-    "name": "Ephemerate",
-    "setNumber": "44",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/6/2/621e3239-b527-4154-bce6-b51241809fc5.jpg?1765295169",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
-  },
-  {
-    "id": "f6bcf690-c532-4d2d-8458-78a5613a6090",
-    "name": "Extinction Event",
-    "setNumber": "65",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 49.99,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/f/6/f6bcf690-c532-4d2d-8458-78a5613a6090.jpg?1765713722",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Sorcery"
-  },
-  {
     "id": "bb7c3ae2-6b01-4472-8bd1-9a7456401ddc",
     "name": "Ezekiel Sims, Spider-Totem",
     "setNumber": "100",
@@ -1426,23 +1341,6 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Token Artifact — Food"
-  },
-  {
-    "id": "e507e356-6241-4347-bd56-e0609954f378",
-    "name": "Force of Vigor",
-    "setNumber": "77",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/e/5/e507e356-6241-4347-bd56-e0609954f378.jpg?1765296140",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
   },
   {
     "id": "c4fec728-8e3f-427d-81ab-e06114910223",
@@ -1837,23 +1735,6 @@
     "type_line": "Legendary Creature — Human Performer Hero // Legendary Creature — Spider Human Hero"
   },
   {
-    "id": "cd8c028c-82bb-4d47-a9cb-ed34c25f2599",
-    "name": "Harbinger of the Seas",
-    "setNumber": "55",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/c/d/cd8c028c-82bb-4d47-a9cb-ed34c25f2599.jpg?1765295175",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Creature — Merfolk Wizard"
-  },
-  {
     "id": "4148d7e8-6371-468c-858b-35254995409a",
     "name": "Heroes' Hangout",
     "setNumber": "79",
@@ -1869,57 +1750,6 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Sorcery"
-  },
-  {
-    "id": "12edbdcc-085f-48c8-9605-3c7e3fe63bc7",
-    "name": "Heroic Intervention",
-    "setNumber": "78",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/1/2/12edbdcc-085f-48c8-9605-3c7e3fe63bc7.jpg?1765296144",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
-  },
-  {
-    "id": "a51d8579-a99c-417b-ba71-7f2204ebea2a",
-    "name": "Heroic Intervention",
-    "setNumber": "79",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/a/5/a51d8579-a99c-417b-ba71-7f2204ebea2a.jpg?1765296146",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
-  },
-  {
-    "id": "4208a5fd-4ca9-4648-883e-5dfe02746e68",
-    "name": "Heroic Intervention",
-    "setNumber": "80",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/4/2/4208a5fd-4ca9-4648-883e-5dfe02746e68.jpg?1765296150",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Instant"
   },
   {
     "id": "5fb701f6-bfad-4b43-9a0f-85496973d849",
@@ -2022,23 +1852,6 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Legendary Creature — Goblin Human Villain"
-  },
-  {
-    "id": "e37487e4-c553-4495-a839-6a96209eaaa1",
-    "name": "Horn of Greed",
-    "setNumber": "98",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/e/3/e37487e4-c553-4495-a839-6a96209eaaa1.jpg?1765296152",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Artifact"
   },
   {
     "id": "6ee3b883-e9f5-426f-a2ea-96fe9ff3aba9",
@@ -2824,23 +2637,6 @@
     "type_line": "Legendary Creature — Lizard Villain"
   },
   {
-    "id": "2e26f6c6-c043-4b71-ab90-584dceeec092",
-    "name": "Lord of Atlantis",
-    "setNumber": "56",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/2/e/2e26f6c6-c043-4b71-ab90-584dceeec092.jpg?1765295156",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Creature — Merfolk"
-  },
-  {
     "id": "deda48c4-527f-4367-83ed-3b3c30beaab8",
     "name": "Lorthos, the Tidemaker",
     "setNumber": "10",
@@ -2975,23 +2771,6 @@
     "hasFoil": true,
     "hasNonfoil": true,
     "type_line": "Creature — Spider Cat Hero"
-  },
-  {
-    "id": "7cdd99ba-b96c-4808-89fc-ba675c546779",
-    "name": "Massacre Girl",
-    "setNumber": "67",
-    "set": "MAR",
-    "subset": "Marvel Universe",
-    "rarity": "Mythic Rare",
-    "price": 0.25,
-    "foilPrice": 0,
-    "source": [
-      "Special Insert"
-    ],
-    "imageUrl": "https://cards.scryfall.io/large/front/7/c/7cdd99ba-b96c-4808-89fc-ba675c546779.jpg?1765296134",
-    "hasFoil": true,
-    "hasNonfoil": true,
-    "type_line": "Legendary Creature — Human Assassin"
   },
   {
     "id": "7d72d867-6ed2-4900-a8ae-9d86f581ce32",
