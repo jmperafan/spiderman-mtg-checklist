@@ -3,7 +3,44 @@ const fs = require('fs');
 
 async function fetchAllCards() {
   const cards = [];
-  let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar+OR+set:tspm+OR+set:lmar+OR+set:pspm&unique=prints&format=json';
+
+  // Spider-Man promo cards from other sets (by Scryfall URL)
+  const spiderManPromos = [
+    'https://scryfall.com/card/pspl/6/spectacular-spider-man',
+    'https://scryfall.com/card/pw25/10/spider-ham-peter-porker',
+    'https://scryfall.com/card/pw25/11/mary-jane-watson',
+    'https://scryfall.com/card/pw25/13/carnage-crimson-chaos',
+    'https://scryfall.com/card/pf25/17/j-jonah-jameson',
+    'https://scryfall.com/card/pmei/2025-22/peter-parker-amazing-spider-man',
+    'https://scryfall.com/card/pmei/2025-23/spider-man-miles-morales'
+  ];
+
+  // Fetch Spider-Man promo cards
+  console.log('Fetching Spider-Man promo cards from other sets...');
+  for (const promoUrl of spiderManPromos) {
+    try {
+      // Extract set and collector number from Scryfall URL
+      // URL format: https://scryfall.com/card/SET/NUMBER/name
+      const parts = promoUrl.split('/');
+      const setCode = parts[4];
+      const collectorNumber = parts[5];
+      const apiUrl = `https://api.scryfall.com/cards/${setCode}/${collectorNumber}`;
+      console.log(`Fetching promo: ${apiUrl}`);
+      const card = await fetchUrl(apiUrl);
+
+      if (card && card.id) {
+        cards.push(processCard(card));
+        console.log(`Added promo: ${card.name} (${card.set.toUpperCase()} ${card.collector_number})`);
+      }
+
+      await sleep(100); // Rate limiting
+    } catch (error) {
+      console.error(`Error fetching promo ${promoUrl}:`, error.message);
+    }
+  }
+
+  // Fetch main Spider-Man sets
+  let url = 'https://api.scryfall.com/cards/search?q=set:spm+OR+set:spe+OR+set:mar+OR+set:tspm+OR+set:lmar+OR+set:pspm+OR+set:aspm&unique=prints&format=json';
 
   while (url) {
     console.log('Fetching:', url);
@@ -33,33 +70,7 @@ async function fetchAllCards() {
         }
         return true;
       })
-      .map(card => {
-        let imageUrl = null;
-        if (card.image_uris) {
-          imageUrl = card.image_uris.large || card.image_uris.normal;
-        } else if (card.card_faces && card.card_faces.length > 0 && card.card_faces[0].image_uris) {
-          imageUrl = card.card_faces[0].image_uris.large || card.card_faces[0].image_uris.normal;
-        }
-        if (!imageUrl) {
-          imageUrl = 'https://via.placeholder.com/250x350/1a1a2e/dc143c?text=' + encodeURIComponent(card.name);
-        }
-
-        return {
-          id: card.id,
-          name: card.name,
-          setNumber: card.collector_number,
-          set: card.set.toUpperCase(),
-          subset: getSubset(card),
-          rarity: capitalizeRarity(card.rarity),
-          price: parseFloat(card.prices.usd || card.prices.usd_foil || card.prices.eur || card.prices.eur_foil || 0.25),
-          foilPrice: parseFloat(card.prices.usd_foil || card.prices.eur_foil || 0),
-          source: getSource(card),
-          imageUrl: imageUrl,
-          hasFoil: (card.finishes || []).includes('foil'),
-          hasNonfoil: (card.finishes || []).includes('nonfoil'),
-          type_line: card.type_line || ''
-        };
-      }));
+      .map(card => processCard(card)));
 
     url = data.has_more ? data.next_page : null;
 
@@ -67,6 +78,34 @@ async function fetchAllCards() {
   }
 
   return cards;
+}
+
+function processCard(card) {
+  let imageUrl = null;
+  if (card.image_uris) {
+    imageUrl = card.image_uris.large || card.image_uris.normal;
+  } else if (card.card_faces && card.card_faces.length > 0 && card.card_faces[0].image_uris) {
+    imageUrl = card.card_faces[0].image_uris.large || card.card_faces[0].image_uris.normal;
+  }
+  if (!imageUrl) {
+    imageUrl = 'https://via.placeholder.com/250x350/1a1a2e/dc143c?text=' + encodeURIComponent(card.name);
+  }
+
+  return {
+    id: card.id,
+    name: card.name,
+    setNumber: card.collector_number,
+    set: card.set.toUpperCase(),
+    subset: getSubset(card),
+    rarity: capitalizeRarity(card.rarity),
+    price: parseFloat(card.prices.usd || card.prices.usd_foil || card.prices.eur || card.prices.eur_foil || 0.25),
+    foilPrice: parseFloat(card.prices.usd_foil || card.prices.eur_foil || 0),
+    source: getSource(card),
+    imageUrl: imageUrl,
+    hasFoil: (card.finishes || []).includes('foil'),
+    hasNonfoil: (card.finishes || []).includes('nonfoil'),
+    type_line: card.type_line || ''
+  };
 }
 
 function fetchUrl(url) {
@@ -115,7 +154,11 @@ function getSubset(card) {
     return 'Marvel Legends Inserts';
   }
 
-  if (card.set === 'pspm') {
+  if (card.set === 'aspm') {
+    return 'Art Series';
+  }
+
+  if (card.set === 'pspm' || card.set === 'pspl' || card.set === 'pw25' || card.set === 'pf25' || card.set === 'pmei') {
     return 'Promo';
   }
 
@@ -163,7 +206,12 @@ function getSource(card) {
     return sources;
   }
 
-  if (card.set === 'pspm') {
+  if (card.set === 'aspm') {
+    sources.push('Art Series');
+    return sources;
+  }
+
+  if (card.set === 'pspm' || card.set === 'pspl' || card.set === 'pw25' || card.set === 'pf25' || card.set === 'pmei') {
     sources.push('Promos');
     return sources;
   }

@@ -1,5 +1,124 @@
 [
   {
+    "id": "3f1b7b3e-3449-4c8f-8eb7-aacc62d9eadd",
+    "name": "Spectacular Spider-Man",
+    "setNumber": "6",
+    "set": "PSPL",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 100.72,
+    "foilPrice": 399.97,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/3/f/3f1b7b3e-3449-4c8f-8eb7-aacc62d9eadd.jpg?1762633968",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "1402d294-8772-4b13-b1d0-f4205d57208b",
+    "name": "Spider-Ham, Peter Porker",
+    "setNumber": "10",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 0.24,
+    "foilPrice": 8.57,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/1/4/1402d294-8772-4b13-b1d0-f4205d57208b.jpg?1762863687",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Spider Boar Hero"
+  },
+  {
+    "id": "a513b54a-fc86-4a8f-a427-6fe972d246a9",
+    "name": "Mary Jane Watson",
+    "setNumber": "11",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 0.36,
+    "foilPrice": 6,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/a/5/a513b54a-fc86-4a8f-a427-6fe972d246a9.jpg?1762863692",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Performer"
+  },
+  {
+    "id": "1efc11ba-8fe9-45cc-9de5-bd5a577f0a87",
+    "name": "Carnage, Crimson Chaos",
+    "setNumber": "13",
+    "set": "PW25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 0.72,
+    "foilPrice": 32.21,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/1/e/1efc11ba-8fe9-45cc-9de5-bd5a577f0a87.jpg?1762863705",
+    "hasFoil": true,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Symbiote Villain"
+  },
+  {
+    "id": "548b1498-3dc0-4f0a-b183-24f66de10018",
+    "name": "J. Jonah Jameson",
+    "setNumber": "17",
+    "set": "PF25",
+    "subset": "Promo",
+    "rarity": "Rare",
+    "price": 5.25,
+    "foilPrice": 5.25,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/5/4/548b1498-3dc0-4f0a-b183-24f66de10018.jpg?1763209594",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Human Citizen"
+  },
+  {
+    "id": "f3d9e8f7-0727-48cb-adf0-5cede170118d",
+    "name": "Peter Parker // Amazing Spider-Man",
+    "setNumber": "2025-22",
+    "set": "PMEI",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 17.6,
+    "foilPrice": 0,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/f/3/f3d9e8f7-0727-48cb-adf0-5cede170118d.jpg?1760609548",
+    "hasFoil": false,
+    "hasNonfoil": true,
+    "type_line": "Legendary Creature — Human Scientist Hero // Legendary Creature — Spider Human Hero"
+  },
+  {
+    "id": "c28aa7be-0e9c-4978-9f1e-d95c71704d24",
+    "name": "Spider-Man, Miles Morales",
+    "setNumber": "2025-23",
+    "set": "PMEI",
+    "subset": "Promo",
+    "rarity": "Mythic Rare",
+    "price": 13.24,
+    "foilPrice": 13.24,
+    "source": [
+      "Promos"
+    ],
+    "imageUrl": "https://cards.scryfall.io/large/front/c/2/c28aa7be-0e9c-4978-9f1e-d95c71704d24.jpg?1763160132",
+    "hasFoil": true,
+    "hasNonfoil": false,
+    "type_line": "Legendary Creature — Spider Human Hero"
+  },
+  {
     "id": "f5f80d82-d64c-466f-8874-9cfb00469f02",
     "name": "Agent Venom",
     "setNumber": "49",
