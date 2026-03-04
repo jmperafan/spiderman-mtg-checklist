@@ -110,6 +110,12 @@
   margin-top: 4px;
 }
 
+.stat-missing {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 2px;
+}
+
 .set-progress-item-container {
   padding: 16px;
   display: flex;
@@ -125,7 +131,7 @@
 
 .set-progress-item {
   display: grid;
-  grid-template-columns: 40px 1fr 40px;
+  grid-template-columns: 40px 1fr 48px;
   align-items: center;
   gap: 8px;
 }

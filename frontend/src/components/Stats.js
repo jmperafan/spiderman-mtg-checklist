@@ -12,6 +12,7 @@ function Stats({ stats }) {
               <div className="stat-label">Set Completion</div>
               <div className="stat-value">{stats.uniqueOwned} / {stats.totalCards}</div>
               <div className="stat-percentage">{stats.percentage}%</div>
+              <div className="stat-missing">{stats.totalCards - stats.uniqueOwned} missing</div>
             </div>
           </div>
 
@@ -21,6 +22,7 @@ function Stats({ stats }) {
               <div className="stat-label">Master Set</div>
               <div className="stat-value">{stats.ownedMasterCards} / {stats.totalMasterCards}</div>
               <div className="stat-percentage">{stats.masterPercentage}%</div>
+              <div className="stat-missing">{stats.totalMasterCards - stats.ownedMasterCards} missing</div>
             </div>
           </div>
 
@@ -33,7 +35,7 @@ function Stats({ stats }) {
             </div>
           </div>
 
-          {stats.setCompletion && stats.setCompletion.length > 0 && (
+          {stats.setCompletion && stats.setCompletion.length > 1 && stats.setCompletion.length <= 4 && (
             <div className="stat-item set-progress-item-container">
               <div className="set-progress-bars">
                 {stats.setCompletion.map(set => (
