@@ -70,26 +70,23 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
           <div className="tableau-filter">
             <div className="tableau-filter-header" onClick={() => setIsSetExpanded(!isSetExpanded)}>
               <div className="selected-pills">
-                {filters.sets?.length === 0 ? (
+                {filters.sets?.length === 0 || filters.sets?.length === filterOptions.sets?.length ? (
                   <span className="placeholder-text">All Sets</span>
-                ) : filters.sets?.length === filterOptions.sets?.length ? (
-                  <span className="placeholder-text">All Sets</span>
+                ) : filters.sets?.length === 1 ? (
+                  <span className="filter-pill">
+                    {filters.sets[0]}
+                    <button
+                      className="pill-remove"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onFilterChange('sets', []);
+                      }}
+                    >
+                      ×
+                    </button>
+                  </span>
                 ) : (
-                  filters.sets?.map(set => (
-                    <span key={set} className="filter-pill">
-                      {set}
-                      <button
-                        className="pill-remove"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          const newSets = filters.sets.filter(s => s !== set);
-                          onFilterChange('sets', newSets);
-                        }}
-                      >
-                        ×
-                      </button>
-                    </span>
-                  ))
+                  <span className="placeholder-text">Multiple ({filters.sets.length})</span>
                 )}
               </div>
               <span className="dropdown-arrow">{isSetExpanded ? '▲' : '▼'}</span>
