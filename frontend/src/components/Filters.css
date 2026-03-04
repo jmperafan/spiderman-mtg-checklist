@@ -32,9 +32,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
   margin-bottom: 22px;
   position: relative;
   z-index: 1;
+}
+
+.mobile-search-header {
+  display: none;
 }
 
 .filters-header h2 {
@@ -400,6 +405,19 @@
     display: grid;
   }
 
+  .mobile-search-header {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    padding: 10px 12px;
+    font-size: 1rem;
+    min-height: 44px;
+  }
+
+  .search-filter-group {
+    display: none;
+  }
+
   .filters-header {
     flex-direction: row;
     align-items: center;
@@ -409,6 +427,7 @@
   .filters-header h2 {
     font-size: 1.1rem;
     letter-spacing: 0.5px;
+    white-space: nowrap;
   }
 
   .filters-header-actions {

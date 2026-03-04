@@ -20,6 +20,13 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
     <div className="filters-container">
       <div className="filters-header">
         <h2>🔍 Filters</h2>
+        <input
+          type="text"
+          placeholder="Search cards..."
+          value={searchTerm}
+          onChange={(e) => onSearchChange(e.target.value)}
+          className="filter-input mobile-search-header"
+        />
         <div className="filters-header-actions">
           <button
             className="mobile-menu-toggle"
@@ -54,7 +61,7 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
             <option value="rarity">Rarity</option>
           </select>
         </div>
-        <div className="filter-group">
+        <div className="filter-group search-filter-group">
           <label>Search</label>
           <input
             type="text"
