@@ -63,9 +63,21 @@ class CardService {
             // Has a foil variant (owned or not)
             return card.hasFoil;
 
+          case 'foil-owned':
+            return card.ownedFoil;
+
+          case 'foil-not-owned':
+            return card.hasFoil && !card.ownedFoil;
+
           case 'regular':
             // Has a regular variant (owned or not)
             return card.hasNonfoil;
+
+          case 'regular-owned':
+            return card.owned;
+
+          case 'regular-not-owned':
+            return card.hasNonfoil && !card.owned;
 
           // Legacy support for old filter values
           case 'true':

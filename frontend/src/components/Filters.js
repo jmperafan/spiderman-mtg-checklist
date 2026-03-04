@@ -185,7 +185,11 @@ function Filters({ filters, filterOptions, onFilterChange, onReset, searchTerm, 
             <option value="not-owned">Not owned</option>
             <option value="all-variants-owned">All variants owned</option>
             <option value="regular">Regular</option>
+            <option value="regular-owned">Regular owned</option>
+            <option value="regular-not-owned">Regular not owned</option>
             <option value="foil">Foil</option>
+            <option value="foil-owned">Foil owned</option>
+            <option value="foil-not-owned">Foil not owned</option>
           </select>
         </div>
       </div>
