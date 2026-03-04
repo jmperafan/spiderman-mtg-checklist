@@ -35,7 +35,7 @@ function Stats({ stats }) {
             </div>
           </div>
 
-          {stats.setCompletion && stats.setCompletion.length > 1 && stats.setCompletion.length <= 4 && (
+          {stats.setCompletion && stats.setCompletion.length > 1 && (
             <div className="stat-item set-progress-item-container">
               <div className="set-progress-bars">
                 {stats.setCompletion.map(set => (
