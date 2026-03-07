@@ -77,6 +77,34 @@ async function fetchAllCards() {
     if (url) await sleep(100);
   }
 
+  // Fetch Secret Lair x Marvel's Spider-Man drops (SLD)
+  // Ranges: Mana Symbiote (#1950-1954), Villainous Plots (#1985-1989),
+  // Heroic Deeds (#1990-1994), Daily Bugle Breaking News (#1995-1999),
+  // Venom Unleashed Colors (#2000-2004), Venom Unleashed Inks (#2019-2023)
+  console.log('Fetching Secret Lair x Spider-Man drops...');
+  let sldUrl = 'https://api.scryfall.com/cards/search?q=set%3Asld+(cn%3E%3D1950+cn%3C%3D1954+OR+cn%3E%3D1985+cn%3C%3D2004+OR+cn%3E%3D2019+cn%3C%3D2023)&unique=prints&format=json';
+
+  while (sldUrl) {
+    console.log('Fetching:', sldUrl);
+    const data = await fetchUrl(sldUrl);
+
+    if (!data || !data.data) {
+      console.error('Invalid SLD API response:', data);
+      break;
+    }
+
+    if (data.data.length === 0) {
+      console.log('No SLD Spider-Man cards found');
+      break;
+    }
+
+    console.log(`Found ${data.data.length} Secret Lair x Spider-Man cards`);
+    cards.push(...data.data.map(card => processCard(card)));
+
+    sldUrl = data.has_more ? data.next_page : null;
+    if (sldUrl) await sleep(100);
+  }
+
   return cards;
 }
 
@@ -162,6 +190,17 @@ function getSubset(card) {
     return 'Promo';
   }
 
+  if (card.set === 'sld') {
+    const num = parseInt(card.collector_number);
+    if (num >= 1950 && num <= 1954) return 'Mana Symbiote';
+    if (num >= 1985 && num <= 1989) return 'Villainous Plots';
+    if (num >= 1990 && num <= 1994) return 'Heroic Deeds';
+    if (num >= 1995 && num <= 1999) return 'Daily Bugle Breaking News';
+    if (num >= 2000 && num <= 2004) return 'Venom Unleashed (Colors)';
+    if (num >= 2019 && num <= 2023) return 'Venom Unleashed (Inks)';
+    return 'Secret Lair';
+  }
+
   if (card.set === 'spe') {
     if (parseInt(card.collector_number) <= 20) return 'Welcome Deck';
     return 'Scene Box';
@@ -213,6 +252,11 @@ function getSource(card) {
 
   if (card.set === 'pspm' || card.set === 'pspl' || card.set === 'pw25' || card.set === 'pf25' || card.set === 'pmei') {
     sources.push('Promos');
+    return sources;
+  }
+
+  if (card.set === 'sld') {
+    sources.push('Secret Lair x Spider-Man');
     return sources;
   }
 
